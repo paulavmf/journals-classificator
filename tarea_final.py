@@ -19,11 +19,10 @@ from sklearn.decomposition import PCA
 import glob
 
 
-##########################################################################################################
-########################################OBTENER TEXTO EN LISTA (cada elemento es un documento)
-#########################################################################################################
 
-# para documentos que ocupan una sola linea (solo el caso de los titulos)
+#OBTAIN LISTING TEXT (each item is a document)
+
+# for titles
 def GetText_1linea(revista, cadena1):
     revista = revista[1:12]
     texto = []
@@ -41,7 +40,7 @@ def GetText_1linea(revista, cadena1):
 º
     return texto
 
-#para documentos que van a ocupar más de una línea (caso de abstract y keywords)
+#for abstract and keywords
 def GetText_parrafo(revista, cadena1, cadena2):
     texto = []
     revista = revista[1:12]
@@ -65,10 +64,9 @@ def GetText_parrafo(revista, cadena1, cadena2):
     return texto
 
 
-#########################################################################################
-####################################PROCESADO DE TEXTO###################################
-#########################################################################################
-# obtener solo palabras del texto. sin signos puntuacion, sin stop words lematizado
+
+#PARSING TEXT
+# get only words from the text. no punctuation signs, no stop And lemmatized words
 
 def tratamiento(texto):
 
@@ -96,9 +94,9 @@ def tratamiento(texto):
     return texto
 
 
-##############################################################################################
-######me devuelve una sola matriz con todos los documentos y su etiqueta en la ultima columna
-###############################################################################################
+
+# returns me a single matrix with all the documents and their label in the last column
+
 def MatrixDocs(textoP, textoS):
     labels = []
     for i in range(len(textoP)):
@@ -113,9 +111,8 @@ def MatrixDocs(textoP, textoS):
     return textoP, labels
 
 
-############################################
-##############CLASIFICACION################
-###########################################
+#CLASIFICATION
+
 
 def clasification(data, gnb, ratio):
     TRAIN = data[:round(len(data) * ratio), :-1]
@@ -135,22 +132,21 @@ def clasification(data, gnb, ratio):
     return acc
 
 
-#######################################################################################################
-###########################################SELECCION DE ATRIBUTOS######################################
-#######################################################################################################
 
+#ATTRIBUTE SELECTION
 def sffs(X, y, m, nombres, clf,
-         ratio):  # matriz Docs,Vocabulaty, numero de atributos, vocabulario, metodo de clasificación
-    # Obtener numero de caracteristicas
+         ratio):  # Docs matrix, Vocabulary, number of attributes, vocabulary, classification method
+     # Get number of features
     (numSamples, numFeatures) = X.shape
 
-    # Diccionario nombre-posicion
+    # Name-position dictionary
     featurePos = dict()
     for i in range(numFeatures):
-        featurePos[nombres[i]] = i  # le da un numero (posicion) a cada atributo
+	# le da un numero (posicion) a cada atributo
+        featurePos[nombres[i]] = i  
     print("featurePos", featurePos)
 
-    # Matriz con atributos seleccionados
+    # Matrix with selected attributes
     accuracy = []
     featureSol = []
     i = 0
@@ -160,8 +156,9 @@ def sffs(X, y, m, nombres, clf,
         acc = []
         (_, c) = S.shape
         for f in nombres:
-            pos = featurePos[f]  # Indice
-            # en la primera iteración creo la primera fila, a partir de la segudnda iteración inserto filas
+            pos = featurePos[f]  # Index
+            # in the first iteration I create the first row, from the second iteration I insert rows
+
             if i == 0:
                 SF[:, i] = X[:, pos]
             else:
@@ -169,24 +166,27 @@ def sffs(X, y, m, nombres, clf,
             clf = clf.fit(SF[: round(len(X) * ratio)], y[: round(len(X) * ratio)])
             acc.append(clf.score(SF[round(len(X) * ratio):], y[round(len(X) * ratio):]))
         selecF = np.argmax(acc)
-        # actualizao con el resultado
+        # Updated with the result
         featureSol.append(nombres[selecF])
         del nombres[selecF]
-        # en la primera iteración creo la primera fila, a partir de la segudnda iteración inserto filas
+        # in the first iteration create the first row, from the second iteration insert rows
+
         if i == 0:
             S[:, i] = X[:, selecF]
         else:
             S = np.insert(S, c, values=X[:, selecF], axis=1)
         accuracyF = acc[selecF]
         # print('accuracyF: {}'.format(accuracyF))
-        # voy hacia atrás mientras el accuracy hacia atrás sea mayor que hacia delante
+        # I go backwards as long as the accuracy backwards is greater than forwards
+
         accuracyB = 100
 
         if i > 0:
-            while accuracyB > accuracyF and len(featureSol) > 2:  # comparo el resultado con el resultado anterior
+	    # compare the result with the previous result
+            while accuracyB > accuracyF and len(featureSol) > 2:
 
                 acc = []
-                # pruebo con todas las posibilidades yendo hacia atrás
+                 # try every possibility going backwards
                 for f in featureSol:
                     pos = list(featureSol).index(f)
                     SB = np.delete(S, pos, 1)
@@ -196,12 +196,13 @@ def sffs(X, y, m, nombres, clf,
                 accuracyB = acc[selecB]
 
                 # print('accuracyB: {}'.format(accuracyB))
-                # actualizo
+                # update
                 if accuracyB > accuracyF:
                     nombres.append(featureSol[selecB])
                     del featureSol[selecB]
                     S = np.delete(S, selecB, 1)
-                    accuracyF = accuracyB #de esta manera vuelve hacia delante si el accuracy deja de aumentar
+                    accuracyF = accuracyB 
+                    # in this way returns forward if accuracy stops increasing
 
         i = i + 1
     if accuracyB > accuracyF:
@@ -214,7 +215,7 @@ def sffs(X, y, m, nombres, clf,
 
 
 def JournalMultiClasisfier(TEXTO, nombre, labelsTitles, ratio, rep, metodo, REDUCTION):
-    print("%%%%%%%%%%%%%RESULTADOS PARA:", nombre, "USANDO PCA%%%%%%%%%%%%%%%")
+    print("%%%%%%%%%%%%%OUTPUTS FOR:", nombre, "USING PCA%%%%%%%%%%%%%%%")
 
     # diccionario con los parametros para la vectorizacion
     ngram = {}
@@ -223,7 +224,7 @@ def JournalMultiClasisfier(TEXTO, nombre, labelsTitles, ratio, rep, metodo, REDU
 
     for g in ngram:
 
-        print("%%%%%%%%%%%UTILIZANDO", g, "%%%%%%%%%%%%%")
+        print("%%%%%%%%%%%USING", g, "%%%%%%%%%%%%%")
         vectorizer = ngram[g]
 
         T = vectorizer.fit_transform(TEXTO).toarray()
@@ -231,13 +232,13 @@ def JournalMultiClasisfier(TEXTO, nombre, labelsTitles, ratio, rep, metodo, REDU
 
         # REDUCCION DE LA DIMENSIONALIDAD
         if REDUCTION == True:
-            print("REDUCCION DE DIMENSIONALIDAD")
+            print("DIMENSIONALITY REDUCTION")
             pca = PCA(n_components= 10)
             T = pca.fit_transform(T)
 
         Doc, V = T.shape
         print("NUM DOSC", Doc)
-        print("NUM TOTAL DE PALABRAS", V)
+        print("NUM OF WORDS", V)
 
         # PONGO LOS LABELS EN LA ULTIMA COLUMNA
         TL = np.insert(T, V, values=labelsTitles, axis=1)
@@ -245,7 +246,7 @@ def JournalMultiClasisfier(TEXTO, nombre, labelsTitles, ratio, rep, metodo, REDU
         accT = []
 
         for m in metodo:
-            print("METODO: ", m)
+            print("METHOD: ", m)
 
             for r in ratio:
                 for i in range(rep):
@@ -259,9 +260,9 @@ def JournalMultiClasisfier(TEXTO, nombre, labelsTitles, ratio, rep, metodo, REDU
 
             #utilizo seleccion de 50 atributos SFFS SOLO PARA EL ARTÍCULOS, utilizando Naive Bayes y 1 palabra de granulidad
             if REDUCTION == False and nombre== "ARTICULOS" and m =='Decision Tree' and g =="1 Palabra":
-                print("seleccioon de atributos, metodo SFFS")
+                print("attribute selection, METHOD SFFS")
                 res = sffs(TL[:,:-1], TL[:,-1], 10, Vocabulary,metodo[m],0.6)
-                print("las palabras seleccionadas en", nombre, "son", res)
+                print("the selected words in", nombre, "ARE", res)
 
         print("######################################################################################")
         print("######################################################################################")
@@ -310,19 +311,19 @@ if __name__ == '__main__':
     KW, labelsKW = MatrixDocs(KWP, KWS)
     ABSTRACTS, labelsAbstracts = MatrixDocs(abstractP, abstractS)
 
-    print("titulo antes del procesado:", TITLES[0])
+    print("title before processing:", TITLES[0])
 
     # paso a lowcase,tokenizo,quito stopwords y lematizo
     TITLES = tratamiento(TITLES)
     ABSTRACTS = tratamiento(ABSTRACTS)
     KW = tratamiento(KW)
-    print("titulo después del procesado:", TITLES[0])
+    print("title after processing:", TITLES[0])
 
     ARTICULOS = []
     for i in range(len(labelsTitles)):
         ARTICULOS.append(TITLES[i] + " " + KW[i] + " " + ABSTRACTS[i])
 
-    print("articulo:", ARTICULOS[0])
+    print("articles:", ARTICULOS[0])
     #Elejir Reduction = True para aplicar PCA
     #si no se aplica PCA, se aplicará SFFS para ARTICULOS y 1 PALABRA tomando 50 atributos
 
