@@ -1,0 +1,573 @@
+@ARTICLE{7582510,
+author={P. Purkait and T. J. Chin and A. Sadri and D. Suter},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Clustering with Hypergraphs: The Case for Large Hyperedges},
+year={2017},
+volume={39},
+number={9},
+pages={1697-1711},
+abstract={The extension of conventional clustering to hypergraph clustering,
+which involves higher order similarities instead of pairwise similarities, is
+increasingly gaining attention in computer vision. This is due to the fact that
+many clustering problems require an affinity measure that must involve a subset
+of data of size more than two. In the context of hypergraph clustering, the
+calculation of such higher order similarities on data subsets gives rise to
+hyperedges. Almost all previous work on hypergraph clustering in computer
+vision, however, has considered the smallest possible hyperedge size, due to a
+lack of study into the potential benefits of large hyperedges and effective
+algorithms to generate them. In this paper, we show that large hyperedges are
+better from both a theoretical and an empirical standpoint. We then propose a
+novel guided sampling strategy for large hyperedges, based on the concept of
+random cluster models. Our method can generate large pure hyperedges that
+significantly improve grouping accuracy without exponential increases in
+sampling costs. We demonstrate the efficacy of our technique on various higher-
+order grouping problems. In particular, we show that our approach improves the
+accuracy and efficiency of motion segmentation from dense, long-term,
+trajectories.},
+keywords={graph theory;pattern clustering;sampling methods;higher-order
+grouping problems;hyperedges;hypergraph clustering;random cluster
+models;sampling strategy;Clustering algorithms;Computational modeling;Computer
+vision;Image segmentation;Motion segmentation;Sampling methods;Tensile
+stress;Higher order grouping;hypergraph clustering;motion segmentation},
+doi={10.1109/TPAMI.2016.2614980},
+ISSN={0162-8828},
+month={Sept},}
+@ARTICLE{7585122,
+author={S. Kim and D. Min and B. Ham and M. N. Do and K. Sohn},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={DASC: Robust Dense Descriptor for Multi-Modal and Multi-Spectral
+Correspondence Estimation},
+year={2017},
+volume={39},
+number={9},
+pages={1712-1729},
+abstract={Establishing dense correspondences between multiple images is a
+fundamental task in many applications. However, finding a reliable
+correspondence between multi-modal or multi-spectral images still remains
+unsolved due to their challenging photometric and geometric variations. In this
+paper, we propose a novel dense descriptor, called dense adaptive self-
+correlation (DASC), to estimate dense multi-modal and multi-spectral
+correspondences. Based on an observation that self-similarity existing within
+images is robust to imaging modality variations, we define the descriptor with
+a series of an adaptive self-correlation similarity measure between patches
+sampled by a randomized receptive field pooling, in which a sampling pattern is
+obtained using a discriminative learning. The computational redundancy of dense
+descriptors is dramatically reduced by applying fast edge-aware filtering.
+Furthermore, in order to address geometric variations including scale and
+rotation, we propose a geometry-invariant DASC (GI-DASC) descriptor that
+effectively leverages the DASC through a superpixel-based representation. For a
+quantitative evaluation of the GI-DASC, we build a novel multi-modal benchmark
+as varying photometric and geometric conditions. Experimental results
+demonstrate the outstanding performance of the DASC and GI-DASC in many cases
+of dense multi-modal and multi-spectral correspondences.},
+keywords={adaptive signal processing;edge detection;image filtering;image
+representation;image sampling;spectral analysis;GI-DASC descriptor;adaptive
+self-correlation similarity measure;computational redundancy;dense adaptive
+self-correlation;dense correspondences;discriminative learning;fast edge-aware
+filtering;geometric variations;geometry-invariant DASC descriptor;imaging
+modality variations;multimodal correspondence estimation;multimodal
+image;multispectral correspondence estimation;multispectral image;photometric
+variation;quantitative evaluation;randomized receptive field pooling;robust
+dense descriptor;sampling pattern;superpixel-based representation;Benchmark
+testing;Image edge detection;Imaging;Optimization;Pattern
+analysis;Robustness;Dense correspondence;descriptor;edge-aware filtering;multi-
+modal;multi-spectral},
+doi={10.1109/TPAMI.2016.2615619},
+ISSN={0162-8828},
+month={Sept},}
+@ARTICLE{7575643,
+author={C. Häne and C. Zach and A. Cohen and M. Pollefeys},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Dense Semantic 3D Reconstruction},
+year={2017},
+volume={39},
+number={9},
+pages={1730-1743},
+abstract={Both image segmentation and dense 3D modeling from images represent
+an intrinsically ill-posed problem. Strong regularizers are therefore required
+to constrain the solutions from being `too noisy'. These priors generally yield
+overly smooth reconstructions and/or segmentations in certain regions while
+they fail to constrain the solution sufficiently in other areas. In this paper,
+we argue that image segmentation and dense 3D reconstruction contribute
+valuable information to each other's task. As a consequence, we propose a
+mathematical framework to formulate and solve a joint segmentation and dense
+reconstruction problem. On the one hand knowing about the semantic class of the
+geometry provides information about the likelihood of the surface direction. On
+the other hand the surface direction provides information about the likelihood
+of the semantic class. Experimental results on several data sets highlight the
+advantages of our joint formulation. We show how weakly observed surfaces are
+reconstructed more faithfully compared to a geometry only reconstruction.
+Thanks to the volumetric nature of our formulation we also infer surfaces which
+cannot be directly observed for example the surface between the ground and a
+building. Finally, our method returns a semantic segmentation which is
+consistent across the whole dataset.},
+keywords={image reconstruction;image segmentation;solid modelling;stereo image
+processing;dense 3D modeling;dense reconstruction;dense semantic 3D
+reconstruction;image segmentation;intrinsically ill-posed problem;joint
+segmentation;mathematical framework;Geometry;Image reconstruction;Image
+segmentation;Labeling;Semantics;Surface reconstruction;Three-dimensional
+displays;Volumetric reconstruction;convex formulation;multi-label
+segmentation;semantic 3D modeling;semantic labeling},
+doi={10.1109/TPAMI.2016.2613051},
+ISSN={0162-8828},
+month={Sept},}
+@ARTICLE{7572201,
+author={T. Sattler and B. Leibe and L. Kobbelt},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Efficient Effective Prioritized Matching for Large-Scale Image-Based
+Localization},
+year={2017},
+volume={39},
+number={9},
+pages={1744-1756},
+abstract={Accurately determining the position and orientation from which an
+image was taken, i.e., computing the camera pose, is a fundamental step in many
+Computer Vision applications. The pose can be recovered from 2D-3D matches
+between 2D image positions and points in a 3D model of the scene. Recent
+advances in Structure-from-Motion allow us to reconstruct large scenes and thus
+create the need for image-based localization methods that efficiently handle
+large-scale 3D models while still being effective, i.e., while localizing as
+many images as possible. This paper presents an approach for large scale image-
+based localization that is both efficient and effective. At the core of our
+approach is a novel prioritized matching step that enables us to first consider
+features more likely to yield 2D-to-3D matches and to terminate the
+correspondence search as soon as enough matches have been found. Matches
+initially lost due to quantization are efficiently recovered by integrating 3D-
+to-2D search. We show how visibility information from the reconstruction
+process can be used to improve the efficiency of our approach. We evaluate the
+performance of our method through extensive experiments and demonstrate that it
+offers the best combination of efficiency and effectiveness among current
+state-of-the-art approaches for localization.},
+keywords={image matching;image reconstruction;stereo image processing;2D image
+positions;2D-3D matches;3D scene model;camera pose;computer vision;large-scale
+3D models;large-scale image-based localization;prioritized matching;scene
+reconstruction;structure-from-motion;visibility
+information;Cameras;Computational modeling;Image reconstruction;Solid
+modeling;Three-dimensional displays;Two dimensional
+displays;Visualization;Image-based localization;camera pose estimation;location
+recognition;prioritized feature matching},
+doi={10.1109/TPAMI.2016.2611662},
+ISSN={0162-8828},
+month={Sept},}
+@ARTICLE{7577877,
+author={C. G. Willcocks and P. T. G. Jackson and C. J. Nelson and B. Obara},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Extracting 3D Parametric Curves from 2D Images of Helical Objects},
+year={2017},
+volume={39},
+number={9},
+pages={1757-1769},
+abstract={Helical objects occur in medicine, biology, cosmetics,
+nanotechnology, and engineering. Extracting a 3D parametric curve from a 2D
+image of a helical object has many practical applications, in particular being
+able to extract metrics such as tortuosity, frequency, and pitch. We present a
+method that is able to straighten the image object and derive a robust 3D
+helical curve from peaks in the object boundary. The algorithm has a small
+number of stable parameters that require little tuning, and the curve is
+validated against both synthetic and real-world data. The results show that the
+extracted 3D curve comes within close Hausdorff distance to the ground truth,
+and has near identical tortuosity for helical objects with a circular profile.
+Parameter insensitivity and robustness against high levels of image noise are
+demonstrated thoroughly and quantitatively.},
+keywords={feature extraction;object recognition;2D images;3D parametric curve
+extraction;circular profile;close Hausdorff distance;helical objects;image
+object;metric extraction;near identical tortuosity;parameter
+insensitivity;robust 3D helical curve;robustness;Hair;Shape;Skeleton;Splines
+(mathematics);Three-dimensional displays;Two dimensional displays;Helical
+curves;feature extraction;geometry;modeling;shape analysis;skeletonization},
+doi={10.1109/TPAMI.2016.2613866},
+ISSN={0162-8828},
+month={Sept},}
+@ARTICLE{7588132,
+author={X. Wang and Q. Ji},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Hierarchical Context Modeling for Video Event Recognition},
+year={2017},
+volume={39},
+number={9},
+pages={1770-1782},
+abstract={Current video event recognition research remains largely target-
+centered. For real-world surveillance videos, target-centered event recognition
+faces great challenges due to large intra-class target variation, limited image
+resolution, and poor detection and tracking results. To mitigate these
+challenges, we introduced a context-augmented video event recognition approach.
+Specifically, we explicitly capture different types of contexts from three
+levels including image level, semantic level, and prior level. At the image
+level, we introduce two types of contextual features including the appearance
+context features and interaction context features to capture the appearance of
+context objects and their interactions with the target objects. At the semantic
+level, we propose a deep model based on deep Boltzmann machine to learn event
+object representations and their interactions. At the prior level, we utilize
+two types of prior-level contexts including scene priming and dynamic cueing.
+Finally, we introduce a hierarchical context model that systematically
+integrates the contextual information at different levels. Through the
+hierarchical context model, contexts at different levels jointly contribute to
+the event recognition. We evaluate the hierarchical context model for event
+recognition on benchmark surveillance video datasets. Results show that
+incorporating contexts in each level can improve event recognition performance,
+and jointly integrating three levels of contexts through our hierarchical model
+achieves the best performance.},
+keywords={Boltzmann machines;image recognition;image representation;learning
+(artificial intelligence);video signal processing;video surveillance;deep
+Boltzmann machine;dynamic cueing;hierarchical context modeling;image
+level;image resolution;object representations;prior level;scene
+priming;semantic level;surveillance videos;video event
+recognition;Context;Context modeling;Hidden Markov models;Image
+recognition;Semantics;Target recognition;Hierarchical context model;event
+recognition;image context;priming context;semantic context},
+doi={10.1109/TPAMI.2016.2616308},
+ISSN={0162-8828},
+month={Sept},}
+@ARTICLE{7577858,
+author={S. S. Husain and M. Bober},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Improving Large-Scale Image Retrieval Through Robust Aggregation of
+Local Descriptors},
+year={2017},
+volume={39},
+number={9},
+pages={1783-1796},
+abstract={Visual search and image retrieval underpin numerous applications,
+however the task is still challenging predominantly due to the variability of
+object appearance and ever increasing size of the databases, often exceeding
+billions of images. Prior art methods rely on aggregation of local scale-
+invariant descriptors, such as SIFT, via mechanisms including Bag of Visual
+Words (BoW), Vector of Locally Aggregated Descriptors (VLAD) and Fisher Vectors
+(FV). However, their performance is still short of what is required. This paper
+presents a novel method for deriving a compact and distinctive representation
+of image content called Robust Visual Descriptor with Whitening (RVD-W). It
+significantly advances the state of the art and delivers world-class
+performance. In our approach local descriptors are rank-assigned to multiple
+clusters. Residual vectors are then computed in each cluster, normalized using
+a direction-preserving normalization function and aggregated based on the
+neighborhood rank. Importantly, the residual vectors are de-correlated and
+whitened in each cluster before aggregation, leading to a balanced energy
+distribution in each dimension and significantly improved performance. We also
+propose a new post-PCA normalization approach which improves separability
+between the matching and non-matching global descriptors. This new
+normalization benefits not only our RVD-W descriptor but also improves existing
+approaches based on FV and VLAD aggregation. Furthermore, we show that the
+aggregation framework developed using hand-crafted SIFT features also performs
+exceptionally well with Convolutional Neural Network (CNN) based features. The
+RVD-W pipeline outperforms state-of-the-art global descriptors on both the
+Holidays and Oxford datasets. On the large scale datasets, Holidays1M and
+Oxford1M, SIFT-based RVD-W representation obtains a mAP of 45.1 and 35.1
+percent, while CNN-based RVD-W achieve a mAP of 63.5 and 44.8 percent, all
+yielding superior performance to the - tate-of-the-art.},
+keywords={convolution;image matching;image representation;image
+retrieval;neural nets;principal component analysis;search
+problems;transforms;vectors;BoW;FV;Fisher vectors;RVD-W;VLAD;bag of visual
+words;direction preserving normalization function;image content
+representation;image retrieval;local descriptor aggregation;post-PCA
+normalization;robust visual descriptor with whitening;vector of locally
+aggregated descriptors;visual search;Image retrieval;Multimedia
+communication;Pipelines;Principal component
+analysis;Robustness;Visualization;Vocabulary;Visual search;global
+descriptor;image retrieval;local descriptor aggregation},
+doi={10.1109/TPAMI.2016.2613873},
+ISSN={0162-8828},
+month={Sept},}
+@ARTICLE{7585095,
+author={N. Murray and H. Jégou and F. Perronnin and A. Zisserman},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Interferences in Match Kernels},
+year={2017},
+volume={39},
+number={9},
+pages={1797-1810},
+abstract={We consider the design of an image representation that embeds and
+aggregates a set of local descriptors into a single vector. Popular
+representations of this kind include the bag-of-visual-words, the Fisher vector
+and the VLAD. When two such image representations are compared with the dot-
+product, the image-to-image similarity can be interpreted as a match kernel. In
+match kernels, one has to deal with interference, i.e., with the fact that even
+if two descriptors are unrelated, their matching score may contribute to the
+overall similarity. We formalise this problem and propose two related
+solutions, both aimed at equalising the individual contributions of the local
+descriptors in the final representation. These methods modify the aggregation
+stage by including a set of perdescriptor weights. They differ by the objective
+function that is optimised to compute those weights. The first is a
+“democratisation” strategy that aims at equalising the relative importance of
+each descriptor in the set comparison metric. The second one involves
+equalising the match of a single descriptor to the aggregated vector. These
+concurrent methods give a substantial performance boost over the state of the
+art in image search with short or mid-size vectors, as demonstrated by our
+experiments on standard public image retrieval benchmarks.},
+keywords={image matching;image representation;image retrieval;interference
+(signal);visual databases;Interferences;aggregated vector;aggregation
+stage;democratisation strategy;image representation;image search;local
+descriptors;match kernels;matching score;objective function;perdescriptor
+weights;standard public image retrieval benchmarks;Encoding;Image
+retrieval;Interference;Kernel;Quantization
+(signal);Standards;Visualization;Image-level representations;large-scale image
+retrieval;match kernels},
+doi={10.1109/TPAMI.2016.2615621},
+ISSN={0162-8828},
+month={Sept},}
+@ARTICLE{7592407,
+author={N. Segev and M. Harel and S. Mannor and K. Crammer and R. El-Yaniv},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Learn on Source, Refine on Target: A Model Transfer Learning Framework
+with Random Forests},
+year={2017},
+volume={39},
+number={9},
+pages={1811-1824},
+abstract={We propose novel model transfer-learning methods that refine a
+decision forest model M learned within a “source” domain using a training set
+sampled from a “target” domain, assumed to be a variation of the source. We
+present two random forest transfer algorithms. The first algorithm searches
+greedily for locally optimal modifications of each tree structure by trying to
+locally expand or reduce the tree around individual nodes. The second algorithm
+does not modify structure, but only the parameter (thresholds) associated with
+decision nodes. We also propose to combine both methods by considering an
+ensemble that contains the union of the two forests. The proposed methods
+exhibit impressive experimental results over a range of problems.},
+keywords={learning (artificial intelligence);decision forest model;decision
+nodes;model transfer learning;random forest transfer algorithms;Adaptation
+models;Companies;Computational modeling;Data models;Decision
+trees;Training;Vegetation;Transfer learning;decision tree;model transfer;random
+forest},
+doi={10.1109/TPAMI.2016.2618118},
+ISSN={0162-8828},
+month={Sept},}
+@ARTICLE{7571151,
+author={K. Li and G. J. Qi and J. Ye and K. A. Hua},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Linear Subspace Ranking Hashing for Cross-Modal Retrieval},
+year={2017},
+volume={39},
+number={9},
+pages={1825-1838},
+abstract={Hashing has attracted a great deal of research in recent years due to
+its effectiveness for the retrieval and indexing of large-scale high-
+dimensional multimedia data. In this paper, we propose a novel ranking-based
+hashing framework that maps data from different modalities into a common
+Hamming space where the cross-modal similarity can be measured using Hamming
+distance. Unlike existing cross-modal hashing algorithms where the learned hash
+functions are binary space partitioning functions, such as the sign and
+threshold function, the proposed hashing scheme takes advantage of a new class
+of hash functions closely related to rank correlation measures which are known
+to be scale-invariant, numerically stable, and highly nonlinear. Specifically,
+we jointly learn two groups of linear subspaces, one for each modality, so that
+features' ranking orders in different linear subspaces maximally preserve the
+cross-modal similarities. We show that the ranking-based hash function has a
+natural probabilistic approximation which transforms the original highly
+discontinuous optimization problem into one that can be efficiently solved
+using simple gradient descent algorithms. The proposed hashing framework is
+also flexible in the sense that the optimization procedures are not tied upto
+any specific form of loss function, which is typical for existing cross-modal
+hashing methods, but ratherwe can flexibly accommodate different loss functions
+with minimal changes to the learning steps. We demonstrate through extensive
+experiments on four widely-used real-world multimodal datasets that the
+proposed cross-modal hashing method can achieve competitive performance against
+several state-of-the-arts with only moderate training and testing time.},
+keywords={approximation theory;database indexing;file organisation;gradient
+methods;information retrieval;optimisation;probability;Hamming distance;common
+Hamming space;cross-modal retrieval;cross-modal similarity;feature ranking
+orders;gradient descent algorithms;highly discontinuous optimization
+problem;large-scale high-dimensional multimedia data indexing;large-scale high-
+dimensional multimedia data retrieval;linear subspace ranking
+hashing;probabilistic approximation;rank correlation measures;ranking-based
+hash function;Correlation;Hamming distance;Indexing;Multimedia
+communication;Probabilistic logic;Semantics;Sparse matrices;Cross-modal
+hashing;image and text retrieval;large-scale similarity search;max-order-
+statistics;rank correlation measures;ranking subspace learning},
+doi={10.1109/TPAMI.2016.2610969},
+ISSN={0162-8828},
+month={Sept},}
+@ARTICLE{7577712,
+author={H. Hajimirsadeghi and G. Mori},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Multi-Instance Classification by Max-Margin Training of Cardinality-
+Based Markov Networks},
+year={2017},
+volume={39},
+number={9},
+pages={1839-1852},
+abstract={We propose a probabilistic graphical framework for multi-instance
+learning (MIL) based on Markov networks. This framework can deal with different
+levels of labeling ambiguity (i.e., the portion of positive instances in a bag)
+in weakly supervised data by parameterizing cardinality potential functions.
+Consequently, it can be used to encode different cardinality-based multi-
+instance assumptions, ranging from the standard MIL assumption to more general
+assumptions. In addition, this framework can be efficiently used for both
+binary and multiclass classification. To this end, an efficient inference
+algorithm and a discriminative latent max-margin learning algorithm are
+introduced to train and test the proposed multi-instance Markov network models.
+We evaluate the performance of the proposed framework on binary and multi-class
+MIL benchmark datasets as well as two challenging computer vision tasks:
+cyclist helmet recognition and human group activity recognition. Experimental
+results verify that encoding the degree of ambiguity in data can improve
+classification performance.},
+keywords={Markov processes;inference mechanisms;learning (artificial
+intelligence);pattern classification;probability;binary
+classification;cardinality potential functions;cardinality-based Markov
+networks;cardinality-based multiinstance assumptions;discriminative latent max-
+margin learning algorithm;inference algorithm;labeling ambiguity;max-margin
+training;multiclass classification;multiinstance Markov network
+models;multiinstance classification;multiinstance learning;probabilistic
+graphical framework;weakly supervised data;Approximation algorithms;Feature
+extraction;Inference algorithms;Markov random fields;Standards;Support vector
+machines;Training;Markov network;Multiple instance learning;cardinality
+models;conditional random field},
+doi={10.1109/TPAMI.2016.2613865},
+ISSN={0162-8828},
+month={Sept},}
+@ARTICLE{7586038,
+author={N. Courty and R. Flamary and D. Tuia and A. Rakotomamonjy},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Optimal Transport for Domain Adaptation},
+year={2017},
+volume={39},
+number={9},
+pages={1853-1865},
+abstract={Domain adaptation is one of the most challenging tasks of modern data
+analytics. If the adaptation is done correctly, models built on a specific data
+representation become more robust when confronted to data depicting the same
+classes, but described by another observation system. Among the many strategies
+proposed, finding domain-invariant representations has shown excellent
+properties, in particular since it allows to train a unique classifier
+effective in all domains. In this paper, we propose a regularized unsupervised
+optimal transportation model to perform the alignment of the representations in
+the source and target domains. We learn a transportation plan matching both
+PDFs, which constrains labeled samples of the same class in the source domain
+to remain close during transport. This way, we exploit at the same time the
+labeled samples in the source and the distributions observed in both domains.
+Experiments on toy and challenging real visual adaptation examples show the
+interest of the method, that consistently outperforms state of the art
+approaches. In addition, numerical experiments show that our approach leads to
+better performances on domain invariant deep learning features and can be
+easily adapted to the semi-supervised case where few labeled samples are
+available in the target domain.},
+keywords={data analysis;learning (artificial intelligence);pattern
+classification;PDFs;classifier;domain adaptation;domain invariant deep learning
+features;domain-invariant representations;modern data analytics;regularized
+unsupervised optimal transportation model;Data analysis;Feature
+extraction;Kernel;Probability density function;Probability
+distribution;Training;Transportation;Unsupervised domain
+adaptation;classification;optimal transport;transfer learning;visual
+adaptation},
+doi={10.1109/TPAMI.2016.2615921},
+ISSN={0162-8828},
+month={Sept},}
+@ARTICLE{7588057,
+author={J. Lu and Y. Li and H. Yang and D. Min and W. Eng and M. N. Do},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={PatchMatch Filter: Edge-Aware Filtering Meets Randomized Search for
+Visual Correspondence},
+year={2017},
+volume={39},
+number={9},
+pages={1866-1879},
+abstract={Though many tasks in computer vision can be formulated elegantly as
+pixel-labeling problems, a typical challenge discouraging such a discrete
+formulation is often due to computational efficiency. Recent studies on fast
+cost volume filtering based on efficient edge-aware filters provide a fast
+alternative to solve discrete labeling problems, with the complexity
+independent of the support window size. However, these methods still have to
+step through the entire cost volume exhaustively, which makes the solution
+speed scale linearly with the label space size. When the label space is huge or
+even infinite, which is often the case for (subpixel-accurate) stereo and
+optical flow estimation, their computational complexity becomes quickly
+unacceptable. Developed to search approximate nearest neighbors rapidly, the
+PatchMatch method can significantly reduce the complexity dependency on the
+search space size. But, its pixel-wise randomized search and fragmented data
+access within the 3D cost volume seriously hinder the application of efficient
+cost slice filtering. This paper presents a generic and fast computational
+framework for general multi-labeling problems called PatchMatch Filter (PMF).
+We explore effective and efficient strategies to weave together these two
+fundamental techniques developed in isolation, i.e., PatchMatch-based
+randomized search and efficient edge-aware image filtering. By decompositing an
+image into compact superpixels, we also propose superpixel-based novel search
+strategies that generalize and improve the original PatchMatch method. Further
+motivated to improve the regularization strength, we propose a simple yet
+effective cross-scale consistency constraint, which handles labeling estimation
+for large low-textured regions more reliably than a single-scale PMF algorithm.
+Focusing on dense correspondence field estimation in this paper, we demonstrate
+PMF's applications in stereo and optical flow. Our PMF methods achieve top-tier
+correspondence accur- cy but run much fasterthan other related competing
+methods, often giving over 10-100 times speedup.},
+keywords={computational complexity;computer vision;edge detection;image
+filtering;image matching;image sequences;image texture;query formulation;random
+processes;stereo image processing;PMF;PatchMatch filter;computational
+complexity;computational efficiency;computer vision;cost slice filtering;cost
+volume filtering;data access fragmentation;discrete labeling problems;edge-
+aware image filtering;image decomposition;low-textured regions;optical
+flow;randomized search;stereo matching;superpixel-based novel search
+strategies;visual correspondence;Complexity theory;Computer vision;Electronic
+mail;Estimation;Labeling;Optical filters;Optical imaging;Approximate nearest
+neighbor;edge-aware filtering;optical flow;stereo matching},
+doi={10.1109/TPAMI.2016.2616391},
+ISSN={0162-8828},
+month={Sept},}
+@ARTICLE{7577857,
+author={Z. Murez and T. Treibitz and R. Ramamoorthi and D. J. Kriegman},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Photometric Stereo in a Scattering Medium},
+year={2017},
+volume={39},
+number={9},
+pages={1880-1891},
+abstract={Photometric stereo is widely used for 3D reconstruction. However, its
+use in scattering media such as water, biological tissue and fog has been
+limited until now, because of forward scattered light from both the source and
+object, as well as light scattered back from the medium (backscatter). Here we
+make three contributions to address the key modes of light propagation, under
+the common single scattering assumption for dilute media. First, we show
+through extensive simulations that single-scattered light from a source can be
+approximated by a point light source with a single direction. This alleviates
+the need to handle light source blur explicitly. Next, we model the blur due to
+scattering of light from the object. We measure the object point-spread
+function and introduce a simple deconvolution method. Finally, we show how
+imaging fluorescence emission where available, eliminates the backscatter
+component and increases the signal-to-noise ratio. Experimental results in a
+water tank, with different concentrations of scattering media added, show that
+deconvolution produces higher-quality 3D reconstructions than previous
+techniques, and that when combined with fluorescence, can produce results
+similar to that in clear water even for highly turbid media.},
+keywords={backscatter;deconvolution;fluorescence;image restoration;light
+scattering;optical transfer function;photometry;stereo image processing;3D
+reconstruction;backscatter component elimination;deconvolution;dilute
+media;imaging fluorescence emission;light propagation;light source blur;object
+point-spread function;photometric stereo;scattering
+medium;Backscatter;Cameras;Light sources;Media;Scattering;Surface
+reconstruction;Three-dimensional displays;Photometric
+stereo;fluorescence;scattering medium},
+doi={10.1109/TPAMI.2016.2613862},
+ISSN={0162-8828},
+month={Sept},}
+@ARTICLE{7567535,
+author={L. Zhang and C. Yang and H. Lu and X. Ruan and M. H. Yang},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Ranking Saliency},
+year={2017},
+volume={39},
+number={9},
+pages={1892-1904},
+abstract={Most existing bottom-up algorithms measure the foreground saliency of
+a pixel or region based on its contrast within a local context or the entire
+image, whereas a few methods focus on segmenting out background regions and
+thereby salient objects. Instead of only considering the contrast between
+salient objects and their surrounding regions, we consider both foreground and
+background cues in this work. We rank the similarity of image elements with
+foreground or background cues via graph-based manifold ranking. The saliency of
+image elements is defined based on their relevances to the given seeds or
+queries. We represent an image as a multi-scale graph with fine superpixels and
+coarse regions as nodes. These nodes are ranked based on the similarity to
+background and foreground queries using affinity matrices. Saliency detection
+is carried out in a cascade scheme to extract background regions and foreground
+salient objects efficiently. Experimental results demonstrate the proposed
+method performs well against the state-of-the-art methods in terms of accuracy
+and speed. We also propose a new benchmark dataset containing 5,168 images for
+large-scale performance evaluation of saliency detection methods.},
+keywords={graph theory;image segmentation;matrix algebra;object detection;query
+processing;affinity matrices;background cues;background queries;bottom-up
+algorithms;foreground cues;foreground queries;foreground saliency;image
+elements;manifold ranking;multiscale graph;ranking saliency;saliency
+detection;Computational modeling;Electronic mail;Image color analysis;Image
+segmentation;Labeling;Manifolds;Visualization;Saliency detection;manifold
+ranking;multi-scale graph},
+doi={10.1109/TPAMI.2016.2609426},
+ISSN={0162-8828},
+month={Sept},}

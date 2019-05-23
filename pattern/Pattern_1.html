@@ -1,0 +1,495 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"></head><body>@ARTICLE{7429793,
+<br>
+author={C. Xiong and D. M. Johnson and J. J. Corso},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Active Clustering with Model-Based Uncertainty Reduction}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={1},
+<br>  pages={5-17},
+<br>  abstract={Semi-supervised clustering seeks to augment traditional 
+clustering methods by incorporating side information provided via human 
+expertise in order to increase the semantic meaningfulness of the 
+resulting clusters. However, most current methods are <italic>passive</italic>
+ in the sense that the side information is provided beforehand and 
+selected randomly. This may require a large number of constraints, some 
+of which could be redundant, unnecessary, or even detrimental to the 
+clustering results. Thus in order to scale such semi-supervised 
+algorithms to larger problems it is desirable to pursue an <italic>active</italic>
+ clustering method—i.e., an algorithm that maximizes the effectiveness 
+of the available human labor by only requesting human input where it 
+will have the greatest impact. Here, we propose a novel online framework
+ for active semi-supervised spectral clustering that selects pairwise 
+constraints as clustering proceeds, based on the principle of 
+uncertainty reduction. Using a first-order Taylor expansion, we 
+decompose the expected uncertainty reduction problem into a gradient and
+ a step-scale, computed via an application of matrix perturbation theory
+ and cluster-assignment entropy, respectively. The resulting model is 
+used to estimate the uncertainty reduction potential of each sample in 
+the dataset. We then present the human user with pairwise queries with 
+respect to only the best candidate sample. We evaluate our method using 
+three different image datasets (faces, leaves and dogs), a set of common
+ UCI machine learning datasets and a gene dataset. The results validate 
+our decomposition formulation and show that our method is consistently 
+superior to existing state-of-the-art techniques, as well as being 
+robust to noise and to unknown numbers of clusters.},
+<br>  keywords={Clustering algorithms;Clustering methods;Computer 
+science;Image classification;Semantics;Semisupervised learning;Active 
+clustering;image clustering;semi-supervised clustering;uncertainty 
+reduction},
+<br>  doi={10.1109/TPAMI.2016.2539965},
+<br>  ISSN={0162-8828},
+<br>  month={Jan},}<br>@ARTICLE{7423782,
+<br>
+author={J. Kwon and K. M. Lee},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Adaptive Visual Tracking with Minimum Uncertainty Gap Estimation}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={1},
+<br>  pages={18-31},
+<br>  abstract={A novel tracking algorithm is proposed, which robustly 
+tracks a target by finding the state that minimizes the likelihood 
+uncertainty. Likelihood uncertainty is estimated by determining the gap 
+between the lower and upper bounds of likelihood. By minimizing the gap 
+between the two bounds, the proposed method identifies the confident and
+ reliable state of the target. In this study, the state that provides 
+the Minimum Uncertainty Gap (MUG) between likelihood bounds is shown to 
+be more reliable than the state that provides the maximum likelihood 
+only, especially when severe illumination changes, occlusions, and pose 
+variations occur. A rigorous derivation of the lower and upper bounds of
+ the likelihood for the visual tracking problem is provided to address 
+this issue. Additionally, an efficient inference algorithm that uses 
+Interacting Markov Chain Monte Carlo (IMCMC) approach is presented to 
+find the best state that maximizes the average of the lower and upper 
+bounds of likelihood while minimizing the gap between the two bounds. We
+ extend our method to update the target model adaptively. To update the 
+model, the current observation is combined with a previous target model 
+with the adaptive weight, which is calculated according to the goodness 
+of the current observation. The goodness of the observation is measured 
+using the proposed uncertainty gap estimation of likelihood. 
+Experimental results demonstrate that the proposed method robustly 
+tracks the target in realistic videos and outperforms conventional 
+tracking methods.},
+<br>  keywords={Adaptation models;Adaptive models;Object tracking;Target
+ tracking;Uncertainty;Upper bound;Visualization;Object tracking;adaptive
+ model update;lower and upper bounds of likelihood;minimum uncertainty 
+gap},
+<br>  doi={10.1109/TPAMI.2016.2537330},
+<br>  ISSN={0162-8828},
+<br>  month={Jan},}<br>@ARTICLE{7415949,
+<br>
+author={D. Chen and X. Cao and D. Wipf and F. Wen and J. Sun},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={An Efficient Joint Formulation for Bayesian Face Verification}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={1},
+<br>  pages={32-46},
+<br>  abstract={This paper revisits the classical Bayesian face 
+recognition algorithm from Baback Moghaddam et&nbsp;al. and proposes 
+enhancements tailored to face verification, the problem of predicting 
+whether or not a pair of facial images share the same identity. Like a 
+variety of face verification algorithms, the original Bayesian face 
+model only considers the appearance difference between two faces rather 
+than the raw images themselves. However, we argue that such a fixed and 
+blind projection may prematurely reduce the separability between 
+classes. Consequently, we model two facial images jointly with an 
+appropriate prior that considers intra- and extra-personal variations 
+over the image pairs. This joint formulation is trained using a 
+principled EM algorithm, while testing involves only efficient 
+closed-formed computations that are suitable for real-time practical 
+deployment. Supporting theoretical analyses investigate computational 
+complexity, scale-invariance properties, and convergence issues. We also
+ detail important relationships with existing algorithms, such as 
+probabilistic linear discriminant analysis and metric learning. Finally,
+ on extensive experimental evaluations, the proposed model is superior 
+to the classical Bayesian face algorithm and many alternative 
+state-of-the-art supervised approaches, achieving the best test accuracy
+ on three challenging datasets, Labeled Face in Wild, Multi-PIE, and 
+YouTube Faces, all with unparalleled computational efficiency.},
+<br>  keywords={Algorithm design and analysis;Bayes 
+methods;Computational modeling;Covariance matrices;Face 
+recognition;Bayesian face recognition;EM algorithm;face verification},
+<br>  doi={10.1109/TPAMI.2016.2533383},
+<br>  ISSN={0162-8828},
+<br>  month={Jan},}<br>@ARTICLE{7429796,
+<br>
+author={G. Liu and Q. Liu and P. Li},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Blessing of Dimensionality: Recovering Mixture Data via Dictionary Pursuit}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={1},
+<br>  pages={47-60},
+<br>  abstract={This paper studies the problem of recovering the 
+authentic samples that lie on a union of multiple subspaces from their 
+corrupted observations. Due to the high-dimensional and massive nature 
+of today’s data-driven community, it is arguable that the target matrix 
+(i.e., authentic sample matrix) to recover is often low-rank. In this 
+case, the recently established Robust Principal Component Analysis 
+(RPCA) method already provides us a convenient way to solve the problem 
+of recovering mixture data. However, in general, RPCA is not good enough
+ because the incoherent condition assumed by RPCA is not so consistent 
+with the mixture structure of multiple subspaces. Namely, when the 
+subspace number grows, the row-coherence of data keeps heightening and, 
+accordingly, RPCA degrades. To overcome the challenges arising from 
+mixture data, we suggest to consider LRR in this paper. We elucidate 
+that LRR can well handle mixture data, as long as its dictionary is 
+configured appropriately. More precisely, we mathematically prove that 
+LRR can weaken the dependence on the row-coherence, provided that the 
+dictionary is well-conditioned and has a rank of not too high. In 
+particular, if the dictionary itself is sufficiently low-rank, then the 
+dependence on the row-coherence can be completely removed. These provide
+ some elementary principles for dictionary learning and naturally lead 
+to a practical algorithm for recovering mixture data. Our experiments on
+ randomly generated matrices and real motion sequences show promising 
+results.},
+<br>  keywords={Clustering methods;Coherence;Dictionaries;Learning 
+systems;Matrix decomposition;Principal component analysis;Sparse 
+matrices;dictionary learning;incoherent condition;low-rank 
+representation;matrix factorization;subspace clustering},
+<br>  doi={10.1109/TPAMI.2016.2539946},
+<br>  ISSN={0162-8828},
+<br>  month={Jan},}<br>@ARTICLE{7415947,
+<br>
+author={A. K. K. C. and L. Jacques and C. De Vleeschouwer},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Discriminative and Efficient Label Propagation on Complementary Graphs for Multi-Object Tracking}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={1},
+<br>  pages={61-74},
+<br>  abstract={Given a set of detections, detected at each time instant
+ independently, we investigate how to associate them across time. This 
+is done by propagating labels on a set of graphs, each graph capturing 
+how either the spatio-temporal or the appearance cues promote the 
+assignment of identical or distinct labels to a pair of detections. The 
+graph construction is motivated by a locally linear embedding of the 
+detection features. Interestingly, the neighborhood of a node in 
+appearance graph is defined to include all the nodes for which the 
+appearance feature is available (even if they are temporally distant). 
+This gives our framework the uncommon ability to exploit the appearance 
+features that are available only sporadically. Once the graphs have been
+ defined, multi-object tracking is formulated as the problem of finding a
+ label assignment that is consistent with the constraints captured each 
+graph, which results into a difference of convex (DC) program. We 
+propose to decompose the global objective function into node-wise 
+sub-problems. This not only allows a computationally efficient solution,
+ but also supports an incremental and scalable construction of the 
+graph, thereby making the framework applicable to large graphs and 
+practical tracking scenarios. Moreover, it opens the possibility of 
+parallel implementation.},
+<br>  keywords={Computer vision;Feature extraction;Graphical 
+models;Image edge detection;Labeling;Object tracking;Target 
+tracking;Trajectory;Computer vision;graph labeling;label 
+propagation;multi-object tracking;sporadic features},
+<br>  doi={10.1109/TPAMI.2016.2533391},
+<br>  ISSN={0162-8828},
+<br>  month={Jan},}<br>@ARTICLE{7425216,
+<br>
+author={V. Premachandran and D. Tarlow and A. L. Yuille and D. Batra},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Empirical Minimum Bayes Risk Prediction}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={1},
+<br>  pages={75-86},
+<br>  abstract={When building vision systems that predict structured 
+objects such as image segmentations or human poses, a crucial concern is
+ performance under task-specific evaluation measures (e.g., Jaccard 
+Index or Average Precision). An ongoing research challenge is to 
+optimize predictions so as to maximize performance on such complex 
+measures. In this work, we present a simple meta-algorithm that is 
+surprisingly effective – <italic>Empirical Min Bayes Risk</italic>. EMBR
+ takes as input a pre-trained model that would normally be the final 
+product and learns three additional parameters so as to optimize 
+performance on the complex instance-level high-order task-specific 
+measure. We demonstrate EMBR in several domains, taking existing 
+state-of-the-art algorithms and improving performance up to 8 percent, 
+simply by learning three extra parameters. Our code is publicly 
+available and the results presented in this paper can be replicated from
+ our code-release.},
+<br>  keywords={Decision theory;Image segmentation;Loss 
+measurement;Predictive models;Probabilistic 
+logic;Semantics;DivMBest;Diverse predictions;human pose estimation;image
+ segmentation;object segmentation},
+<br>  doi={10.1109/TPAMI.2016.2537807},
+<br>  ISSN={0162-8828},
+<br>  month={Jan},}<br>@ARTICLE{7423799,
+<br>
+author={G. Sharma and F. Jurie and C. Schmid},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Expanded Parts Model for Semantic Description of Humans in Still Images}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={1},
+<br>  pages={87-101},
+<br>  abstract={We introduce an Expanded Parts Model (EPM) for 
+recognizing human attributes (e.g., young, short hair, wearing suits) 
+and actions (e.g., running, jumping) in still images. An EPM is a 
+collection of part templates which are learnt discriminatively to 
+explain specific scale-space regions in the images (in human centric 
+coordinates). This is in contrast to current models which consist of a 
+relatively few (i.e., a mixture of) ‘average’ templates. EPM uses only a
+ subset of the parts to score an image and scores the image sparsely in 
+space, i.e., it ignores redundant and random background in an image. To 
+learn our model, we propose an algorithm which automatically mines parts
+ and learns corresponding discriminative templates together with their 
+respective locations from a large number of candidate parts. We validate
+ our method on three recent challenging datasets of human attributes and
+ actions. We obtain convincing qualitative and state-of-the-art 
+quantitative results on the three datasets.},
+<br>  keywords={Analytical models;Computational modeling;Human 
+factors;Image classification;Image recognition;Semantics;Training;Human 
+analysis;actions;attributes;image classification;semantic description},
+<br>  doi={10.1109/TPAMI.2016.2537325},
+<br>  ISSN={0162-8828},
+<br>  month={Jan},}<br>@ARTICLE{7423818,
+<br>
+author={A. A. Liu and Y. T. Su and W. Z. Nie and M. Kankanhalli},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Hierarchical Clustering Multi-Task Learning for Joint Human Action Grouping and Recognition}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={1},
+<br>  pages={102-114},
+<br>  abstract={This paper proposes a hierarchical clustering multi-task
+ learning (HC-MTL) method for joint human action grouping and 
+recognition. Specifically, we formulate the objective function into the 
+group-wise least square loss regularized by low rank and sparsity with 
+respect to two latent variables, model parameters and grouping 
+information, for joint optimization. To handle this non-convex 
+optimization, we decompose it into two sub-tasks, multi-task learning 
+and task relatedness discovery. First, we convert this non-convex 
+objective function into the convex formulation by fixing the latent 
+grouping information. This new objective function focuses on multi-task 
+learning by strengthening the shared-action relationship and 
+action-specific feature learning. Second, we leverage the learned model 
+parameters for the task relatedness measure and clustering. In this way,
+ HC-MTL can attain both optimal action models and group discovery by 
+alternating iteratively. The proposed method is validated on three kinds
+ of challenging datasets, including six realistic action datasets 
+(Hollywood2, YouTube, UCF Sports, UCF50, HMDB51 <inline-formula> <tex-math notation="LaTeX">$&amp;$</tex-math><alternatives><inline-graphic xlink:href="liu-ieq1-2537337.gif"> </inline-graphic></alternatives></inline-formula> UCF101), two constrained datasets (KTH <inline-formula><tex-math notation="LaTeX"> $&amp;$</tex-math><alternatives><inline-graphic xlink:href="liu-ieq2-2537337.gif"></inline-graphic></alternatives></inline-formula> TJU), and two multi-view datasets (MV-TJU <inline-formula><tex-math notation="LaTeX">$&amp;$</tex-math><alternatives> <inline-graphic xlink:href="liu-ieq3-2537337.gif"></inline-graphic></alternatives></inline-formula>
+ IXMAS). The extensive experimental results show that: 1) HC-MTL can 
+produce competing performances to the state of the arts for action 
+recognition and grouping; 2) HC-MTL can overcome the difficulty in 
+heuristic action grouping simply based on human knowledge; 3) HC-MTL can
+ avoid the possible incon- istency between the subjective action 
+grouping depending on human knowledge and objective action grouping 
+based on the feature subspace distributions of multiple actions. 
+Comparison with the popular clustered multi-task learning further 
+reveals that the discovered latent relatedness by HC-MTL aids inducing 
+the group-wise multi-task learning and boosts the performance. To the 
+best of our knowledge, ours is the first work that breaks the assumption
+ that all actions are either independent for individual learning or 
+correlated for joint modeling and proposes HC-MTL for automated, joint 
+action grouping and modeling.},
+<br>  keywords={Clustering methods;Data models;Indexes;Learning 
+systems;Legged locomotion;Linear programming;Social network 
+services;Action recognition;multi-task learning;task grouping;task 
+relatedness measure},
+<br>  doi={10.1109/TPAMI.2016.2537337},
+<br>  ISSN={0162-8828},
+<br>  month={Jan},}<br>@ARTICLE{7423822,
+<br>
+author={X. Liang and C. Xu and X. Shen and J. Yang and J. Tang and L. Lin and S. Yan},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Human Parsing with Contextualized Convolutional Neural Network}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={1},
+<br>  pages={115-127},
+<br>  abstract={In this work, we address the human parsing task with a 
+novel Contextualized Convolutional Neural Network (Co-CNN) architecture,
+ which well integrates the cross-layer context, global image-level 
+context, semantic edge context, within-super-pixel context and 
+cross-super-pixel neighborhood context into a unified network. Given an 
+input human image, Co-CNN produces the pixel-wise categorization in an 
+end-to-end way. First, the cross-layer context is captured by our basic 
+local-to-global-to-local structure, which hierarchically combines the 
+global semantic information and the local fine details across different 
+convolutional layers. Second, the global image-level label prediction is
+ used as an auxiliary objective in the intermediate layer of the Co-CNN,
+ and its outputs are further used for guiding the feature learning in 
+subsequent convolutional layers to leverage the global image-level 
+context. Third, semantic edge context is further incorporated into 
+Co-CNN, where the high-level semantic boundaries are leveraged to guide 
+pixel-wise labeling. Finally, to further utilize the local super-pixel 
+contexts, the within-super-pixel smoothing and cross-super-pixel 
+neighbourhood voting are formulated as natural sub-components of the 
+Co-CNN to achieve the local label consistency in both training and 
+testing process. Comprehensive evaluations on two public datasets well 
+demonstrate the significant superiority of our Co-CNN over other 
+state-of-the-arts for human parsing. In particular, the F-1 score on the
+ large dataset&nbsp;<xref ref-type="bibr" rid="ref1">[1]</xref> reaches <inline-formula><tex-math notation="LaTeX">$81.72,text{percent}$</tex-math><alternatives> <inline-graphic xlink:href="lin-ieq1-2537339.gif"></inline-graphic></alternatives></inline-formula> by Co-CNN, significantly higher than <inline-formula><tex-math notation="LaTeX">$62.81,text{percent}$</tex-math><alternatives> <inline-graphic xlink:href="lin-ieq2-2537339.gif"></inline-graphic></alternatives></inline-formula> and <inlin- -formula=""> <tex-math notation="LaTeX">$64.38,text{percent}$</tex-math><alternatives> <inline-graphic xlink:href="lin-ieq3-2537339.gif"></inline-graphic></alternatives> by the state-of-the-art algorithms, M-CNN&nbsp;<xref ref-type="bibr" rid="ref2">[2]</xref> and ATR&nbsp;<xref ref-type="bibr" rid="ref1">[1]</xref> , respectively. By utilizing our newly collected large dataset for training, our Co-CNN can achieve <inline-formula> <tex-math notation="LaTeX">$85.36,text{percent}$</tex-math><alternatives> <inline-graphic xlink:href="lin-ieq4-2537339.gif"></inline-graphic></alternatives></inline-formula> in F-1 score.},
+<br>  keywords={Context modeling;Convolutional codes;Image edge 
+detection;Image segmentation;Labeling;Semantics;Smoothing 
+methods;Training;Human parsing;context modeling;fully convolutional 
+network;semantic labeling},
+<br>  doi={10.1109/TPAMI.2016.2537339},
+<br>  ISSN={0162-8828},
+<br>  month={Jan},}<br>@ARTICLE{7423791,
+<br>
+author={J. Pont-Tuset and P. Arbeláez and J. T. Barron and F. Marques and J. Malik},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Multiscale Combinatorial Grouping for Image Segmentation and Object Proposal Generation}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={1},
+<br>  pages={128-140},
+<br>  abstract={We propose a unified approach for bottom-up hierarchical
+ image segmentation and object proposal generation for recognition, 
+called Multiscale Combinatorial Grouping (MCG). For this purpose, we 
+first develop a fast normalized cuts algorithm. We then propose a 
+high-performance hierarchical segmenter that makes effective use of 
+multiscale information. Finally, we propose a grouping strategy that 
+combines our multiscale regions into highly-accurate object proposals by
+ exploring efficiently their combinatorial space. We also present 
+Single-scale Combinatorial Grouping (SCG), a faster version of MCG that 
+produces competitive proposals in under five seconds per image. We 
+conduct an extensive and comprehensive empirical validation on the 
+BSDS500, SegVOC12, SBD, and COCO datasets, showing that MCG produces 
+state-of-the-art contours, hierarchical regions, and object proposals.},
+<br>  keywords={Image color analysis;Image segmentation;Object 
+tracking;Partitioning algorithms;Image segmentation;normalized 
+cuts;object proposals},
+<br>  doi={10.1109/TPAMI.2016.2537320},
+<br>  ISSN={0162-8828},
+<br>  month={Jan},}<br>@ARTICLE{7429794,
+<br>
+author={D. Chen and Z. Yuan and G. Hua and J. Wang and N. Zheng},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Multi-Timescale Collaborative Tracking}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={1},
+<br>  pages={141-155},
+<br>  abstract={We present the multi-timescale collaborative tracker for
+ single object tracking. The tracker simultaneously utilizes different 
+types of “forces”, namely <italic>attraction</italic>, <italic>repulsion</italic> and <italic> support</italic>,
+ to take advantage of their complementary strengths. We model the three 
+forces via three components that are learned from the sample sets with 
+different timescales. The long-term descriptive component attracts the 
+target sample, while the medium-term discriminative component repulses 
+the target from the background. They are collaborated in the appearance 
+model to benefit each other. The short-term regressive component 
+combines the votes of the auxiliary samples to predict the target’s 
+position, forming the context-aware motion model. The appearance model 
+and the motion model collaboratively determine the target state, and the
+ optimal state is estimated by a novel coarse-to-fine search strategy. 
+We have conducted an extensive set of experiments on the standard 50 
+video benchmark. The results confirm the effectiveness of each component
+ and their collaboration, outperforming current state-of-the-art 
+methods.},
+<br>  keywords={Collaboration;Context modeling;Object tracking;Support 
+vector machines;Target tracking;Visualization;Visual 
+tracking;collaboration;context;descriptive;discriminative;multi-timescale;regressive},
+<br>  doi={10.1109/TPAMI.2016.2539956},
+<br>  ISSN={0162-8828},
+<br>  month={Jan},}<br>@ARTICLE{7420697,
+<br>
+author={J. Yang and L. Luo and J. Qian and Y. Tai and F. Zhang and Y. Xu},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Nuclear Norm Based Matrix Regression with Applications to Face Recognition with Occlusion and Illumination Changes}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={1},
+<br>  pages={156-171},
+<br>  abstract={Recently, regression analysis has become a popular tool 
+for face recognition. Most existing regression methods use the 
+one-dimensional, pixel-based error model, which characterizes the 
+representation error individually, pixel by pixel, and thus neglects the
+ two-dimensional structure of the error image. We observe that occlusion
+ and illumination changes generally lead, approximately, to a low-rank 
+error image. In order to make use of this low-rank structural 
+information, this paper presents a two-dimensional image-matrix-based 
+error model, namely, nuclear norm based matrix regression (NMR), for 
+face representation and classification. NMR uses the minimal nuclear 
+norm of representation error image as a criterion, and the alternating 
+direction method of multipliers (ADMM) to calculate the regression 
+coefficients. We further develop a fast ADMM algorithm to solve the 
+approximate NMR model and show it has a quadratic rate of convergence. 
+We experiment using five popular face image databases: the Extended Yale
+ B, AR, EURECOM, Multi-PIE and FRGC. Experimental results demonstrate 
+the performance advantage of NMR over the state-of-the-art 
+regression-based methods for face recognition in the presence of 
+occlusion and illumination variations.},
+<br>  keywords={Convex functions;Encoding;Face 
+recognition;Lighting;Matrix converters;Nuclear magnetic 
+resonance;Regression analysis;Robustness;Nuclear norm;alternating 
+direction method of multipliers (ADMM);face recognition;robust 
+regression;sparse representation},
+<br>  doi={10.1109/TPAMI.2016.2535218},
+<br>  ISSN={0162-8828},
+<br>  month={Jan},}<br>@ARTICLE{7429797,
+<br>
+author={W. Hu and J. Gao and J. Xing and C. Zhang and S. Maybank},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Semi-Supervised Tensor-Based Graph Embedding Learning and Its Application to Visual Discriminant Tracking}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={1},
+<br>  pages={172-188},
+<br>  abstract={An appearance model adaptable to changes in object 
+appearance is critical in visual object tracking. In this paper, we 
+treat an image patch as a two-order tensor which preserves the original 
+image structure. We design two graphs for characterizing the intrinsic 
+local geometrical structure of the tensor samples of the object and the 
+background. Graph embedding is used to reduce the dimensions of the 
+tensors while preserving the structure of the graphs. Then, a 
+discriminant embedding space is constructed. We prove two propositions 
+for finding the transformation matrices which are used to map the 
+original tensor samples to the tensor-based graph embedding space. In 
+order to encode more discriminant information in the embedding space, we
+ propose a transfer<bold>-</bold>learning- based semi-supervised 
+strategy to iteratively adjust the embedding space into which 
+discriminative information obtained from earlier times is transferred. 
+We apply the proposed semi-supervised tensor-based graph embedding 
+learning algorithm to visual tracking. The new tracking algorithm 
+captures an object's appearance characteristics during tracking and uses
+ a particle filter to estimate the optimal object state. Experimental 
+results on the CVPR 2013 benchmark dataset demonstrate the effectiveness
+ of the proposed tracking algorithm.},
+<br>  keywords={Adaptation models;Algorithm design and 
+analysis;Analytical models;Object tracking;Semisupervised 
+learning;Tensile stress;Visualization;Discriminant tracking;graph 
+embedding space;semi-supervised learning;tensor samples},
+<br>  doi={10.1109/TPAMI.2016.2539944},
+<br>  ISSN={0162-8828},
+<br>  month={Jan},}<br>@ARTICLE{7420739,
+<br>
+author={R. G. Cinbis and J. Verbeek and C. Schmid},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Weakly Supervised Object Localization with Multi-Fold Multiple Instance Learning}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={1},
+<br>  pages={189-203},
+<br>  abstract={Object category localization is a challenging problem in
+ computer vision. Standard supervised training requires bounding box 
+annotations of object instances. This time-consuming annotation process 
+is sidestepped in weakly supervised learning. In this case, the 
+supervised information is restricted to binary labels that indicate the 
+absence/presence of object instances in the image, without their 
+locations. We follow a multiple-instance learning approach that 
+iteratively trains the detector and infers the object locations in the 
+positive training images. Our main contribution is a multi-fold multiple
+ instance learning procedure, which prevents training from prematurely 
+locking onto erroneous object locations. This procedure is particularly 
+important when using high-dimensional representations, such as Fisher 
+vectors and convolutional neural network features. We also propose a 
+window refinement method, which improves the localization accuracy by 
+incorporating an objectness prior. We present a detailed experimental 
+evaluation using the PASCAL VOC 2007 dataset, which verifies the 
+effectiveness of our approach.},
+<br>  keywords={Computational efficiency;Iterative methods;Learning 
+systems;Object detection;Supervised 
+learning;Training;Visualization;Weakly supervised learning;object 
+detection},
+<br>  doi={10.1109/TPAMI.2016.2535231},
+<br>  ISSN={0162-8828},
+<br>  month={Jan},}<br>
+
+</inlin-></body></html>

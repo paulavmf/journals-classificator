@@ -1,0 +1,580 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"></head><body>@ARTICLE{7565640,
+<br>
+author={W. Lin and Y. Zhou and H. Xu and J. Yan and M. Xu and J. Wu and Z. Liu},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={A Tube-and-Droplet-Based Approach for Representing and Analyzing Motion Trajectories}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={8},
+<br>  pages={1489-1503},
+<br>  abstract={Trajectory analysis is essential in many applications. 
+In this paper, we address the problem of representing motion 
+trajectories in a highly informative way, and consequently utilize it 
+for analyzing trajectories. Our approach first leverages the complete 
+information from given trajectories to construct a thermal transfer 
+field which provides a context-rich way to describe the global motion 
+pattern in a scene. Then, a 3D tube is derived which depicts an input 
+trajectory by integrating its surrounding motion patterns contained in 
+the thermal transfer field. The 3D tube effectively: 1) maintains the 
+movement information of a trajectory, 2) embeds the complete contextual 
+motion pattern around a trajectory, 3) visualizes information about a 
+trajectory in a clear and unified way. We further introduce a 
+droplet-based process. It derives a droplet vector from a 3D tube, so as
+ to characterize the high-dimensional 3D tube information in a simple 
+but effective way. Finally, we apply our tube-and-droplet representation
+ to trajectory analysis applications including trajectory clustering, 
+trajectory classification &amp; abnormality detection, and 3D action 
+recognition. Experimental comparisons with state-of-the-art algorithms 
+demonstrate the effectiveness of our approach.},
+<br>  keywords={image classification;image representation;motion 
+compensation;pattern clustering;vectors;3D action 
+recognition;abnormality detection;droplet vector;global motion 
+pattern;motion trajectories;thermal transfer field;trajectory 
+analysis;trajectory classification;trajectory 
+clustering;tube-and-droplet representation;Context modeling;Electron 
+tubes;Electronic mail;Hidden Markov models;Shape;Three-dimensional 
+displays;Trajectory;3D action recognition;3D tube;Trajectory 
+representation;abnormality detection;trajectory analysis},
+<br>  doi={10.1109/TPAMI.2016.2608884},
+<br>  ISSN={0162-8828},
+<br>  month={Aug},}<br>@ARTICLE{7562518,
+<br>
+author={D. Cho and S. Kim and Y. W. Tai and I. S. Kweon},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Automatic Trimap Generation and Consistent Matting for Light-Field Images}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={8},
+<br>  pages={1504-1517},
+<br>  abstract={In this paper, we introduce an automatic approach to 
+generate trimaps and consistent alpha mattes of foreground objects in a 
+light-field image. Our method first performs binary segmentation to 
+roughly segment a light-field image into foreground and background based
+ on depth and color. Next, we estimate accurate trimaps through 
+analyzing color distribution along the boundary of the segmentation 
+using guided image filter and KL-divergence. In order to estimate 
+consistent alpha mattes across sub-images, we utilize the epipolar plane
+ image (EPI) where colors and alphas along the same epipolar line must 
+be consistent. Since EPI of foreground and background are mixed in the 
+matting area, we propagate the EPI from definite foreground/background 
+regions to unknown regions by assuming depth variations within unknown 
+regions are spatially smooth. Using the EPI constraint, we derive two 
+solutions to estimate alpha when color samples along epipolar line are 
+known, and unknown. To further enhance consistency, we refine the 
+estimated alpha mattes by using the multi-image matting Laplacian with 
+an additional EPI smoothness constraint. In experimental evaluations, we
+ have created a dataset where the ground truth alpha mattes of 
+light-field images were obtained by using the blue screen technique. A 
+variety of experiments show that our proposed algorithm produces both 
+visually and quantitatively high-quality alpha mattes for light-field 
+images.},
+<br>  keywords={image colour analysis;image filtering;image 
+segmentation;EPI smoothness constraint;KL-divergence;automatic trimap 
+generation;binary segmentation;blue screen technique;color 
+distribution;consistent alpha mattes;consistent matting;epipolar plane 
+image;foreground objects;foreground-background regions;guided image 
+filter;light-field images;multiimage matting 
+Laplacian;Cameras;Correlation;Estimation;Image color analysis;Image 
+segmentation;Laplace equations;Mathematical model;Image 
+matting;light-field image;trimap},
+<br>  doi={10.1109/TPAMI.2016.2606397},
+<br>  ISSN={0162-8828},
+<br>  month={Aug},}<br>@ARTICLE{7557070,
+<br>
+author={F. Zhu and G. Chen and J. Hao and P. A. Heng},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Blind Image Denoising via Dependent Dirichlet Process Tree}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={8},
+<br>  pages={1518-1531},
+<br>  abstract={Most existing image denoising approaches assumed the 
+noise to be homogeneous white Gaussian distributed with known intensity.
+ However, in real noisy images, the noise models are usually unknown 
+beforehand and can be much more complex. This paper addresses this 
+problem and proposes a novel blind image denoising algorithm to recover 
+the clean image from noisy one with the unknown noise model. To model 
+the empirical noise of an image, our method introduces the mixture of 
+Gaussian distribution, which is flexible enough to approximate different
+ continuous distributions. The problem of blind image denoising is 
+reformulated as a learning problem. The procedure is to first build a 
+two-layer structural model for noisy patches and consider the clean ones
+ as latent variable. To control the complexity of the noisy patch model,
+ this work proposes a novel Bayesian nonparametric prior called 
+“Dependent Dirichlet Process Tree” to build the model. Then, this study 
+derives a variational inference algorithm to estimate model parameters 
+and recover clean patches. We apply our method on synthesis and real 
+noisy images with different noise models. Comparing with previous 
+approaches, ours achieves better performance. The experimental results 
+indicate the efficiency of the proposed algorithm to cope with practical
+ image denoising tasks.},
+<br>  keywords={Bayes methods;Gaussian distribution;image 
+denoising;inference mechanisms;learning (artificial 
+intelligence);parameter estimation;trees (mathematics);Bayesian 
+nonparametric prior;Gaussian distribution;blind image 
+denoising;continuous distributions;dependent Dirichlet process 
+tree;homogeneous white Gaussian;learning problem;model parameter 
+estimation;noisy patch model;two-layer structural model;variational 
+inference algorithm;Bayes methods;Data models;Gaussian 
+distribution;Image denoising;Mixture models;Noise measurement;Noise 
+reduction;Bayesian nonparametrics;Image denoising;dependent Dirichlet 
+process;noise modeling;patch modeling;variational inference},
+<br>  doi={10.1109/TPAMI.2016.2604816},
+<br>  ISSN={0162-8828},
+<br>  month={Aug},}<br>@ARTICLE{7558120,
+<br>
+author={B. Yang and H. Pei and H. Chen and J. Liu and S. Xia},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Characterizing and Discovering Spatiotemporal Social Contact Patterns for Healthcare}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={8},
+<br>  pages={1532-1546},
+<br>  abstract={During an epidemic, the spatial, temporal and 
+demographic patterns of disease transmission are determined by multiple 
+factors. In addition to the physiological properties of the pathogens 
+and hosts, the social contact of the host population, which 
+characterizes the reciprocal exposures of individuals to infection 
+according to their demographic structure and various social activities, 
+are also pivotal to understanding and predicting the prevalence of 
+infectious diseases. How social contact is measured will affect the 
+extent to which we can forecast the dynamics of infections in the real 
+world. Most current work focuses on modeling the spatial patterns of 
+static social contact. In this work, we use a novel perspective to 
+address the problem of how to characterize and measure dynamic social 
+contact during an epidemic. We propose an epidemic-model-based tensor 
+deconvolution framework in which the spatiotemporal patterns of social 
+contact are represented by the factors of the tensors. These factors can
+ be discovered using a tensor deconvolution procedure with the 
+integration of epidemic models based on rich types of data, mainly 
+heterogeneous outbreak surveillance data, socio-demographic census data 
+and physiological data from medical reports. Using reproduction models 
+that include SIR/SIS/SEIR/SEIS models as case studies, the efficacy and 
+applications of the proposed framework are theoretically analyzed, 
+empirically validated and demonstrated through a set of rigorous 
+experiments using both synthetic and real-world data.},
+<br>  keywords={deconvolution;demography;diseases;epidemics;health 
+care;physiological models;tensors;demographic patterns;demographic 
+structure;disease transmission;epidemic;healthcare;heterogeneous 
+outbreak surveillance data;infection;infectious 
+diseases;pathogens;physiological properties;social 
+activities;socio-demographic census data;spatial patterns;spatiotemporal
+ patterns;spatiotemporal social contact patterns;tensor 
+deconvolution;Data 
+models;Deconvolution;Diseases;Sociology;Spatiotemporal 
+phenomena;Statistics;Tensile stress;Healthcare;epidemic 
+modeling;heterogeneous data mining;spatiotemporal social contact;tensor 
+deconvolution},
+<br>  doi={10.1109/TPAMI.2016.2605095},
+<br>  ISSN={0162-8828},
+<br>  month={Aug},}<br>@ARTICLE{7569106,
+<br>
+author={D. P. Hofmeyr},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Clustering by Minimum Cut Hyperplanes}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={8},
+<br>  pages={1547-1560},
+<br>  abstract={Minimum normalised graph cuts are highly effective ways 
+of partitioning unlabeled data, having been made popular by the success 
+of spectral clustering. This work presents a novel method for learning 
+hyperplane separators which minimise this graph cut objective, when data
+ are embedded in Euclidean space. The optimisation problem associated 
+with the proposed method can be formulated as a sequence of univariate 
+subproblems, in which the optimal hyperplane orthogonal to a given 
+vector is determined. These subproblems can be solved in log-linear 
+time, by exploiting the trivial factorisation of the exponential 
+function. Experimentation suggests that the empirical runtime of the 
+overall algorithm is also log-linear in the number of data. Asymptotic 
+properties of the minimum cut hyperplane, both for a finite sample, and 
+for an increasing sample assumed to arise from an underlying probability
+ distribution are discussed. In the finite sample case the minimum cut 
+hyperplane converges to the maximum margin hyperplane as the scaling 
+parameter is reduced to zero. Applying the proposed methodology, both 
+for fixed scaling, and the large margin asymptotes, is shown to produce 
+high quality clustering models in comparison with state-of-the-art 
+clustering algorithms in experiments using a large collection of 
+benchmark datasets.},
+<br>  keywords={graph theory;pattern clustering;statistical 
+distributions;Euclidean space;exponential function;graph cut 
+objective;high quality clustering models;hyperplane separators;large 
+margin asymptotes;log-linear time;maximum margin hyperplane;minimum cut 
+hyperplanes;minimum normalised graph cuts;optimal hyperplane;probability
+ distribution;spectral clustering;trivial factorisation;univariate 
+subproblems;unlabeled data;Clustering algorithms;Clustering 
+methods;Context;Particle separators;Partitioning algorithms;Probability 
+distribution;Clustering;asymptotics;hyperplane;maximum margin;normalised
+ cut},
+<br>  doi={10.1109/TPAMI.2016.2609929},
+<br>  ISSN={0162-8828},
+<br>  month={Aug},}<br>@ARTICLE{7569092,
+<br>
+author={M. Danelljan and G. Häger and F. S. Khan and M. Felsberg},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Discriminative Scale Space Tracking}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={8},
+<br>  pages={1561-1575},
+<br>  abstract={Accurate scale estimation of a target is a challenging 
+research problem in visual object tracking. Most state-of-the-art 
+methods employ an exhaustive scale search to estimate the target size. 
+The exhaustive search strategy is computationally expensive and 
+struggles when encountered with large scale variations. This paper 
+investigates the problem of accurate and robust scale estimation in a 
+tracking-by-detection framework. We propose a novel scale adaptive 
+tracking approach by learning separate discriminative correlation 
+filters for translation and scale estimation. The explicit scale filter 
+is learned online using the target appearance sampled at a set of 
+different scales. Contrary to standard approaches, our method directly 
+learns the appearance change induced by variations in the target scale. 
+Additionally, we investigate strategies to reduce the computational cost
+ of our approach. Extensive experiments are performed on the OTB and the
+ VOT2014 datasets. Compared to the standard exhaustive scale search, our
+ approach achieves a gain of 2.5 percent in average overlap precision on
+ the OTB dataset. Additionally, our method is computationally efficient,
+ operating at a 50 percent higher frame rate compared to the exhaustive 
+scale search. Our method obtains the top rank in performance by 
+outperforming 19 state-of-the-art trackers on OTB and 37 
+state-of-the-art trackers on VOT2014.},
+<br>  keywords={correlation methods;estimation theory;filtering 
+theory;learning (artificial intelligence);object detection;object 
+tracking;discriminative correlation filters learning;discriminative 
+scale space tracking;scale adaptive tracking approach;scale 
+estimation;tracking-by-detection framework;visual object 
+tracking;Correlation;Decision support 
+systems;Estimation;Robustness;Standards;Target 
+tracking;Visualization;Visual tracking;correlation filters;scale 
+estimation},
+<br>  doi={10.1109/TPAMI.2016.2609928},
+<br>  ISSN={0162-8828},
+<br>  month={Aug},}<br>@ARTICLE{7546862,
+<br>
+author={K. Rematas and C. H. Nguyen and T. Ritschel and M. Fritz and T. Tuytelaars},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Novel Views of Objects from a Single Image}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={8},
+<br>  pages={1576-1590},
+<br>  abstract={Taking an image of an object is at its core a lossy 
+process. The rich information about the three-dimensional structure of 
+the world is flattened to an image plane and decisions such as viewpoint
+ and camera parameters are final and not easily revertible. As a 
+consequence, possibilities of changing viewpoint are limited. Given a 
+single image depicting an object, novel-view synthesis is the task of 
+generating new images that render the object from a different viewpoint 
+than the one given. The main difficulty is to synthesize the parts that 
+are disoccluded; disocclusion occurs when parts of an object are hidden 
+by the object itself under a specific viewpoint. In this work, we show 
+how to improve novel-view synthesis by making use of the correlations 
+observed in 3D models and applying them to new image instances. We 
+propose a technique to use the structural information extracted from a 
+3D model that matches the image object in terms of viewpoint and shape. 
+For the latter part, we propose an efficient 2D-to-3D alignment method 
+that associates precisely the image appearance with the 3D model 
+geometry with minimal user interaction. Our technique is able to 
+simulate plausible viewpoint changes for a variety of object classes 
+within seconds. Additionally, we show that our synthesized images can be
+ used as additional training data that improves the performance of 
+standard object detectors.},
+<br>  keywords={feature extraction;image matching;object 
+detection;rendering (computer graphics);solid modelling;2D-to-3D 
+alignment method;3D model geometry;correlations;disocclusion;image 
+appearance;image based rendering;image instances;image object 
+matching;novel-view synthesis;object detectors;structural information 
+extraction;Automobiles;Geometry;Rendering (computer 
+graphics);Shape;Solid modeling;Three-dimensional displays;Two 
+dimensional displays;2D to 3D alignment;Novel view synthesis;image based
+ rendering},
+<br>  doi={10.1109/TPAMI.2016.2601093},
+<br>  ISSN={0162-8828},
+<br>  month={Aug},}<br>@ARTICLE{7565643,
+<br>
+author={J. Park and S. N. Sinha and Y. Matsushita and Y. W. Tai and I. S. Kweon},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Robust Multiview Photometric Stereo Using Planar Mesh Parameterization}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={8},
+<br>  pages={1591-1604},
+<br>  abstract={We propose a robust uncalibrated multiview photometric 
+stereo method for high quality 3D shape reconstruction. In our method, a
+ coarse initial 3D mesh obtained using a multiview stereo method is 
+projected onto a 2D planar domain using a planar mesh parameterization 
+technique. We describe methods for surface normal estimation that work 
+in the parameterized 2D space that jointly incorporates all geometric 
+and photometric cues from multiple viewpoints. Using an estimated 
+surface normal map, a refined 3D mesh is then recovered by computing an 
+optimal displacement map in the same 2D planar domain. Our method avoids
+ the need of merging view-dependent surface normal maps that is often 
+required in conventional methods. We conduct evaluation on various 
+real-world objects containing surfaces with specular reflections, 
+multiple albedos, and complex topologies in both controlled and 
+uncontrolled settings and demonstrate that accurate 3D meshes with fine 
+geometric details can be recovered by our method.},
+<br>  keywords={image reconstruction;mesh generation;shape 
+recognition;stereo image processing;2D planar domain;geometric 
+details;high quality 3D shape reconstruction;planar mesh 
+parameterization;robust multiview photometric stereo;Estimation;Image 
+resolution;Mesh generation;Robustness;Shape;Three-dimensional 
+displays;Two dimensional displays;Multiview photometric stereo;planar 
+mesh parametrization},
+<br>  doi={10.1109/TPAMI.2016.2608944},
+<br>  ISSN={0162-8828},
+<br>  month={Aug},}<br>@ARTICLE{7570181,
+<br>
+author={N. Li and J. Ye and Y. Ji and H. Ling and J. Yu},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Saliency Detection on Light Field}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={8},
+<br>  pages={1605-1616},
+<br>  abstract={Existing saliency detection approaches use images as 
+inputs and are sensitive to foreground/background similarities, complex 
+background textures, and occlusions. We explore the problem of using 
+light fields as input for saliency detection. Our technique is enabled 
+by the availability of commercial plenoptic cameras that capture the 
+light field of a scene in a single shot. We show that the unique 
+refocusing capability of light fields provides useful focusness, depths,
+ and objectness cues. We further develop a new saliency detection 
+algorithm tailored for light fields. To validate our approach, we 
+acquire a light field database of a range of indoor and outdoor scenes 
+and generate the ground truth saliency map. Experiments show that our 
+saliency detection scheme can robustly handle challenging scenarios such
+ as similar foreground and background, cluttered background, complex 
+occlusions, etc., and achieve high accuracy and robustness.},
+<br>  keywords={cameras;image texture;object detection;background 
+similarities;background textures;focus stack;foreground 
+similarities;light field;saliency detection;Cameras;Databases;Image 
+color analysis;Object detection;Robustness;Spatial 
+resolution;Lytro;Saliency detection;focus stack;light field},
+<br>  doi={10.1109/TPAMI.2016.2610425},
+<br>  ISSN={0162-8828},
+<br>  month={Aug},}<br>@ARTICLE{7565615,
+<br>
+author={X. Chang and Y. L. Yu and Y. Yang and E. P. Xing},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Semantic Pooling for Complex Event Analysis in Untrimmed Videos}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={8},
+<br>  pages={1617-1632},
+<br>  abstract={Pooling plays an important role in generating a 
+discriminative video representation. In this paper, we propose a new 
+semantic pooling approach for challenging event analysis tasks (e.g., 
+event detection, recognition, and recounting) in long untrimmed Internet
+ videos, especially when only a few shots/segments are relevant to the 
+event of interest while many other shots are irrelevant or even 
+misleading. The commonly adopted pooling strategies aggregate the shots 
+indifferently in one way or another, resulting in a great loss of 
+information. Instead, in this work we first define a novel notion of 
+semantic saliency that assesses the relevance of each shot with the 
+event of interest. We then prioritize the shots according to their 
+saliency scores since shots that are semantically more salient are 
+expected to contribute more to the final event analysis. Next, we 
+propose a new isotonic regularizer that is able to exploit the 
+constructed semantic ordering information. The resulting nearly-isotonic
+ support vector machine classifier exhibits higher discriminative power 
+in event analysis tasks. Computationally, we develop an efficient 
+implementation using the proximal gradient algorithm, and we prove new 
+and closed-form proximal steps. We conduct extensive experiments on 
+three real-world video datasets and achieve promising improvements.},
+<br>  keywords={gradient methods;support vector machines;video signal 
+processing;complex event analysis;discriminative video 
+representation;isotonic regularizer;proximal gradient algorithm;semantic
+ pooling approach;semantic saliency;support vector machine 
+classifier;untrimmed videos;Algorithm design and analysis;Event 
+detection;Feature extraction;Hidden Markov models;Semantics;Support 
+vector machines;Videos;Complex event detection;event recognition;event 
+recounting;nearly-isotonic SVM;semantic saliency},
+<br>  doi={10.1109/TPAMI.2016.2608901},
+<br>  ISSN={0162-8828},
+<br>  month={Aug},}<br>@ARTICLE{7558226,
+<br>
+author={B. Yang and Y. Lei and J. Liu and W. Li},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Social Collaborative Filtering by Trust}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={8},
+<br>  pages={1633-1647},
+<br>  abstract={Recommender systems are used to accurately and actively 
+provide users with potentially interesting information or services. 
+Collaborative filtering is a widely adopted approach to recommendation, 
+but sparse data and cold-start users are often barriers to providing 
+high quality recommendations. To address such issues, we propose a novel
+ method that works to improve the performance of collaborative filtering
+ recommendations by integrating sparse rating data given by users and 
+sparse social trust network among these same users. This is a 
+model-based method that adopts matrix factorization technique that maps 
+users into low-dimensional latent feature spaces in terms of their trust
+ relationship, and aims to more accurately reflect the users reciprocal 
+influence on the formation of their own opinions and to learn better 
+preferential patterns of users for high-quality recommendations. We use 
+four large-scale datasets to show that the proposed method performs much
+ better, especially for cold start users, than state-of-the-art 
+recommendation algorithms for social collaborative filtering based on 
+trust.},
+<br>  keywords={collaborative filtering;matrix decomposition;recommender
+ systems;trusted computing;low-dimensional latent feature spaces;matrix 
+factorization technique;recommender systems;social collaborative 
+filtering;sparse rating data;sparse social trust 
+network;Collaboration;Computer science;Data models;Electronic 
+mail;Predictive models;Social network services;Writing;Recommender 
+system;collaborative filtering;matrix factorization;trust network},
+<br>  doi={10.1109/TPAMI.2016.2605085},
+<br>  ISSN={0162-8828},
+<br>  month={Aug},}<br>@ARTICLE{7558185,
+<br>
+author={X. Zhou and M. Zhu and S. Leonardos and K. Daniilidis},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Sparse Representation for 3D Shape Estimation: A Convex Relaxation Approach}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={8},
+<br>  pages={1648-1661},
+<br>  abstract={We investigate the problem of estimating the 3D shape of
+ an object defined by a set of 3D landmarks, given their 2D 
+correspondences in a single image. A successful approach to alleviating 
+the reconstruction ambiguity is the 3D deformable shape model and a 
+sparse representation is often used to capture complex shape 
+variability. But the model inference is still challenging due to the 
+nonconvexity in the joint optimization of shape and viewpoint. In 
+contrast to prior work that relies on an alternating scheme whose 
+solution depends on initialization, we propose a convex approach to 
+addressing this challenge and develop an efficient algorithm to solve 
+the proposed convex program. We further propose a robust model to handle
+ gross errors in the 2D correspondences. We demonstrate the exact 
+recovery property of the proposed method, the advantage compared to 
+several nonconvex baselines and the applicability to recover 3D human 
+poses and car models from single images.},
+<br>  keywords={convex programming;image representation;relaxation 
+theory;shape recognition;solid modelling;2D correspondences;3D 
+deformable shape model;3D landmarks;3D shape estimation;convex 
+program;convex relaxation;reconstruction ambiguity;shape 
+variability;sparse representation;Computational modeling;Deformable 
+models;Mathematical model;Shape;Solid modeling;Three-dimensional 
+displays;Two dimensional displays;3D reconstruction;convex 
+optimization;sparse representation},
+<br>  doi={10.1109/TPAMI.2016.2605097},
+<br>  ISSN={0162-8828},
+<br>  month={Aug},}<br>@ARTICLE{7565563,
+<br>
+author={J. Tang and X. Shu and G. J. Qi and Z. Li and M. Wang and S. Yan and R. Jain},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Tri-Clustered Tensor Completion for Social-Aware Image Tag Refinement}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={8},
+<br>  pages={1662-1674},
+<br>  abstract={Social image tag refinement, which aims to improve tag 
+quality by automatically completing the missing tags and rectifying the 
+noise-corrupted ones, is an essential component for social image search.
+ Conventional approaches mainly focus on exploring the visual and tag 
+information, without considering the user information, which often 
+reveals important hints on the (in)correct tags of social images. 
+Towards this end, we propose a novel tri-clustered tensor completion 
+framework to collaboratively explore these three kinds of information to
+ improve the performance of social image tag refinement. Specifically, 
+the inter-relations among users, images and tags are modeled by a 
+tensor, and the intra-relations between users, images and tags are 
+explored by three regularizations respectively. To address the 
+challenges of the super-sparse and large-scale tensor factorization that
+ demands expensive computing and memory cost, we propose a novel 
+tri-clustering method to divide the tensor into a certain number of 
+sub-tensors by simultaneously clustering users, images and tags into a 
+bunch of tri-clusters. And then we investigate two strategies to 
+complete these sub-tensors by considering (in)dependence between the 
+sub-tensors. Experimental results on a real-world social image database 
+demonstrate the superiority of the proposed method compared with the 
+state-of-the-art methods.},
+<br>  keywords={image denoising;matrix decomposition;pattern 
+clustering;search problems;social networking (online);tensors;social 
+aware image tag refinement;social image search;tensor 
+factorization;triclustered tensor 
+completion;triclustering;Buildings;Correlation;Electronic mail;Noise 
+measurement;Semantics;Tensile stress;Visualization;Social image tag 
+refinement;tensor completion;tri-clustering},
+<br>  doi={10.1109/TPAMI.2016.2608882},
+<br>  ISSN={0162-8828},
+<br>  month={Aug},}<br>@ARTICLE{7547930,
+<br>
+author={Z. Zhang and Z. Zhai and L. Li},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Uniform Projection for Multi-View Learning}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={8},
+<br>  pages={1675-1689},
+<br>  abstract={Multi-view learning aims to integrate multiple data 
+information from different views to improve the learning performance. 
+The key problem is to handle the unconformities or distortions among 
+view-specific samples or measurements of similarity or dissimilarity. 
+This paper models the view-specific samples as a nonlinear mapping of 
+uniform but latent intact samples for all the views, and the 
+view-specific dissimilarity matrices or similarity matrices are 
+estimated in terms of the uniform latent one. Two methods are then 
+developed for multi-view clustering. One makes use of uniform 
+multidimensional scaling (UMDS) on multi-view dissimilarities or 
+kernels. The other one uses a uniform class assignment (UCA) procedure 
+that optimally extracts the cluster components contained in the 
+view-specific similarity matrices. These two methods result in the same 
+optimization model, subjected to some slightly different constraints. A 
+first-order condition of solutions is given as a nonlinear eigenvalue 
+problem, and a second order condition guarantees local optimality. The 
+nonlinear eigenvalue problem is solved by an iterative algorithm via 
+eigen-space updating, and its convergence is proven. Furthermore, a fast
+ implementation of the algorithm is discussed, which adopts the strategy
+ of restarting subspace extension. Numerical experiments on some 
+real-world data sets provide good support to the proposed methods.},
+<br>  keywords={convergence;eigenvalues and eigenfunctions;pattern 
+clustering;unsupervised learning;UCA;UMDS;dissimilarity 
+matrices;multiview clustering;multiview dissimilarities;multiview 
+learning;nonlinear eigenvalue problem;uniform class assignment;uniform 
+multidimensional scaling;uniform projection;Convergence;Distortion 
+measurement;Eigenvalues and eigenfunctions;Kernel;Nonlinear 
+distortion;Optimization;Multi-view learning;clustering;low-dimensional 
+projection;unsupervised learning},
+<br>  doi={10.1109/TPAMI.2016.2601608},
+<br>  ISSN={0162-8828},
+<br>  month={Aug},}<br>@ARTICLE{7577876,
+<br>
+author={H. Zhang and V. M. Patel},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Sparse Representation-Based Open Set Recognition}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={8},
+<br>  pages={1690-1696},
+<br>  abstract={We propose a generalized Sparse Representation-based 
+Classification (SRC) algorithm for open set recognition where not all 
+classes presented during testing are known during training. The SRC 
+algorithm uses class reconstruction errors for classification. As most 
+of the discriminative information for open set recognition is hidden in 
+the tail part of the matched and sum of non-matched reconstruction error
+ distributions, we model the tail of those two error distributions using
+ the statistical Extreme Value Theory (EVT). Then we simplify the open 
+set recognition problem into a set of hypothesis testing problems. The 
+confidence scores corresponding to the tail distributions of a novel 
+test sample are then fused to determine its identity. The effectiveness 
+of the proposed method is demonstrated using four publicly available 
+image and object classification datasets and it is shown that this 
+method can perform significantly better than many competitive open set 
+recognition algorithms.},
+<br>  keywords={image classification;image recognition;image 
+representation;object recognition;statistical analysis;EVT;SRC 
+algorithm;hypothesis testing problems;image classification 
+datasets;object classification;sparse representation-based open set 
+recognition;statistical extreme value theory;Animals;Data models;Image 
+reconstruction;Indexes;Pattern analysis;Testing;Training;Open set 
+recognition;extreme value theory;sparse representation-based 
+classification},
+<br>  doi={10.1109/TPAMI.2016.2613924},
+<br>  ISSN={0162-8828},
+<br>  month={Aug},}<br>
+
+</body></html>

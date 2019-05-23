@@ -1,0 +1,885 @@
+@ARTICLE{7435349,
+author={J. Li and X. Meng and M. Zhou and X. Dai},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={A Two-Stage Approach to Path Planning and Collision Avoidance of
+Multibridge Machining Systems},
+year={2017},
+volume={47},
+number={7},
+pages={1039-1049},
+abstract={Owing to large production capacity and high efficiency, multibridge
+machining systems (MBMSs) have gained increasing attention in industry. Their
+multiple bridge machines work concurrently in their serially arranged and
+partially overlapping workspaces. To solve totally the job scheduling and
+collision resolution problems of MBMS, our prior work proposes a serial-colored
+traveling salesman problem (S-CTSP)-based method. Each salesman in S-CTSP
+visits his exclusive cities and some cities shared with his neighbor(s). To
+endow MBMS with fault-tolerance ability, this paper presents a two-stage method
+for both static path planning and dynamic collision avoidance of multiple
+machines. At the first stage, the path planning problem abstracted as an S-CTSP
+is solved by a population-based incremental learning (PBIL) algorithm. The PBIL
+introduces a local search operation, two types of possibility vectors, and a
+selection strategy of exclusive and shared cities. The second stage uses a
+Petri net supervisor to dynamically avoid any emerging collision when
+performing the scheduled work. This work also provides a novel priority net
+structure to prevent mutual waiting of two neighboring machines ready to enter
+their overlapping workspace. Then, we apply the presented method to a large
+tribridge waterjet cutting case to show its performance.},
+keywords={Petri nets;collision avoidance;control engineering computing;learning
+(artificial intelligence);production engineering computing;scheduling;search
+problems;travelling salesman problems;water jet cutting;MBMS;PBIL;Petri net
+supervisor;S-CTSP;collision resolution problems;dynamic collision
+avoidance;fault-tolerance ability;job scheduling;local search
+operation;multibridge machining systems;partially overlapping workspaces;path
+planning;population-based incremental learning algorithm;priority net
+structure;production capacity;serial-colored traveling salesman problem-based
+method;static path planning;tribridge waterjet cutting;Collision avoidance;Job
+shop scheduling;Machining;Path planning;Petri nets;Robot kinematics;Collision
+avoidance;Petri nets;colored traveling salesman problem;discrete event
+system;modeling and analysis;multibridge machining systems;multiple traveling
+salesman problem;path planning;population-based incremental learning},
+doi={10.1109/TSMC.2016.2531648},
+ISSN={2168-2216},
+month={July},}
+@ARTICLE{7426840,
+author={L. Ma and Z. Wang and H. K. Lam},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Mean-Square $H_infty $ Consensus Control for a Class of Nonlinear Time-
+Varying Stochastic Multiagent Systems: The Finite-Horizon Case},
+year={2017},
+volume={47},
+number={7},
+pages={1050-1060},
+abstract={This paper deals with the consensus control problem for a class of
+nonlinear discrete time-varying stochastic multiagent systems (MASs) over a
+finite horizon via static output feedback. The measurement output available for
+the controller is not only from the individual agent itself but also from its
+neighboring ones according to the given topology. The nonlinearities described
+by statistical means can encompass several classes of well-studied
+nonlinearities in the literature. A new index of mean-square consensus
+performance, which quantifies the deviation level from the state of individual
+agent to the average value of all agents' states, is proposed to reflect the
+transient consensus behavior of the MAS. The purpose of the addressed problem
+is to design a time-varying output feedback controller such that: 1) the H∞
+consensus performance defined over a given finite horizon is guaranteed with
+respect to the additive noises and 2) at each time step, the mean-square
+consensus performance satisfies the prespecified upper bound constraint. By
+using a set of recursive matrix inequalities, sufficient conditions are derived
+for the existence of the desired control scheme for achieving both H∞ and mean-
+square consensus performance requirements. Finally, a simulation example is
+utilized to illustrate the usefulness of the proposed control protocol.},
+keywords={H∞ control;discrete systems;feedback;least mean squares
+methods;linear matrix inequalities;multi-agent systems;nonlinear control
+systems;stochastic systems;MAS;control protocol;finite-horizon case;mean-square
+H∞ consensus control;mean-square consensus performance;nonlinear discrete time-
+varying stochastic multiagent systems;recursive matrix inequalities;static
+output feedback;time-varying output feedback controller;transient consensus
+behavior;upper bound constraint;Control systems;Linear matrix
+inequalities;Multi-agent systems;Stochastic processes;Symmetric matrices;Time-
+varying systems;Topology;H∞ consensus control;Discrete time-varying stochastic
+systems;finite horizon;mean-square consensus control;time-varying multiagent
+systems (MASs)},
+doi={10.1109/TSMC.2016.2531657},
+ISSN={2168-2216},
+month={July},}
+@ARTICLE{7447805,
+author={G. Cotugno and K. Althoefer and T. Nanayakkara},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={The Role of the Thumb: Study of Finger Motion in Grasping and
+Reachability Space in Human and Robotic Hands},
+year={2017},
+volume={47},
+number={7},
+pages={1061-1070},
+abstract={It is well acknowledged that the opposing thumb granted humans
+advanced manipulation capabilities. However, such a feature is not
+statistically quantified, and its representation is not formally addressed in
+robotics yet. This paper studies whether the displacement of the opposing thumb
+in humans is a determining factor for shaping the grip. Using statistical
+analysis of the variability of motion capture data from the GRASP database, we
+found that the displacement of the thumb plays a leading role on the shaping of
+the grip, independently from the specific object being grasped. Furthermore, we
+map and compare the reachability spaces of the human thumb and two state-of-
+the-art robotic thumbs: (1) the shadow and (2) the iCub hands. We conclude that
+the kinematics of robotic thumbs does not evenly span the reachability space of
+the human thumb, favoring precision grasping motions. Hence, our findings
+contribute to the discussion of the optimal modeling of robotic hands.},
+keywords={manipulator kinematics;motion control;reachability
+analysis;statistical analysis;finger motion;grasping motions;human
+hands;reachability space;robotic hands;robotic thumbs kinematics;statistical
+analysis;Grasping;Grippers;Kinematics;Robot
+kinematics;Standards;Thumb;Dexterous manipulation;grasping;humanoid
+robots;kinematics;multifingered hands},
+doi={10.1109/TSMC.2016.2531679},
+ISSN={2168-2216},
+month={July},}
+@ARTICLE{7442588,
+author={Q. Zhang and D. Zhao and Y. Zhu},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Event-Triggered $H_infty $ Control for Continuous-Time Nonlinear System
+via Concurrent Learning},
+year={2017},
+volume={47},
+number={7},
+pages={1071-1081},
+abstract={In this paper, the H∞ optimal control problem for a class of
+continuous-time nonlinear systems is investigated using event-triggered method.
+First, the H∞ optimal control problem is formulated as a two-player zero-sum
+(ZS) differential game. Then, an adaptive triggering condition is derived for
+the ZS game with an event-triggered control policy and a time-triggered
+disturbance policy. The event-triggered controller is updated only when the
+triggering condition is not satisfied. Therefore, the communication between the
+plant and the controller is reduced. Furthermore, a positive lower bound on the
+minimal intersample time is provided to avoid Zeno behavior. For implementation
+purpose, the event-triggered concurrent learning algorithm is proposed, where
+only one critic neural network (NN) is used to approximate the value function,
+the control policy and the disturbance policy. During the learning process, the
+traditional persistence of excitation condition is relaxed using the recorded
+data and instantaneous data together. Meanwhile, the stability of closed-loop
+system and the uniform ultimate boundedness (UUB) of the critic NN's parameters
+are proved by using Lyapunov technique. Finally, simulation results verify the
+feasibility to the ZS game and the corresponding H∞ control problem.},
+keywords={H∞ control;Lyapunov methods;adaptive control;closed loop
+systems;continuous time systems;differential games;learning
+systems;neurocontrollers;nonlinear control systems;stability;H∞ optimal control
+problem;Lyapunov technique;Zeno behavior;adaptive triggering condition;closed-
+loop system stability;continuous-time nonlinear system;critic neural
+network;event-triggered H∞ control;event-triggered concurrent learning
+algorithm;event-triggered control policy;excitation condition;time-triggered
+disturbance policy;two-player zero-sum differential game;uniform ultimate
+boundedness;Algorithm design and analysis;Artificial neural
+networks;Games;Heuristic algorithms;Nonlinear systems;Optimal control;Stability
+analysis;H∞ optimal control;Concurrent learning;event-triggered control;neural
+networks (NNs);zero-sum (ZS) game},
+doi={10.1109/TSMC.2016.2531680},
+ISSN={2168-2216},
+month={July},}
+@ARTICLE{7436789,
+author={X. Wang and Z. Li and W. M. Wonham},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Optimal Priority-Free Conditionally-Preemptive Real-Time Scheduling of
+Periodic Tasks Based on DES Supervisory Control},
+year={2017},
+volume={47},
+number={7},
+pages={1082-1098},
+abstract={This paper presents a general discrete-event system (DES)-based hard
+periodic real-time task model. Based on supervisory control theory (SCT), an
+optimal priority-free real-time scheduling technique is proposed to process all
+the tasks running in uniprocessor or multiprocessor real-time systems (RTS).
+The preemption relation in this paper generalizes priority-based preemption.
+First, regular languages are utilized to describe the processor behavior
+related to each task's execution. Thereafter, the languages are represented by
+DES generators. Finally, the global processor behavior is generated as the
+synchronous product of these DES generators. By discarding the priorities, a
+novel preemption policy, namely conditional-preemption, is developed. Two sets
+of conditional-preemption specifications are developed, on the processor level
+and task level, respectively. Moreover, in order to control the system to be
+nonblocking and also limit the worst-case response time of the tasks, two
+corresponding sets of specifications are presented. After generating the global
+specification as the synchronous product, by implementing SCT the calculated
+supervisor can provide all the safe real-time execution sequences. The
+supervisor calculation can be sped up by a three-step algorithm. Finally, the
+real-time scheduling is implemented for real-world examples.},
+keywords={discrete event systems;formal languages;multiprocessing
+systems;processor scheduling;real-time systems;DES;RTS;SCT;conditional-
+preemption specifications;discrete-event system;multiprocessor system;optimal
+priority-free conditionally-preemptive real-time scheduling;periodic
+tasks;priority-based preemption;processor behavior;real-time systems;regular
+languages;supervisory control theory;synchronous product;three-step
+algorithm;uniprocessor system;Generators;Heuristic algorithms;Processor
+scheduling;Real-time systems;Schedules;Scheduling;Supervisory
+control;Conditional-preemption;discrete-event system (DES);limited
+preemption;real-time system (RTS);scheduling;supervisory control},
+doi={10.1109/TSMC.2016.2531681},
+ISSN={2168-2216},
+month={July},}
+@ARTICLE{7432048,
+author={K. Kandhway and J. Kuri},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Using Node Centrality and Optimal Control to Maximize Information
+Diffusion in Social Networks},
+year={2017},
+volume={47},
+number={7},
+pages={1099-1110},
+abstract={We model information dissemination as a susceptible-infected epidemic
+process and formulate a problem to jointly optimize seeds for the epidemic and
+time varying resource allocation over the period of a fixed duration campaign
+running on a social network with a given adjacency matrix. Individuals in the
+network are grouped according to their centrality measure and each group is
+influenced by an external control function-implemented through advertisements-
+during the campaign duration. The aim is to maximize an objective function
+which is a linear combination of the reward due to the fraction of informed
+individuals at the deadline, and the aggregated cost of applying controls
+(advertising) over the campaign duration. We also study a problem variant with
+a fixed budget constraint. We set up the optimality system using Pontryagin's
+maximum principle from optimal control theory and solve it numerically using
+the forward-backward sweep technique. Our formulation allows us to compare the
+performance of various centrality measures (pagerank, degree, closeness, and
+betweenness) in maximizing the spread of a message in the optimal control
+framework. We find that degree-a simple and local measure-performs well on the
+three social networks used to demonstrate results: 1) scientific collaboration;
+2) Slashdot; and 3) Facebook. The optimal strategy targets central nodes when
+the resource is scarce, but noncentral nodes are targeted when the resource is
+in abundance. Our framework is general and can be used in similar studies for
+other disease or information spread models-that can be modeled using a system
+of ordinary differential equations-for a network with a known adjacency
+matrix.},
+keywords={differential equations;matrix algebra;maximum
+principle;optimisation;resource allocation;social networking
+(online);Facebook;Pontryagin maximum principle;Slashdot;adjacency
+matrix;advertisements;campaign duration;centrality measure grouping;external
+control function;fixed budget constraint;forward-backward sweep
+technique;information diffusion maximization;information dissemination;local
+measure;node centrality;objective function maximization;optimal control
+framework;optimality system;ordinary differential equations;scientific
+collaboration;seed optimization;social networks;susceptible-infected epidemic
+process;time varying resource allocation;Mathematical
+model;Media;Modeling;Optimal control;Optimization;Silicon;Social network
+services;Information epidemics;Pontryagin’s maximum principle;optimal
+control;social networks;susceptible-infected (SI)},
+doi={10.1109/TSMC.2016.2531690},
+ISSN={2168-2216},
+month={July},}
+@ARTICLE{7438909,
+author={S. Lu and Q. He and T. Yuan and F. Kong},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Online Fault Diagnosis of Motor Bearing via Stochastic-Resonance-Based
+Adaptive Filter in an Embedded System},
+year={2017},
+volume={47},
+number={7},
+pages={1111-1122},
+abstract={Digital signal processing algorithms are widely adopted in motor
+bearing fault diagnosis. However, most algorithms are developed on desktop
+platforms, and their focus is on the analysis of offline captured signals. In
+this paper, a simple and easily implemented algorithm running on an embedded
+system is proposed for the online fault diagnosis of motor bearing. The core
+part of the algorithm is a stochastic-resonance-based adaptive filter that
+realizes signal denoising and adaptation of the filter coefficient. Processed
+by the filter, the period of the purified signal is obtained, and then the
+fault type of the motor bearing is identified. The proposed method has distinct
+merits, such as low computational cost, online implementation, contactless
+measurement, and availability for various speed motors. This paper provides a
+simple, flexible, and effective solution for conducting motor bearing diagnosis
+on an embedded/portable device. The algorithm proposed is validated by a
+brushless dc motor and a brushed dc motor fabricating with defective/healthy
+support bearings.},
+keywords={adaptive filters;brushless DC motors;embedded systems;fault
+diagnosis;machine bearings;mechanical engineering computing;resonance;signal
+denoising;stochastic processes;brushless dc motor;computational
+cost;contactless measurement;defective/healthy support bearings;digital signal
+processing algorithms;embedded system;filter coefficient;motor bearing
+diagnosis;motor bearing fault diagnosis;motor bearing fault type;offline
+captured signals;online fault diagnosis;online implementation;portable
+device;signal denoising realization;speed motors;stochastic-resonance-based
+adaptive filter;Brushless DC motors;Fault diagnosis;Induction motors;Permanent
+magnet motors;Signal to noise ratio;Acoustic signal processing;adaptive
+filters;ball bearings;brushless motors;dc motors;digital signal
+processing;embedded software;fault diagnosis;optimization methods;stochastic
+resonance (SR)},
+doi={10.1109/TSMC.2016.2531692},
+ISSN={2168-2216},
+month={July},}
+@ARTICLE{7485890,
+author={C. Chen and Z. Liu and Y. Zhang and S. Xie},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Coordinated Motion/Force Control of Multiarm Robot With Unknown Sensor
+Nonlinearity and Manipulated Object #x2019;s Uncertainty},
+year={2017},
+volume={47},
+number={7},
+pages={1123-1134},
+abstract={To achieve satisfying motion/force objectives, it is required for the
+multiarm robot manipulation to tackle unknown nonlinearities and uncertainties.
+Existing control schemes have a requirement that the deadzone nonlinearity in
+the sensor channel could be ignored. However, the sensor deadzone is widely
+spread in real world applications; and its existence significantly limits the
+robotic performances. Moreover, the kinematics and dynamics of the manipulated
+object cannot be accurately known as the prior knowledge. Hence, such robotic
+systems may not be perfectly controlled by conventional approaches. In this
+paper, a coordinated motion/force control method is presented to handle unknown
+sensor deadzone and object's uncertainty. The proposed method ensures the
+motion and internal force errors be bounded in a small neighborhood around the
+origin. Finally, comparative studies are presented to show the effectiveness
+and robustness of the proposed scheme.},
+keywords={force control;manipulators;motion control;multi-robot
+systems;sensors;coordinated motion-force control;deadzone
+nonlinearity;manipulated object uncertainty;multiarm robot manipulation;robotic
+performances;sensor channel;sensor deadzone;unknown sensor
+nonlinearity;Force;Kinematics;Manipulator dynamics;Robot kinematics;Robot
+sensing systems;Uncertainty;Manipulation;motion/force;multiarm robot;neural
+network (NN);nonlinearity and uncertainty},
+doi={10.1109/TSMC.2016.2557219},
+ISSN={2168-2216},
+month={July},}
+@ARTICLE{7560649,
+author={W. Dong and M. Zhou},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={A Supervised Learning and Control Method to Improve Particle Swarm
+Optimization Algorithms},
+year={2017},
+volume={47},
+number={7},
+pages={1135-1148},
+abstract={This paper presents an adaptive particle swarm optimization with
+supervised learning and control (APSO-SLC) for the parameter settings and
+diversity maintenance of particle swarm optimization (PSO) to adaptively choose
+parameters, while improving its exploration competence. Although PSO is a
+powerful optimization method, it faces such issues as difficult parameter
+setting and premature convergence. Inspired by supervised learning and
+predictive control strategies from machine learning and control fields, we
+propose APSO-SLC that employs several strategies to address these issues.
+First, we treat PSO with its optimization problem as a system to be controlled
+and model it as a dynamic quadratic programming model with box constraints. Its
+parameters are estimated by the recursive least squares with a dynamic
+forgetting factor to enhance better parameter setting and weaken worse ones.
+Its optimal parameters are calculated by this model to feed back to PSO.
+Second, a progress vector is proposed to monitor the progress rate for judging
+whether premature convergence happens. By studying the reason of premature
+convergence, this work proposes the strategies of back diffusion and new
+attractor learning to extend swam diversity, and speed up the convergence.
+Experiments are performed on many benchmark functions to compare APSO-SLC with
+the state-of-the-art PSOs. The results show that it is simple to program and
+understand, and can provide excellent and consistent performance.},
+keywords={convergence;learning (artificial intelligence);least mean squares
+methods;particle swarm optimisation;quadratic programming;APSO-SLC;adaptive
+particle swarm optimization with supervised learning and control;attractor
+learning;back diffusion;box constraints;control fields;control method;dynamic
+forgetting factor;dynamic quadratic programming model;exploration
+competence;machine learning;parameter setting;predictive control
+strategies;premature convergence;progress vector;recursive least
+squares;supervised learning;swam
+diversity;Convergence;Guidelines;Optimization;Particle swarm
+optimization;Stability analysis;Supervised learning;Trajectory;Dynamic
+quadratic programming (DQP);intelligent optimization;particle swarm
+optimization (PSO);supervised learning and control (SLC)},
+doi={10.1109/TSMC.2016.2560128},
+ISSN={2168-2216},
+month={July},}
+@ARTICLE{7469784,
+author={A. A. Adeniran and S. El Ferik},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Modeling and Identification of Nonlinear Systems: A Review of the
+Multimodel Approach #x2014;Part 1},
+year={2017},
+volume={47},
+number={7},
+pages={1149-1159},
+abstract={The efficacy of the multimodel framework (MMF) in modeling and
+identification of complex, nonlinear, and uncertain systems has been widely
+recognized in the literature owing to its simplicity, transparency, and
+mathematical tractability, allowing the use of well-known modeling analysis and
+control design techniques. The approach proved to be effective in addressing
+some of the shortcomings of other modeling techniques such as those based on a
+single nonlinear autoregressive network with exogenous inputs model or neural
+networks. A great number of researchers have contributed to this active field.
+Due to the significant amount of contributions and the lack of a recent survey,
+the review of recent developments in this field is vital. In this two-part
+paper, we attempt to provide a comprehensive coverage of the multimodel
+approach for modeling and identification of complex systems. The study contains
+a classification of different methods, the challenges encountered, as well as
+recent applications of MMF in various fields. Part 1 of this paper presents an
+overview of MMF for modeling and identification of nonlinear systems as well as
+the review of recent developments in the partitioning strategies employed.},
+keywords={identification;modelling;nonlinear
+systems;MMF;identification;modeling;multimodel approach;multimodel
+framework;nonlinear systems;partitioning strategies;Analytical
+models;Computational modeling;Cybernetics;Mathematical model;Nonlinear
+dynamical systems;Local model network (LMN);modeling;multimodel;nonlinear
+systems;system partition;systems identification;validity function},
+doi={10.1109/TSMC.2016.2560147},
+ISSN={2168-2216},
+month={July},}
+@ARTICLE{7469789,
+author={S. El Ferik and A. A. Adeniran},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Modeling and Identification of Nonlinear Systems: A Review of the
+Multimodel Approach #x2014;Part 2},
+year={2017},
+volume={47},
+number={7},
+pages={1160-1168},
+abstract={The efficacy of the multimodel framework (MMF) in modeling and
+identification of complex, nonlinear, and uncertain systems has been widely
+recognized in the literature owing to its simplicity, transparency, and
+mathematical tractability, allowing the use of well-known modeling analysis and
+control design techniques. The approach proved to be effective in addressing
+some of the shortcomings of other modeling techniques such as those based on a
+single nonlinear autoregressive network with exogenous inputs model or neural
+networks. A great number of researchers have contributed to this active field.
+Due to the significant amount of contributions and the lack of a recent survey,
+the review of recent developments in this field is vital. In this two-part
+paper, we attempt to provide a comprehensive coverage of the multimodel
+approach for modeling and identification of complex systems. This paper
+contains a classification of different methods, the challenges encountered, as
+well as recent applications of MMF in various fields. In this part 2, the
+review of multimodel internal structures and parameter estimation as well as
+validity computation methods is presented. In addition, a multimodel
+application and future direction are covered. In this literature survey, our
+main focus is on the MMF where the final system's representation and behavior
+is generated through the interpolation of several possible local models. This
+is of prime importance to control designers. All through this paper, different
+active research areas and open problems are discussed.},
+keywords={autoregressive processes;control system
+synthesis;identification;large-scale systems;neurocontrollers;nonlinear control
+systems;uncertain systems;MMF;complex systems;control design;multimodel
+framework;neural networks;nonlinear autoregressive network;nonlinear
+systems;uncertain systems;Computational modeling;Estimation;Mathematical
+model;Optimization;Prediction algorithms;Processor scheduling;Local model
+network;modeling;multimodel;nonlinear systems;systems identification;validity
+function},
+doi={10.1109/TSMC.2016.2560129},
+ISSN={2168-2216},
+month={July},}
+@ARTICLE{7473881,
+author={Y. Hu and Z. Li and G. Li and P. Yuan and C. Yang and R. Song},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Development of Sensory-Motor Fusion-Based Manipulation and Grasping
+Control for a Robotic Hand-Eye System},
+year={2017},
+volume={47},
+number={7},
+pages={1169-1180},
+abstract={In this paper, a sensory-motor fusion-based manipulation and grasping
+control strategy has been developed for a robotic hand-eye system. The proposed
+hierarchical control architecture has three modules: 1) vision servoing; 2)
+surface electromyography (sEMG)-based movement recognition; and 3) hybrid force
+and motion optimization for manipulation and grasping. A stereo camera is used
+to obtain the 3-D point cloud of a target object and provides the desired
+operational position. The AdaBoost-based motion recognition is employed to
+discriminate different movements based on sEMG of human upper limbs. The
+operational space motion planning for bionic arm and force planning for
+multifingered robotic hand can be both transformed as a convex optimization
+problem with various constraints. A neural dynamics optimization solution is
+proposed and implemented online. The proposed formulation can achieve a
+substantial reduction of computational load. The actual implementation includes
+a bionic arm with dextrous hand, high-speed active vision, and an EMG sensors.
+A series of manipulation tasks consisting of tracking/recogniting/grasping of
+an object are implemented, and experiment results exhibit the responsiveness
+and flexibility of the proposed sensory motion fusion approach.},
+keywords={biocybernetics;convex programming;dexterous
+manipulators;grippers;learning (artificial intelligence);object
+recognition;object tracking;path planning;robot vision;sensor fusion;visual
+servoing;3-D point cloud;AdaBoost-based motion recognition;EMG sensors;bionic
+arm;convex optimization problem;dextrous hand;force planning;grasping
+control;high-speed active vision;human upper limbs;hybrid force
+optimization;manipulation control;motion optimization;movement
+recognition;multifingered robotic hand;neural dynamics optimization
+solution;object grasping;object recognition;object tracking;operational space
+motion planning;robotic hand-eye system;sEMG;sensory-motor fusion;stereo
+camera;surface electromyography;target object;vision
+servoing;Cameras;Electromyography;Grasping;Planning;Robot sensing
+systems;Bionic arm;multifingers hand;quadratic programming;surface
+electromyography (sEMG);vision servoing},
+doi={10.1109/TSMC.2016.2560530},
+ISSN={2168-2216},
+month={July},}
+@ARTICLE{7480956,
+author={L. Sheng and Z. Wang and W. Wang and F. E. Alsaadi},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Output-Feedback Control for Nonlinear Stochastic Systems With Successive
+Packet Dropouts and Uniform Quantization Effects},
+year={2017},
+volume={47},
+number={7},
+pages={1181-1191},
+abstract={In this paper, the dynamic output-feedback control problem is studied
+for a class of discrete-time nonlinear stochastic systems with successive
+packet dropouts and uniform quantization effects. The stochastic system under
+investigation involves state-, control-, and disturbance-dependent noises (also
+called (x, u, v)-dependent noises) that bring in substantial difficulties in
+the stability analysis. The phenomenon of successive packet dropouts is
+governed by a binary switching random sequence. The measurement output is
+subject to the uniform quantization which results in the norm-bounded
+disturbances, and the concept of input-to-state stability in probability is
+introduced to deal with this kind of disturbances. In virtue of intensive
+stochastic analysis, several sufficient conditions are established to guarantee
+that the closed-loop system is input-to-state stable in probability under the
+effects of probabilistic packet dropouts as well as uniform quantizations. As
+an easy consequence, the design problem with linear output-feedback controllers
+is discussed for the benefits of practical applications and some simplified
+conditions are derived. Finally, a numerical example is presented to illustrate
+the effectiveness of the proposed method.},
+keywords={closed loop systems;control system synthesis;discrete time
+systems;feedback;linear systems;nonlinear control systems;probability;random
+sequences;stability;stochastic systems;switching systems (control);binary
+switching random sequence;control-dependent noises;discrete-time nonlinear
+stochastic systems;disturbance-dependent noises;dynamic output-feedback
+control;input-to-state stability;input-to-state stable closed-loop
+system;intensive stochastic analysis;linear output-feedback
+controllers;measurement output;norm-bounded disturbances;probabilistic packet
+dropouts;probability;stability analysis;state-dependent noises;successive
+packet dropouts;sufficient conditions;uniform quantization;Control
+systems;Current measurement;Numerical stability;Quantization (signal);Stability
+analysis;Stochastic systems;Symmetric matrices;(x, u, v)-dependent
+noises;input-to-state stability;nonlinear stochastic systems;successive packet
+dropouts;uniform quantization},
+doi={10.1109/TSMC.2016.2563393},
+ISSN={2168-2216},
+month={July},}
+@ARTICLE{7484706,
+author={S. H. Young and T. A. Mazzuchi and S. Sarkani},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={A Framework for Predicting Future System Performance in Autonomous
+Unmanned Ground Vehicles},
+year={2017},
+volume={47},
+number={7},
+pages={1192-1206},
+abstract={The development of complex self-adaptive systems has accelerated
+rapidly over the past decade, led by the Department of Defense, which has
+sought to develop and field military systems, such as unmanned aerial vehicles
+and unmanned ground vehicles, with elevated levels of autonomy to accomplish
+their mission with reduced funding and manpower. As their role increases, such
+systems must be able to adapt and learn, and make nondeterministic decisions.
+To field such systems requires extensive testing, evaluation, verification, and
+validation-a challenging task. To address this, we apply a novel systems
+perspective to develop a framework to predict future system performance based
+on the complexity of the operating environment using newly introduced
+complexity measures and learned costs. In this paper, we consider an autonomous
+military ground robot navigating in complex off-road environments. Using our
+model and experimental data from Defense Advanced Research Projects Agency-led
+experiments, we demonstrate the accuracy with which our model can predict
+system performance and then validate our model against other experimental
+results.},
+keywords={military systems;mobile robots;off-road vehicles;path
+planning;remotely operated vehicles;UGV;autonomous military ground robot
+navigation;autonomous unmanned ground vehicles;complex off-road
+environments;complexity measures;military systems;operating environment
+complexity;system performance prediction;Complexity
+theory;Measurement;Modeling;Navigation;Predictive models;Robots;System
+performance;Mobile robots;modeling;systems engineering;unmanned ground vehicles
+(UGVs)},
+doi={10.1109/TSMC.2016.2563403},
+ISSN={2168-2216},
+month={July},}
+@ARTICLE{7482855,
+author={P. Yan and D. Wang and H. Li and D. Liu},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Error Bound Analysis of $Q$ -Function for Discounted Optimal Control
+Problems With Policy Iteration},
+year={2017},
+volume={47},
+number={7},
+pages={1207-1216},
+abstract={In this paper, we present error bound analysis of the Q-function for
+the action-dependent adaptive dynamic programming for solving discounted
+optimal control problems of unknown discrete-time nonlinear systems. The
+convergence of Q-functions derived by a policy iteration algorithm under ideal
+conditions is given. Considering the approximated errors of the Q-function and
+control policy in the policy evaluation step and policy improvement step, we
+establish error bounds of approximate Q-functions in each iteration. With the
+given boundedness conditions, the approximate Q-function will converge to a
+finite neighborhood of the optimal Q-function. To implement the presented
+algorithm, two three-layer neural networks are employed to approximate the Q-
+function and the control policy, respectively. Finally, a simulation example is
+utilized to verify the validity of the presented algorithm.},
+keywords={approximation theory;discrete time systems;dynamic programming;error
+analysis;iterative methods;neurocontrollers;nonlinear control systems;optimal
+control;Q-function approximation;action-dependent adaptive dynamic
+programming;boundedness conditions;control policy;discounted optimal control
+problems;discrete-time nonlinear systems;error bound analysis;finite
+neighborhood;policy evaluation step;policy improvement step;policy iteration
+algorithm;three-layer neural networks;Algorithm design and
+analysis;Approximation algorithms;Convergence;Dynamic programming;Heuristic
+algorithms;Nonlinear systems;Optimal control;Q-function;Adaptive dynamic
+programming (ADP);error analysis;nonlinear systems;policy iteration},
+doi={10.1109/TSMC.2016.2563982},
+ISSN={2168-2216},
+month={July},}
+@ARTICLE{7534738,
+author={F. Li and Y. Ding and M. Zhou and K. Hao and L. Chen},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={An Affection-Based Dynamic Leader Selection Model for Formation Control
+in Multirobot Systems},
+year={2017},
+volume={47},
+number={7},
+pages={1217-1228},
+abstract={In this paper, a dynamic leader selection process of a multirobot
+system with leader-follower strategies is studied in terms of formation
+control. A fuzzy inference system is employed to evaluate the status of robots
+by means of their states. Based on the status, an affection-based model is
+proposed to trigger a leader selection module. Followers send out unsatisfied
+signals when they are disappointed at the current leader. The abashment value
+of the leader changes with its own status as well as the number of unsatisfied
+signals received from its followers. When its abashment value goes beyond a
+given threshold, a leader reselection process is triggered. Moreover, a swap-
+greedy algorithm is proposed to approximate the optimal solution for confirming
+the leader-follower relationship, which can be described as a combinatorial
+optimization problem to minimize the total travel distance of all the robots.
+Extensive simulation results demonstrate that the proposed model can improve
+the probability of a robot team escaping from local extreme points
+significantly, and even in the case of leader failure, the team can reselect a
+leader autonomously and keep moving toward the target.},
+keywords={combinatorial mathematics;fuzzy control;fuzzy reasoning;greedy
+algorithms;minimisation;mobile robots;multi-robot
+systems;probability;affection-based dynamic leader selection
+model;combinatorial optimization problem;formation control;fuzzy inference
+system;leader abashment value;leader reselection process;leader-follower
+strategies;multirobot systems;probability;robot travel distance
+minimization;swap-greedy algorithm;Adaptation models;Collision
+avoidance;Controllability;Convergence;Cybernetics;Multi-robot
+systems;Robots;Affection model;formation control;leader selection;multirobot
+system (MRS)},
+doi={10.1109/TSMC.2016.2564931},
+ISSN={2168-2216},
+month={July},}
+@ARTICLE{7484279,
+author={Y. Huang and Q. Huang and Q. Wang},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Chaos and Bifurcation Control of Torque-Stiffness-Controlled Dynamic
+Bipedal Walking},
+year={2017},
+volume={47},
+number={7},
+pages={1229-1240},
+abstract={This paper focuses on chaos control of a seven-link torque-stiffness-
+controlled dynamic walking model, actuated by a bio-inspired control system.
+The biped consists of compliant hip, knee and ankle joints and flat feet. We
+employed Ott-Grebogi-Yorke and delayed feedback control methods, responsible
+for small errors around the equilibrium solution and large errors far away,
+respectively. In simulation, we study the stabilization of bifurcations and
+chaotic behaviors under diverse actuation parameters, and the convergence speed
+to 1-period gaits. The results of this paper may provide insights into motion
+control of dynamic walking robots and principles of human locomotion.},
+keywords={bifurcation;biomimetics;chaos;delays;feedback;legged
+locomotion;stability;torque control;1-period gaits;Ott-Grebogi-Yorke
+methods;actuation parameters;ankle joints;bifurcation control;bifurcation
+stabilization;bioinspired control system;chaos control;compliant
+hip;convergence speed;delayed feedback control method;dynamic walking
+robots;equilibrium solution;flat feet;human locomotion;knee joints;seven-link
+torque-stiffness-controlled dynamic bipedal walking
+model;Bifurcation;Biological system modeling;Chaos;Foot;Legged
+locomotion;Mathematical model;Adaptable stiffness;Ott-Grebogi-Yorke
+method;bifurcation;chaos control;delayed feedback control (DFC);dynamic bipedal
+walking},
+doi={10.1109/TSMC.2016.2569474},
+ISSN={2168-2216},
+month={July},}
+@ARTICLE{7490371,
+author={W. Y. Chiu},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Method of Reduction of Variables for Bilinear Matrix Inequality Problems
+in System and Control Designs},
+year={2017},
+volume={47},
+number={7},
+pages={1241-1256},
+abstract={Bilinear matrix inequality (BMI) problems in system and control
+designs are investigated in this paper. A solution method of reduction of
+variables (MRVs) is proposed. This method consists of a principle of variable
+classification, a procedure for problem transformation, and a hybrid algorithm
+that combines deterministic and stochastic search engines. The classification
+principle is used to classify the decision variables of a BMI problem into two
+categories: 1) external and 2) internal variables. Theoretical analysis is
+performed to show that when the classification principle is applicable, a BMI
+problem can be transformed into an unconstrained optimization problem that has
+fewer decision variables. Stochastic search and deterministic search are then
+applied to determine the decision variables of the unconstrained problem
+externally and explore the internal problem structure, respectively. The
+proposed method can address feasibility, single-objective, and multiobjective
+problems constrained by BMIs in a unified manner. A number of numerical
+examples in system and control designs are provided to validate the proposed
+methodology. Simulations show that the MRVs can outperform existing BMI
+solution methods in most benchmark problems and achieve similar levels of
+performance in the remaining problems.},
+keywords={bilinear systems;control system synthesis;linear matrix
+inequalities;optimisation;search problems;stochastic processes;BMI
+problems;MRVs;bilinear matrix inequality problems;control designs;decision
+variables classification;deterministic search engines;external variables;hybrid
+algorithm;internal variables;method of reduction of variables;multiobjective
+problems;problem transformation;single-objective problems;stochastic search
+engines;system designs;unconstrained optimization problem;variable
+classification;Algorithm design and analysis;Benchmark testing;Control
+design;Linear matrix inequalities;Pareto optimization;Search problems;BMI
+solution methods;Bilinear matrix inequality (BMI);method of reduction of
+variables (MRVs);multiobjective BMI problems;spectral abscissa
+optimization;static output feedback},
+doi={10.1109/TSMC.2016.2571323},
+ISSN={2168-2216},
+month={July},}
+@ARTICLE{7487011,
+author={D. Zhai and C. Xi and L. An and J. Dong and Q. Zhang},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Prescribed Performance Switched Adaptive Dynamic Surface Control of
+Switched Nonlinear Systems With Average Dwell Time},
+year={2017},
+volume={47},
+number={7},
+pages={1257-1269},
+abstract={In this paper, the problem of adaptive fuzzy tracking control is
+investigated for a class of switched nonlinear systems. A new switched adaptive
+output feedback control method is presented where the changes of plant can be
+considered explicitly. Mode-dependent fuzzy logic systems are employed to
+approximate the switching nonlinear functions in system. To reduce the
+conservativeness caused by adoption of a common adaptive law for all
+subsystems, the switching optimal weight vectors are directly estimated via
+switched adaptive laws at each step of backstepping. However, the difficulties
+are how to ensure the estimation performance subject to persistent switchings,
+and how to design common virtual controls based on switching parameters.
+Further, based on the estimation of optimal weight vectors, the switched fuzzy
+state observer can be also applied to obtain the unmeasured states. By
+designing a novel Lyapunov function, the improved dynamic surface control
+incorporated by prescribed performance technique guarantees all the total state
+tracking errors, not partial ones, within predefined performance bounds.
+Simulation results are provided to demonstrate the effectiveness of the
+proposed method.},
+keywords={Lyapunov methods;adaptive control;control nonlinearities;control
+system synthesis;feedback;fuzzy control;nonlinear control
+systems;observers;optimal control;switching systems (control);vectors;Lyapunov
+function;adaptive fuzzy tracking control;average dwell time;backstepping;common
+virtual control design;mode-dependent fuzzy logic systems;performance switched
+adaptive dynamic surface control;state tracking errors;switched adaptive output
+feedback control;switched fuzzy state observer;switched nonlinear
+systems;switching optimal weight vectors estimation;Adaptive systems;Lyapunov
+methods;Nonlinear systems;Observers;Stability analysis;Switches;Adaptive
+tracking control;average dwell time (ADT);dynamic surface control
+(DSC);prescribed performance bounds;switched nonlinear systems},
+doi={10.1109/TSMC.2016.2571338},
+ISSN={2168-2216},
+month={July},}
+@ARTICLE{7493608,
+author={B. Wang and J. Wang and B. Zhang and X. Li},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Global Cooperative Control Framework for Multiagent Systems Subject to
+Actuator Saturation With Industrial Applications},
+year={2017},
+volume={47},
+number={7},
+pages={1270-1283},
+abstract={This paper proposes a global cooperative control framework to address
+leader-follower consensus of constraints subsystems of industrial plants, in
+which each subsystem is modeled as an agent and all the subsystems and networks
+of information flow construct a multiagent system. The focus of this paper is
+to solve the global leader-follower consensus for multiagent systems with input
+saturation via low-high gain feedback approach and parametric algebraic Riccati
+equation approach, in which the feedback gain design is distributed and
+decoupled from network topologies. By introducing appropriate assumptions, a
+class of low-high gain feedback protocol is designed based on the states of
+local neighbors to reach the global stability. It is proved in the sense of
+Lyapunov that, if the dwell time is larger than a positive threshold, the
+global leader-follower consensus for the closed-loop linear multiagent systems
+with input saturation under the derived topology containing a directed spanning
+tree can be achieved. The results are further extended to leader-follower
+consensus for nonlinear multiagent systems with the design of nonlinear low-
+high gain feedback protocol. As industrial applications of the proposed low-
+high gain scheduling approaches, the controller design of vibration in
+mechanical systems and satellite formation systems are revisited. Numerical
+simulations with cooperative control of industries subsystems show the
+effectiveness of the proposed approach.},
+keywords={Lyapunov methods;Riccati equations;closed loop systems;control system
+synthesis;directed graphs;feedback;multi-agent systems;multi-robot
+systems;nonlinear systems;trees (mathematics);vibration
+control;Lyapunov;actuator saturation;closed-loop linear multiagent
+systems;controller design;directed spanning tree;gain feedback protocol;gain
+scheduling;global cooperative control framework;global stability;industrial
+applications;industrial plants;leader-follower consensus;mechanical systems
+vibration;nonlinear multiagent systems;parametric algebraic Riccati
+equation;satellite formation systems;Actuators;Linear systems;Multi-agent
+systems;Network topology;Protocols;Topology;Vehicle dynamics;Global
+stabilization;input saturation;leader-follower consensus;low-high gain feedback
+protocol;multiagent systems;nonlinear protocol;satellite formation control},
+doi={10.1109/TSMC.2016.2573584},
+ISSN={2168-2216},
+month={July},}
+@ARTICLE{7559733,
+author={S. Ben Meskina and N. Doggaz and M. Khalgui and Z. Li},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Multiagent Framework for Smart Grids Recovery},
+year={2017},
+volume={47},
+number={7},
+pages={1284-1300},
+abstract={Failure propagation in smart grids (SGs) complicates and prolongs the
+recovery time as the faults to be resolved increase. This paper presents the
+design and implementation of a framework for SGs modeling, simulation, and
+recovery. The proposed approach is based on a multiagent system composed of
+static and mobile agents to ensure local and remote resolutions. The efficiency
+and completeness of the power system recovery protocol are proved as all the
+existing solutions are analyzed. The use of fault classification and a
+performing communication process as well as the deployment of local distributed
+databases updated at run-time ensure the effectiveness of the proposed fault
+recovery strategy. An experimental study confirms and validates the expected
+results.},
+keywords={distributed databases;failure analysis;fault diagnosis;multi-agent
+systems;pattern classification;power engineering computing;power system
+faults;power system reliability;power system restoration;smart power
+grids;SG;communication process;distributed databases;failure propagation;fault
+classification;mobile agents;multiagent framework;multiagent system;power
+system recovery protocol;smart grids recovery;static agents;Power system
+reliability;Protocols;Real-time systems;Reliability;Smart grids;Fault
+categorization;local and remote recovery;multiagent system (MAS);smart grid
+(SG)},
+doi={10.1109/TSMC.2016.2573824},
+ISSN={2168-2216},
+month={July},}
+@ARTICLE{7493615,
+author={S. Koziol and R. Wunderlich and J. Hasler and M. Stilman},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Single-Objective Path Planning for Autonomous Robots Using
+Reconfigurable Analog VLSI},
+year={2017},
+volume={47},
+number={7},
+pages={1301-1314},
+abstract={This paper presents path planning using reconfigurable analog very
+large scale integrated (AVLSI) circuits. Existing research has shown that
+custom AVLSI circuits known as application specific integrated circuits (ASICs)
+can theoretically be used for path planning. There are two main drawbacks to
+using custom ASICs: 1) circuit designs are fixed to some extent (not
+changeable) and 2) long design cycle/fabrication time (order of months).
+Reconfigurable analog circuits called field-programmable analog arrays (FPAAs)
+have been used to implement a variety of AVLSI circuits in a short time (order
+of minutes). This paper presents an algorithm for mapping a robot's environment
+onto an FPAA, and then presents hardware results using an FPAA to implement the
+path-planning algorithm. Experimental results and analysis are presented for 24
+environment scenarios. Digital search methods like breadth-first search have
+solutions which scale on the order of O(4d) whereas this paper will show our
+analog solution is on the order of O(d) where d is the depth of the solution.},
+
+keywords={VLSI;application specific integrated circuits;field programmable
+analogue arrays;mobile robots;path planning;robot programming;search
+problems;ASICs;AVLSI circuits;FPAAs;application specific integrated
+circuits;autonomous robots;digital search methods;fabrication time;field-
+programmable analog arrays;long design cycle;reconfigurable analog
+VLSI;reconfigurable analog very large scale integrated;robot environment
+mapping;single-objective path planning;Field programmable analog
+arrays;Hardware;Laplace equations;Path planning;Robots;Analog very large scale
+integrated (AVLSI);Laplacian;bipartite;field-programmable analog array
+(FPAA);micro aerial vehicle (MAV);path planning;robot},
+doi={10.1109/TSMC.2016.2573833},
+ISSN={2168-2216},
+month={July},}
+@ARTICLE{7511689,
+author={Z. Liu and B. Chen and C. Lin},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Adaptive Neural Backstepping for a Class of Switched Nonlinear System
+Without Strict-Feedback Form},
+year={2017},
+volume={47},
+number={7},
+pages={1315-1320},
+abstract={This paper focuses on backstepping-based adaptive neural control for
+switched nonlinear systems in nonstrict-feedback form. A structural
+characteristic of radial basis function neural networks is first developed.
+With this structural characteristic, adaptive neural backstepping has been
+extended to the switched nonlinear systems with nonstrict-feedback structure.
+By using a common Lyapunov function method, an adaptive neural controller is
+constructed by backstepping technique. It is shown that under the action of the
+suggested controller, all the closed-loop signals are bounded and meanwhile the
+system output follows the desired reference signal well. Finally, a numerical
+simulation example is used to illustrate the effectiveness of our results.},
+keywords={adaptive control;closed loop systems;control
+nonlinearities;feedback;neurocontrollers;numerical analysis;radial basis
+function networks;switching systems (control);Lyapunov function method;adaptive
+neural backstepping;backstepping-based adaptive neural control;closed-loop
+signals;nonstrict-feedback form;numerical simulation;radial basis function
+neural networks;switched nonlinear system;Adaptive systems;Artificial neural
+networks;Backstepping;Control design;Nonlinear systems;Switches;Adaptive neural
+control;backstepping;nonstrict feedback form;switched nonlinear systems},
+doi={10.1109/TSMC.2016.2585664},
+ISSN={2168-2216},
+month={July},}

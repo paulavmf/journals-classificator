@@ -1,0 +1,509 @@
+@ARTICLE{7416221,
+author={H. Zhang and X. Y. Wang and X. H. Lin},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Topology Identification and Module #x2013;Phase Synchronization of
+Neural Network With Time Delay},
+year={2017},
+volume={47},
+number={6},
+pages={885-892},
+abstract={This paper presents the module-phase synchronization for a class of
+neural networks with weights identification and time delays. In module-phase
+synchronization, complex-valued node states are taken into consideration. The
+topology weights considered here are uncertain and the time delays are bounded.
+By constructing a Lyapunov-Krasovskii functional and employing adaptive
+feedback control, sufficient conditions for module-phase synchronization are
+derived. After the general synchronization theory, the synchronization with
+topology identification is discussed. Finally, pertinent examples are given to
+demonstrate the effectiveness of the obtained results.},
+keywords={Lyapunov methods;adaptive
+control;delays;feedback;neurocontrollers;synchronisation;topology;Lyapunov-
+Krasovskii functional;adaptive feedback control;complex-valued node
+states;module-phase synchronization;neural network;time delay;time
+delays;topology identification;weights identification;Artificial neural
+networks;Biological neural networks;Delay effects;Network
+topology;Synchronization;Topology;Adaptive feedback control;module–phase
+synchronization;time delay;topology identification},
+doi={10.1109/TSMC.2016.2523935},
+ISSN={2168-2216},
+month={June},}
+@ARTICLE{7414491,
+author={C. F. Stallmann and A. P. Engelbrecht},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Gramophone Noise Detection and Reconstruction Using Time Delay
+Artificial Neural Networks},
+year={2017},
+volume={47},
+number={6},
+pages={893-905},
+abstract={Gramophone records were the main recording medium for more than seven
+decades and regained widespread popularity over the past several years. Being
+an analog storage medium, gramophone records are subject to distortions caused
+by scratches, dust particles, degradation, and other means of improper
+handling. The observed noise often leads to an unpleasant listening experience
+and requires a filtering process to remove the unwanted disruptions and improve
+the audio quality. This paper proposes a novel approach that employs various
+feed forward time delay artificial neural networks to detect and reconstruct
+noise in musical sound waves. A set of 800 songs from eight different genres
+were used to validate the performance of the neural networks. The performance
+was analyzed according to the outlier detection and interpolation accuracy, the
+computational time and the tradeoff between the accuracy and the time. The
+empirical results of both detection and reconstruction neural networks were
+compared to a number of other algorithms, including various statistical
+measurements, duplication approaches, trigonometric processes, polynomials, and
+time series models. It was found that the neural networks' outlier detection
+accuracy was slightly lower than some of the other noise identification
+algorithms, but achieved a more efficient tradeoff by detecting most of the
+noise in real time. The reconstruction process favored neural networks with an
+increase in the interpolation accuracy compared to other widely used time
+series models. It was also found that certain genres such as classical,
+country, and jazz music were interpolated more accurately. Volatile signals,
+such as electronic, metal, and pop music were more challenging to reconstruct
+and were substantially better interpolated using neural networks than the other
+examined algorithms.},
+keywords={acoustic waves;audio signal processing;feedforward neural
+nets;interpolation;audio signal;feedforward time delay artificial neural
+networks;gramophone noise detection;gramophone noise
+reconstruction;interpolation accuracy;musical sound waves;noise identification
+algorithms;outlier detection;Delay effects;Distortion;Feeds;Neural
+networks;Predictive models;Time series analysis;Training;Audio signal
+modeling;feed forward neural networks;gramophone records;noise detection;noise
+reconstruction;recurrent neural networks;time delay neural networks},
+doi={10.1109/TSMC.2016.2523927},
+ISSN={2168-2216},
+month={June},}
+@ARTICLE{7442539,
+author={Z. Guo and Y. Y. Haimes},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Exploring Systemic Risks in Systems-of-Systems Within a Multiobjective
+Decision Framework},
+year={2017},
+volume={47},
+number={6},
+pages={906-915},
+abstract={Physical infrastructures are commonly composed of interconnected and
+intra- and interdependent subsystems, which in their essence constitute
+systems-of-systems (S-o-S) with multiple functions, operations, and
+stakeholders. Their complexity is characterized by highly interconnected and
+interdependent physical, cyber, organizational, and economic subsystems through
+shared resources, decisions, and states. This paper explores potential sources
+of systemic risks in complex S-o-S by analyzing unique failure modes of such
+systems in a nonlinear dynamic multiobjective sequential decision-making
+process. We posit that certain preferences of decision-makers when choosing
+among multiple competing objectives may reduce the safety margin of a specific
+subsystem within the S-o-S to withstand unexpected external perturbations due
+to the interdependencies manifested by shared states among the subsystems. This
+can contribute to the failure of an entire S-o-S even though all decisions are
+made based on Pareto-optimality. By quantifying the level of subsystem
+interdependency caused by shared states, this paper develops a method to
+mitigate such systemic risks through decomposing and coordinating the
+interconnected subsystems of an S-o-S in a decentralized way. The implication
+of the proposed theory is demonstrated using an illustrative example of a
+highway bridge S-o-S.},
+keywords={Pareto optimisation;bridges (structures);control engineering
+computing;decision making;risk analysis;road traffic control;roads;traffic
+engineering computing;Pareto-optimality;complex S-o-S;economic
+subsystems;external perturbations;highway bridge S-o-S;interdependent
+subsystems;intradependent subsystems;multiobjective decision
+framework;nonlinear dynamic multiobjective sequential decision-making
+process;physical infrastructures;shared resources;systemic risks;systems-of-
+systems;unique failure modes;Accidents;Complexity theory;Cybernetics;Failure
+analysis;Risk analysis;Safety;Stakeholders;Decision theory;fault
+trees;reliability;state-space;systems engineering;systems of systems},
+doi={10.1109/TSMC.2016.2523918},
+ISSN={2168-2216},
+month={June},}
+@ARTICLE{7416248,
+author={N. Li and F. T. S. Chan and S. H. Chung and A. H. Tai},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={A Stochastic Production-Inventory Model in a Two-State Production System
+With Inventory Deterioration, Rework Process, and Backordering},
+year={2017},
+volume={47},
+number={6},
+pages={916-926},
+abstract={The existing economic production quantity (EPQ) models in imperfect
+production systems normally assume either deteriorating production processes or
+deteriorating inventory. In this paper, the two aspects are combined together
+in a single approach to solve single machine, single product EPQ problem. There
+are assumed to be two states: 1) in-control and 2) out-of-control state. At the
+beginning of each production cycle, the production process is in control with a
+low defective rate. After a certain time period, the production process
+switches from an in-control to an out-of-control state. As a result, the defect
+rate increases to another level and more defective items are produced.
+Defective products are reworked after the normal production process all
+together but before that they are stored in an inventory, so a corresponding
+inventory holding cost is generated. Backordering is also considered in this
+model and products are first used to satisfy the backlog demand in each
+production run. Three different cases are considered and discussed in which the
+switch of state occurs in the backlog period, the inventory surplus period, and
+after the normal production period, respectively. By finding the optimal total
+production and backlog quantity, the expected total cost per unit product is
+minimized.},
+keywords={costing;order processing;stock control;EPQ;backlog
+quantity;backordering;defective items;economic production quantity models;in-
+control state;inventory deterioration;inventory holding cost;inventory surplus
+period;optimal total production;out-of-control state;production run;rework
+process;single machine;stochastic production-inventory model;total cost per
+unit product;two-state production system;Electric breakdown;Maintenance
+engineering;Mathematical model;Modeling;Production systems;Stochastic
+processes;Backordering;economic production quantity (EPQ);inventory
+deterioration;rework;stochastic},
+doi={10.1109/TSMC.2016.2523802},
+ISSN={2168-2216},
+month={June},}
+@ARTICLE{7407659,
+author={S. Zihajehzadeh and E. J. Park},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={A Novel Biomechanical Model-Aided IMU/UWB Fusion for Magnetometer-Free
+Lower Body Motion Capture},
+year={2017},
+volume={47},
+number={6},
+pages={927-938},
+abstract={The available human body inertial motion capture (MoCap) systems are
+aided by magnetometers to remove the drift error in yaw angle estimation, which
+in turn limits their application in the presence of long-lasting magnetic
+disturbances in indoor environments. This paper introduces a magnetometer-free
+algorithm for lower-body MoCap including 3-D localization and posture tracking
+by fusing inertial sensors with an ultrawideband (UWB) localization system and
+a biomechanical model of the human lower body. Using our novel Kalman filter-
+based fusion algorithm, the UWB localization data aided by the biomechanical
+model can eliminate the drift in inertial yaw angle estimation of the lower-
+body segments. This magnetometer-free yaw angle estimation makes the algorithm
+insensitive to the magnetic disturbances. The algorithm is benchmarked against
+the optical MoCap system for various indoor activities including walking,
+jogging, jumping, and stairs ascending/descending. The results show that the
+proposed algorithm outperforms the available magnetometer-aided algorithms in
+yaw angle tracking under magnetic disturbances. In a uniform magnetic field,
+the algorithm shows similar accuracies in localization and joint angle tracking
+when compared with the magnetometer-aided methods. The localization accuracy of
+the proposed method is better than 4.5 cm in a 3-D space and its accuracy for
+knee angle tracking is about 3.5° and 4.5° in low and high dynamic motions,
+respectively.},
+keywords={Kalman filters;biomechanics;image motion
+analysis;magnetometers;object tracking;sensor fusion;3-D localization;Kalman
+filter-based fusion algorithm;UWB;biomechanical model;biomechanical model-aided
+IMU-UWB fusion;drift error;dynamic motions;human body inertial motion capture
+systems;indoor environments;inertial sensors;joint angle tracking;knee angle
+tracking;long-lasting magnetic disturbances;lower-body MoCap;lower-body
+segments;magnetic disturbances;magnetometer-aided algorithms;magnetometer-free
+lower body motion capture;magnetometer-free yaw angle estimation;posture
+tracking;stairs ascending-descending;ultrawideband localization system;uniform
+magnetic field;yaw angle estimation;yaw angle tracking;Biological system
+modeling;Calibration;Estimation;Kalman filters;Magnetometers;Motion
+segmentation;Tracking;Inertial measurement unit (IMU);Kalman filter;inertial
+motion tracking;magnetometer-free;ultrawideband (UWB) localization;wearable
+technology},
+doi={10.1109/TSMC.2016.2521823},
+ISSN={2168-2216},
+month={June},}
+@ARTICLE{7437457,
+author={H. Ahmed and R. Ushirobira and D. Efimov and D. Tran and M. Sow and P.
+Ciret and J. C. Massabuau},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Monitoring Biological Rhythms Through the Dynamic Model Identification
+of an Oyster Population},
+year={2017},
+volume={47},
+number={6},
+pages={939-949},
+abstract={The measurements of valve activity in a population of bivalves under
+natural environmental conditions (16 oysters in the Bay of Arcachon, France)
+are used for a physiological model identification. A nonlinear autoregressive
+exogenous (NARX) model is designed and tested. The method to design the model
+has two parts: 1) structure of the model: the model takes into account the
+influence of environmental conditions using the measurements of sunlight
+intensity, the moonlight, tide levels, precipitation, and water salinity
+levels. A possible influence of the internal circadian/circatidal clocks is
+also analyzed and 2) least square calculation of the model parameters. Through
+this paper, it is demonstrated that the developed dynamical model of the oyster
+valve movement can be used for estimating normal physiological rhythms of
+permanently immersed oysters and can be considered for detecting perturbations
+of these rhythms due to changes in the water quality, i.e., for ecological
+monitoring.},
+keywords={aquaculture;autoregressive processes;circadian rhythms;salinity
+(geophysical);water quality;NARX;biological rhythms;bivalves;circadian-
+circatidal clocks;dynamic model identification;ecological
+monitoring;moonlight;natural environmental conditions;nonlinear autoregressive
+exogenous model;oyster population;oyster valve movement;permanently immersed
+oysters;physiological model identification;physiological
+rhythms;precipitation;sunlight intensity;tide levels;valve activity;water
+quality;water salinity levels;Animals;Biological system modeling;Biomedical
+monitoring;Coils;Monitoring;Sea measurements;Valves;Bioindicator;circadian
+rhythm modeling;dynamic model;ecological monitoring;oyster population;system
+identification},
+doi={10.1109/TSMC.2016.2523923},
+ISSN={2168-2216},
+month={June},}
+@ARTICLE{7414458,
+author={Y. Yang and J. Yang and L. Liu and N. Wu},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={High-Speed Target Tracking System Based on a Hierarchical Parallel
+Vision Processor and Gray-Level LBP Algorithm},
+year={2017},
+volume={47},
+number={6},
+pages={950-964},
+abstract={Visual target tracking has made significant advances in past decades.
+However, fast and robust vision target tracking systems are still greatly
+demanded. This paper proposes a novel high-speed target tracking system based
+on hierarchical parallel vision processor architecture. This system contains
+three main parts: 1) a CMOS image sensor; 2) a vision processor; and 3) an
+actuator with two degrees of freedom. The vision processor integrates a pixel-
+parallel processing element (PE) array, a row-parallel row processor (RP)
+array, dual-core microprocessor unit (MPU) and motor controller. The PE array
+and RP array can speed up low-level and middle-level image processing
+operations by O(M2) and O(M), respectively. The MPU is responsible for the
+high-level image processing and the overall chip management. A novel tracking
+algorithm based on a gray-level local binary pattern descriptor is proposed.
+The descriptor describes not only local texture feature but also distribution
+of luminance. The algorithm increases the robustness of the tracking system
+under low resolution scenery and complex background. It can be carried out by
+the vision processor with very high efficiency. Experiment results demonstrate
+that the system can track a fast moving target under complex conditions and the
+vision processor can achieve over 2000 frames/s processing speed of the target
+tracking algorithm with 750×480 image resolution.},
+keywords={CMOS image sensors;computer vision;image resolution;microprocessor
+chips;multiprocessing systems;object tracking;parallel architectures;CMOS image
+sensor;MPU;PE;RP;chip management;dual-core microprocessor unit;gray-level LBP
+algorithm;gray-level local binary pattern descriptor;hierarchical parallel
+vision processor;hierarchical parallel vision processor architecture;high-level
+image processing;high-speed target tracking system;image resolution;luminance
+distribution;pixel-parallel processing element array;robust vision target
+tracking systems;row-parallel row processor;vision processor;visual target
+tracking;Actuators;Arrays;Image processing;Parallel
+processing;Registers;Robustness;Target tracking;AdaBoost;gray-level local
+binary pattern (GLLBP);hierarchical;parallel processing;target tracking;vision
+processor},
+doi={10.1109/TSMC.2016.2523907},
+ISSN={2168-2216},
+month={June},}
+@ARTICLE{7414465,
+author={L. Wang and D. Zhang and H. Xiong and J. P. Gibson and C. Chen and B.
+Xie},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={ecoSense: Minimize Participants #x2019; Total 3G Data Cost in Mobile
+Crowdsensing Using Opportunistic Relays},
+year={2017},
+volume={47},
+number={6},
+pages={965-978},
+abstract={In mobile crowdsensing (MCS), one of the participants' main concerns
+is the cost for 3G data usage, which affects their willingness to participate
+in a crowdsensing task. In this paper, we present the design and implementation
+of an MCS data uploading mechanism-ecoSense-to help reduce additional 3G data
+cost incurred by the whole crowd of sensing participants. By considering the
+two most common real-life 3G price plans-unlimited data plan (UnDP) and pay as
+you go (PAYG), ecoSense partitions all the users into two groups corresponding
+to these two price plans at the beginning of each month, with the objective of
+minimizing the total refunding budget for all participants. The partitioning is
+based on predicting users' mobility patterns and sensed data size. The ecoSense
+mechanism is designed inspired by the observation that during the data
+uploading cycles, UnDP users could opportunistically relay PAYG users' data to
+the crowdsensing server without extra 3G cost, provided the two types of users
+are able to “meet” on a common local cost-free network (e.g., Bluetooth or WiFi
+direct). We conduct our experiments using both the Massachusetts Institute of
+Technology reality mining and the Small World In Motion (SWIM) simulation data
+sets. Evaluation results show that ecoSense could reduce total 3G data cost by
+up to ~50%, when compared to the direct-assignment method that assigns each
+participant to UnDP or PAYG directly according to the size of her sensed
+data.},
+keywords={3G mobile communication;minimisation;mobile computing;relay networks
+(telecommunication);sensor fusion;MCS data uploading mechanism;Massachusetts
+institute of technology reality mining;PAYG;SWIM simulation data
+sets;UnDP;direct-assignment method;ecoSense mechanism;local cost-free
+network;mobile crowdsensing;mobility patterns;opportunistic relay;participant
+total 3G data cost minimization;pay as you go;small world in motion;total
+refunding budget minimization;unlimited data plan;Bluetooth;Delays;IEEE 802.11
+Standard;Mobile communication;Relays;Sensors;Servers;3G data cost;data
+relay;delay-tolerant data uploading;incentive;mobile crowdsensing (MCS)},
+doi={10.1109/TSMC.2016.2523902},
+ISSN={2168-2216},
+month={June},}
+@ARTICLE{7430366,
+author={D. Davis and G. Figueroa and Y. S. Chen},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={SociRank: Identifying and Ranking Prevalent News Topics Using Social
+Media Factors},
+year={2017},
+volume={47},
+number={6},
+pages={979-994},
+abstract={Mass media sources, specifically the news media, have traditionally
+informed us of daily events. In modern times, social media services such as
+Twitter provide an enormous amount of user-generated data, which have great
+potential to contain informative news-related content. For these resources to
+be useful, we must find a way to filter noise and only capture the content
+that, based on its similarity to the news media, is considered valuable.
+However, even after noise is removed, information overload may still exist in
+the remaining data-hence, it is convenient to prioritize it for consumption. To
+achieve prioritization, information must be ranked in order of estimated
+importance considering three factors. First, the temporal prevalence of a
+particular topic in the news media is a factor of importance, and can be
+considered the media focus (MF) of a topic. Second, the temporal prevalence of
+the topic in social media indicates its user attention (UA). Last, the
+interaction between the social media users who mention this topic indicates the
+strength of the community discussing it, and can be regarded as the user
+interaction (UI) toward the topic. We propose an unsupervised framework-
+SociRank-which identifies news topics prevalent in both social media and the
+news media, and then ranks them by relevance using their degrees of MF, UA, and
+UI. Our experiments show that SociRank improves the quality and variety of
+automatically identified news topics.},
+keywords={information analysis;information resources;social networking
+(online);MF;SociRank;Twitter;UA;UI;daily events;informative news-related
+content;mass media sources;media focus;news media;prevalent news topics;social
+media factors;social media services;user attention;user interaction;user-
+generated data;Cybernetics;Entertainment
+industry;Feeds;Internet;Media;Twitter;Information filtering;social
+computing;social network analysis;topic identification;topic ranking},
+doi={10.1109/TSMC.2016.2523932},
+ISSN={2168-2216},
+month={June},}
+@ARTICLE{7765112,
+author={X. Wang and X. Zheng and X. Zhang and K. Zeng and F. Y. Wang},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Analysis of Cyber Interactive Behaviors Using Artificial Community and
+Computational Experiments},
+year={2017},
+volume={47},
+number={6},
+pages={995-1006},
+abstract={An artificial community is constructed for studying cyber interactive
+behavior of message publishing by considering impacts from individual's
+psychological state and social environment. The bottom-up multiagent approach
+is applied to model the interactions between individuals, and the evolution and
+organization of collective cyber behaviors. The cyber message publishing
+behaviors in response to online topics is demonstrated in the artificial
+community, where each agent perceives the state of the topics and make
+decisions to operate on specific themes with particular message publishing
+mechanisms. The mechanisms are designed in line with the analysis of
+statistical results of 10 years data from Tianya.cn, which are further
+validated through the artificial community using computational experimental
+leverages. Experimental results illuminate that the individual's post
+publishing behavior is dominated by agent's psychological states, while the
+comment publishing behavior is more susceptible to the agent's social
+environment expressing the collective efforts of topics and other agents in the
+community. The artificial community has been used to test the impact of several
+factors (e.g., individual's psychological state, number of initial agents, and
+number of new added agents) to individual's message publishing mechanism and to
+cyber collective behavior patterns. It provides a software-defined social
+laboratory for social and cyber behavior studies with computational
+experimental measures.},
+keywords={multi-agent systems;psychology;social aspects of
+automation;artificial community;cyber interactive behavior;cyber message
+publishing behaviors;individuals psychological state;individuals social
+environment;multiagent approach;Complex systems;Computational
+modeling;Indexes;Psychology;Publishing;Social network services;Web
+pages;Artificial community;computational experiments;cyber interactive
+behavior;message publishing mechanisms;multiagent-based modeling (MAM)},
+doi={10.1109/TSMC.2016.2615130},
+ISSN={2168-2216},
+month={June},}
+@ARTICLE{7519089,
+author={J. Li and G. Liu and C. Yan and C. Jiang},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Robust Learning to Rank Based on Portfolio Theory and AMOSA Algorithm},
+year={2017},
+volume={47},
+number={6},
+pages={1007-1018},
+abstract={Effectiveness is the most important factor considered in the ranking
+models yielded by algorithms of learning to rank (LTR). Most of the related
+ranking models only focus on improving the average effectiveness but ignore
+robustness. When a ranking model ignores robustness, the effectiveness for many
+queries is possibly very poor although the average effectiveness for all
+queries is relatively high. Therefore, Wang et al. first consider robustness in
+their ranking models. However, the robustness formula defined by Wang et al.
+cannot characterize those queries whose effectiveness are hurt seriously in
+comparison with the baseline model. In order to overcome this shortcoming, we
+propose a novel formula of characterizing robustness based on portfolio theory,
+and construct a multiobjective optimization model of the robust LTR in which
+the formula is used. Based on this model, we propose an approach of risk-
+sensitive and robust LTR, named as R2Rank, which is based on the framework of
+archived multiobjective simulated annealing algorithm and the idea of
+preference ranking organization method for enrichment evaluation. The
+experimental results show that the ranking models produced by our proposed
+R2Rank approach are better in both effectiveness and robustness than those
+produced by three state-of-the-art LTR approaches.},
+keywords={learning (artificial intelligence);query processing;simulated
+annealing;AMOSA algorithm;R2Rank;archived multiobjective simulated annealing
+algorithm;learning to rank robustness;multiobjective optimization
+model;portfolio theory;queries;ranking models;risk-sensitive and robust
+LTR;Adaptation models;Biological system modeling;Gain measurement;Linear
+programming;Optimization;Portfolios;Robustness;Archived multiobjective
+simulated annealing (AMOSA);learning to rank (LTR);mean and downside semi-
+variance model;preference ranking organization method for enrichment evaluation
+(PROMETHEE II);ranking model},
+doi={10.1109/TSMC.2016.2584786},
+ISSN={2168-2216},
+month={June},}
+@ARTICLE{7812772,
+author={R. Cui and C. Yang and Y. Li and S. Sharma},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Adaptive Neural Network Control of AUVs With Control Input
+Nonlinearities Using Reinforcement Learning},
+year={2017},
+volume={47},
+number={6},
+pages={1019-1029},
+abstract={In this paper, we investigate the trajectory tracking problem for a
+fully actuated autonomous underwater vehicle (AUV) that moves in the horizontal
+plane. External disturbances, control input nonlinearities and model
+uncertainties are considered in our control design. Based on the dynamics model
+derived in the discrete-time domain, two neural networks (NNs), including a
+critic and an action NN, are integrated into our adaptive control design. The
+critic NN is introduced to evaluate the long-time performance of the designed
+control in the current time step, and the action NN is used to compensate for
+the unknown dynamics. To eliminate the AUV's control input nonlinearities, a
+compensation item is also designed in the adaptive control. Rigorous
+theoretical analysis is performed to prove the stability and performance of the
+proposed control law. Moreover, the robustness and effectiveness of the
+proposed control method are tested and validated through extensive numerical
+simulation results.},
+keywords={adaptive control;autonomous underwater vehicles;control
+nonlinearities;control system synthesis;discrete time
+systems;neurocontrollers;stability;AUV;NN;adaptive control design;adaptive
+neural network control;compensation item;control input nonlinearities;control
+law;discrete-time domain;dynamics model;fully actuated autonomous underwater
+vehicle;reinforcement learning;stability;trajectory tracking problem;Adaptation
+models;Adaptive control;Artificial neural networks;Control design;Mathematical
+model;Trajectory tracking;Underwater autonomous vehicles;Vehicle
+dynamics;Adaptive control;autonomous underwater vehicle (AUV);neural network
+(NN);trajectory tracking},
+doi={10.1109/TSMC.2016.2645699},
+ISSN={2168-2216},
+month={June},}
+@ARTICLE{7415964,
+author={A. Marouf and P. Pudlo and C. Sentouh and M. Djemaï},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Investigation of the Driver #x2019;s Arm Viscoelastic Properties During
+Steering Vehicle Maneuver},
+year={2017},
+volume={47},
+number={6},
+pages={1030-1036},
+abstract={Driver's arm viscoelastic properties during steering vehicle maneuver
+are very important information to understand how the driver regulates his
+torque and they could be used to design a new driver assistance system. This
+correspondence paper investigates the driver's arm viscoelastic properties
+during steering vehicle maneuver. First, a time-varying method for estimating
+driver's arm viscoelastic properties during driving the vehicle is proposed.
+Then, this method is implemented experimentally in order to examine the
+driver's arm viscoelastic properties during driving the vehicle. The estimation
+method does not require a specific perturbation torque to be applied during
+driving and could be applied online. The method is based on a time-varying
+model of the human driver's arm coupled with the electric power-assisted
+steering system model. Experiments were carried out with five healthy subjects
+who drove on a hardware-in-the-loop simulator without assistance and with
+assistance.},
+keywords={biomechanics;hardware-in-the loop simulation;time-varying
+systems;viscoelasticity;driver arm viscoelastic properties;electric power-
+assisted steering;hardware-in-the-loop;steering vehicle maneuver;time-varying
+model;Algorithm design and
+analysis;Gravity;Impedance;Torque;Trajectory;Vehicles;Wheels;Electric power-
+assisted steering (EPAS);hardware-in-the-loop (HIL) simulator;human’s arm
+impedance;system identification},
+doi={10.1109/TSMC.2016.2523915},
+ISSN={2168-2216},
+month={June},}

@@ -1,0 +1,837 @@
+@ARTICLE{7475865,
+author={M. Li and Z. Wang and H. Chen},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={A Robust Reorder-Time/Order-Quantity Policy Under Invisible Stock Loss},
+
+year={2017},
+volume={47},
+number={12},
+pages={3102-3116},
+abstract={Inventory record inaccuracy has significant negative impacts on the
+performance of inventory management. We investigate a robust replenishment
+problem for an inventory system under inventory record inaccuracy caused by
+invisible stock loss, with the objective of minimizing the sum of the inventory
+holding cost, the backorder cost, and the materials transportation cost. First,
+we develop a recursive algorithm to estimate the probability distribution of
+the physical inventory levels. Based on this probability distribution, a robust
+myopic reorder-time/order-quantity (RTQ) policy is designed, which determines
+the robust reorder time and the robust replenishment quantity. Theoretical
+analysis and numerical experiments reveal some managerial insights of the
+proposed RTQ policy and the classical (r, Q), (s, S), and (R, S) policies: 1)
+if there exist invisible stock loss and inaccurate inventory record, the
+inventory system will be trapped into the zero-service state (i.e., the
+inventory level becomes less than or equal to zero with probability one) in
+finite time under the classical policies and 2) if the probability distribution
+of inventory record error is known exactly, the RTQ policy prevents the
+inventory system from being trapped into the zero-service state and maintains a
+high service level, even if we do not make any audit of its physical inventory
+level.},
+keywords={cost reduction;inventory
+management;minimisation;probability;statistical distributions;stock control;RTQ
+policy;S;backorder cost;inventory holding cost;inventory management;inventory
+record;inventory record error;inventory system;invisible stock loss;materials
+transportation cost;physical inventory level;probability distribution;robust
+myopic reorder-time/order-quantity policy;robust reorder time;robust reorder-
+time-order-quantity policy;robust replenishment problem;robust replenishment
+quantity;zero-service state;IP networks;Inventory control;Inventory
+management;Probability distribution;Radiofrequency
+identification;Robustness;Supply chains;(r,Q) Policy;inventory
+control;inventory record inaccuracy;robust reorder-time/order quantity (RTQ)
+policy},
+doi={10.1109/TSMC.2016.2560698},
+ISSN={2168-2216},
+month={Dec},}
+@ARTICLE{7478150,
+author={E. Casagrande and E. Arnautovic and W. L. Woon and H. H. Zeineldin and
+D. Svetinovic},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Semiautomatic System Domain Data Analysis: A Smart Grid Feasibility Case
+Study},
+year={2017},
+volume={47},
+number={12},
+pages={3117-3127},
+abstract={This paper proposes a novel semiautomatic system domain data analysis
+method. The method is based on the iterative acquisition and analysis of a
+large body of bibliometric data, generation of domain taxonomies, and creation
+of domain models. The method was applied on a smart grid case study through
+collection and analysis of more than 6000 documents. We have found that our
+method produces domain models of comparable quality to the traditional manually
+produced domain models in a more cost-effective way.},
+keywords={data analysis;data mining;formal specification;formal
+verification;information analysis;iterative methods;learning (artificial
+intelligence);ontologies (artificial intelligence);power engineering
+computing;smart power grids;bibliometric data analysis;data mining;document
+collection;domain taxonomies;iterative acquisition;ontology
+learning;requirements engineering;semiautomatic system domain data
+analysis;smart grid;Bibliometrics;Data mining;Databases;Ontologies;Smart
+grids;Taxonomy;Bibliometrics;data mining;ontology learning;requirements
+engineering (RE);smart grid},
+doi={10.1109/TSMC.2016.2562501},
+ISSN={2168-2216},
+month={Dec},}
+@ARTICLE{7473859,
+author={M. A. M. Abdullah and S. S. Dlay and W. L. Woo and J. A. Chambers},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Robust Iris Segmentation Method Based on a New Active Contour Force With
+a Noncircular Normalization},
+year={2017},
+volume={47},
+number={12},
+pages={3128-3141},
+abstract={Traditional iris segmentation methods give good results when the iris
+images are taken under ideal imaging conditions. However, the segmentation
+accuracy of an iris recognition system significantly influences its performance
+especially in nonideal iris images. This paper proposes a novel segmentation
+method for nonideal iris images. Two algorithms are proposed for pupil
+segmentation in iris images which are captured under visible and near infrared
+light. Then, a fusion of an expanding and a shrinking active contour is
+developed for iris segmentation by integrating a new pressure force to the
+active contour model. Thereafter, a noncircular iris normalization scheme is
+adopted to effectively unwrap the segmented iris. In addition, a novel method
+for closed eye detection is proposed. The proposed scheme is robust in finding
+the exact iris boundary and isolating the eyelids of the iris images.
+Experimental results on CASIA V4.0, MMU2, UBIRIS V1, and UBIRIS V2 iris
+databases indicate a high level of accuracy using the proposed technique.
+Moreover, the comparison results with the state-of-the-art iris segmentation
+algorithms revealed considerable improvement in segmentation accuracy and
+recognition performance while being computationally more efficient.},
+keywords={eye;feature extraction;image segmentation;iris recognition;visual
+databases;UBIRIS V2 iris databases;active contour model;closed eye
+detection;iris boundary;iris images capture;iris recognition system;new active
+contour force;noncircular iris normalization scheme;pupil segmentation;robust
+iris segmentation method;shrinking active contour;Active
+contours;Biometrics;Image edge detection;Image segmentation;Iris
+recognition;Robustness;Active contour;biometrics;image segmentation;iris
+recognition;morphological operations;skin detection},
+doi={10.1109/TSMC.2016.2562500},
+ISSN={2168-2216},
+month={Dec},}
+@ARTICLE{7476869,
+author={J. Wannenburg and R. Malekian},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Physical Activity Recognition From Smartphone Accelerometer Data for
+User Context Awareness Sensing},
+year={2017},
+volume={47},
+number={12},
+pages={3142-3149},
+abstract={Physical activity recognition of everyday activities such as sitting,
+standing, laying, walking, and jogging was performed, through the use of
+smartphone accelerometer data. Activity classification was done on a remote
+server through the use of machine learning algorithms, data was received from
+the smartphone wirelessly. The smartphone was placed in the subject's trouser
+pocket while data was gathered. A large sample set was used to train the
+classifiers and then a test set was used to verify the algorithm accuracies.
+Ten different classifier algorithm configurations were evaluated to determine
+which performed best overall, as well as, which algorithms performed best for
+specific activity classes. Based on the results obtained, very accurate
+predictions could be made for offline activity recognition. The kNN and kStar
+algorithms both obtained an overall accuracy of 99.01%.},
+keywords={accelerometers;learning (artificial intelligence);pattern
+classification;smart phones;ubiquitous computing;activity
+classification;algorithm accuracies;classifier algorithm
+configurations;everyday activities;machine learning algorithms;offline activity
+recognition;physical activity recognition;smartphone accelerometer
+data;smartphone wirelessly;specific activity classes;user context awareness
+sensing;Accelerometers;Feature extraction;Hidden Markov models;Machine
+learning;Machine learning algorithms;Sensors;Smart
+phones;Accelerometer;activity recognition;machine learning;smartphone},
+doi={10.1109/TSMC.2016.2562509},
+ISSN={2168-2216},
+month={Dec},}
+@ARTICLE{7473903,
+author={M. Li and Z. Wang and F. T. S. Chan},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={An Inventory Routing Policy Under Replenishment Lead Time},
+year={2017},
+volume={47},
+number={12},
+pages={3150-3164},
+abstract={The inventory routing problem (IRP) arises in vendor-managed
+inventory systems, which is a combination of vehicle routing and inventory
+management. Differing from the traditional IRPs in which the time consumption
+in transportation is often ignored, in this paper, we take the time consumption
+into consideration, which brings the lead-time to replenishment. In this
+situation, the lead-time for replenishment depends on the routing decisions
+made by the vendor. Consequently, IRPs become more interesting because
+decisions on the replenishment quantity and routing depend more tightly on each
+other. The general case of the IRP with replenishment lead-time (i.e., one
+vendor and N retailers) is modeled mathematically. To solve the problem, first
+a simple case (i.e., one vendor and two retailers) is analyzed to obtain the
+theoretical optimal policy. By proving the K-convexity of the objective
+function, we confirm that the structure of the optimal replenishment and
+routing policy is of switching curve type. In this policy, the state space,
+which is composed of the inventory positions of the two retailers, is divided
+into several domains; and for inventory positions in each domain, there exists
+an optimal order-up-to level. This structure reveals, for managerial insight,
+that when lead-time is considered, the current routing decision is not
+independent of the previous one. Second, since the optimal policy is difficult
+to realize in practice, a myopic policy that is easier to implement is proposed
+and numerical experiments are conducted to examine the near-optimal performance
+of the myopic policy. Finally, the myopic policy is extended to a realistic-
+size IRP with replenishment lead-time (i.e., the IRP for the case of one vendor
+and multiple retailers) and a numerical example is provided to indicate the
+feasibility of the policy.},
+keywords={inventory management;numerical
+analysis;retailing;transportation;vehicle routing;IRP;inventory
+management;inventory positions;inventory routing policy problem;k-
+convexity;mathematical model;numerical experiments;optimal order-up-to
+level;replenishment lead time;replenishment lead-time
+quantity;retailers;switching curve type;transportation;vehicle routing;vendor-
+managed inventory systems;Approximation algorithms;Inventory
+management;Stochastic processes;Distribution;inventory routing problem
+(IRP);logistics;stochastic demand},
+doi={10.1109/TSMC.2016.2562561},
+ISSN={2168-2216},
+month={Dec},}
+@ARTICLE{7476864,
+author={F. Camelia and T. L. J. Ferris},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Undergraduate Students #x2019; Engagement With Systems Thinking: Results
+of a Survey Study},
+year={2017},
+volume={47},
+number={12},
+pages={3165-3176},
+abstract={This paper describes the results obtained for the affective
+engagement of students with systems thinking (ST). In prior work, the authors
+have developed and validated a questionnaire instrument for measuring affective
+engagement of undergraduate engineering students with ST. This paper presents
+results obtained when the questionnaire was used with undergraduate students.
+Two surveys with different versions of the questionnaire, one using positive
+grammar questions only and the other using a mix of positive and negative
+constructs, were used to measure the students' engagement with ST and its
+relationship with gender, age, and work experience. Each questionnaire version
+was applied to a different sample, the first, 186 participants, completed the
+positive grammar version, and, the second group of 163 completed the mixed
+version. The results show that participants in both studies valued ST in each
+of the three dimensions of the ST construct. Statistical tests confirmed no
+significant gender differences in either study. Student engagement with the
+practical dimension of ST was shown to vary, with statistical significance,
+with groups of age, years of work experience, and country of the university.},
+keywords={educational courses;engineering education;further education;gender
+issues;statistical testing;Statistical tests;Systems Thinking;affective
+engagement;gender differences;positive grammar questions;student
+engagement;undergraduate engineering students;undergraduate students
+engagement;Decision making;Knowledge engineering;Systems engineering and
+theory;Systems engineering education;Systems thinking;Affective domain;systems
+engineering (SE);systems engineering and theory;systems engineering
+education;systems thinking (ST)},
+doi={10.1109/TSMC.2016.2563386},
+ISSN={2168-2216},
+month={Dec},}
+@ARTICLE{7484705,
+author={X. Wu and J. Hillston and C. Feng},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Availability Modeling of Generalized $k$ -Out-of- $n$ :G Warm Standby
+Systems With PEPA},
+year={2017},
+volume={47},
+number={12},
+pages={3177-3188},
+abstract={Developing analytical availability models for k-out-of-n:G warm
+standby repairable systems with many nonidentical components is tedious and
+error-prone, requiring specification of the generator matrix of a high
+dimensional Markov chain. Using the performance evaluation process algebra
+(PEPA) as an intermediary, this paper gives a new modeling approach for
+availability evaluation of such systems with r repair facilities. The
+components of the system are classified into n different groups that consist of
+statistically identical components following exponential time-to-failure and
+repair time distributions. A library of PEPA components and their actions are
+defined for system component groups, repair facilities, repair queue, and
+system dynamics. To capture the dependency of system states on components, a
+signaling mechanism is realized by actions with suitably high rates. A
+compilation tool is provided to automatically generate the PEPA model from a
+brief specification of the system, using the library components. This provides
+input for the PEPA analysis tool and is amenable to availability analysis.
+Examples are used to illustrate the proposed modeling method. Modeling with
+PEPA provides an efficient way to deal with availability evaluation of systems
+considered with many groups of repairable components.},
+keywords={Markov processes;failure analysis;performance evaluation;process
+algebra;reliability theory;Markov chain;PEPA analysis tool;PEPA
+model;performance evaluation process algebra;repair time
+distributions;statistically identical components;time-to-failure;Analytical
+models;Generators;Maintenance engineering;Markov processes;Numerical
+models;Reliability modeling;Availability;Markov processes;process
+algebra;redundant systems;reliability modeling},
+doi={10.1109/TSMC.2016.2563407},
+ISSN={2168-2216},
+month={Dec},}
+@ARTICLE{7482829,
+author={Z. Hua and H. Hou and Y. Bian},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Optimal Shipping Strategy and Return Service Charge Under No-Reason
+Return Policy in Online Retailing},
+year={2017},
+volume={47},
+number={12},
+pages={3189-3206},
+abstract={Under no-reason return policy in an online setting, online retailers
+must determine whether to offer free shipping services when delivering products
+to consumers, and how to charge consumers for returns. To address such
+decision-making challenges, we develop a theoretic model to derive the optimal
+shipping strategy and return service charge (RSC) for an online retailer under
+two decision scenarios, in which decisions on shipping strategy and RSC are
+made either jointly or separately. We find that the retailer is better off in
+joint decision scenario than in separate decision scenario; a shipping free
+strategy is usually accompanied by a higher RSC, while a shipping fee strategy
+is typically accompanied by a lower RSC. We also find that, market parameters
+(e.g., the base return quantity, product price, consumers' sensitivities of
+shipping fee on demand, RSC on demand and return quantity) have important
+effects on the retailer's decisions on shipping strategy and RSC. Our findings
+suggest that the retailer can benefit from taking positive actions toward
+influencing the market to determine the favorable shipping strategy and RSC.
+Furthermore, our results can provide theoretical explanations for widely used
+shipping strategies and RSCs within the context of no-reason return policies in
+online settings. In particular, our analytical results explain why some real-
+world online retailers offer both free shipping and free return services to
+certain consumers.},
+keywords={decision making;pricing;retailing;RSC;base return quantity;decision-
+making challenges;free return services;free shipping services;market
+parameters;no-reason return policy;online retailing;optimal shipping
+strategy;product delivery;product price;return service charge;separate decision
+scenario;shipping free strategy;Context awareness;Cybernetics;Decision
+making;Product design;Quality assessment;No-reason return;online
+retailer;return service charge (RSC);shipping strategy},
+doi={10.1109/TSMC.2016.2564920},
+ISSN={2168-2216},
+month={Dec},}
+@ARTICLE{7478142,
+author={Y. Sei and A. Ohsuga},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Location Anonymization With Considering Errors and Existence
+Probability},
+year={2017},
+volume={47},
+number={12},
+pages={3207-3218},
+abstract={Mobile devices that can sense their location using GPS or Wi-Fi have
+become extremely popular. However, many users hesitate to provide their
+accurate location information to unreliable third parties if it means that
+their identities or sensitive attribute values will be disclosed by doing so.
+Many approaches for anonymization, such as k-anonymity, have been proposed to
+tackle this issue. Existing studies for k-anonymity usually anonymize each
+user's location so that the anonymized area contains k or more users. Existing
+studies, however, do not consider location errors and the probability that each
+user actually exists at the anonymized area. As a result, a specific user might
+be identified by untrusted third parties. We propose novel privacy and utility
+metrics that can treat the location and an efficient algorithm to anonymize the
+information associated with users' locations. This is the first work that
+anonymizes location while considering location errors and the probability that
+each user is actually present at the anonymized area. By means of simulations,
+we have proven that our proposed method can reduce the risk of the user's
+attributes being identified while maintaining the utility of the anonymized
+data.},
+keywords={data privacy;mobile computing;probability;anonymized data;anonymizes
+location;existence probability;k-anonymity;location anonymization;location
+errors;location information;mobile devices;privacy;sensitive attribute
+values;untrusted third parties;user attributes;user location;utility
+metrics;Databases;Global Positioning System;Mobile communication;Mobile radio
+mobility management;Privacy;Ubiquitous computing;Anonymization;location
+information;privacy;ubiquitous computing},
+doi={10.1109/TSMC.2016.2564928},
+ISSN={2168-2216},
+month={Dec},}
+@ARTICLE{7536216,
+author={B. Cheng and S. Zhong and J. Chen},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Context Ontology-Based Reasoning Service for Multimedia Conferencing
+Process Intelligence},
+year={2017},
+volume={47},
+number={12},
+pages={3219-3232},
+abstract={This paper proposes a Semantic Web-based context ontological
+reasoning service for multimedia conferencing process management. When the
+chairman enters the basic conference information, the process will
+automatically select the appropriate means of notifications based on the
+conference time and the participant contact details. In this system, all types
+of multimedia conferencing processes are encapsulated in Web services and
+deployed on an enterprise service bus. A large multimedia conference ontology
+is created that contains business rules. In addition, with the objective of
+improving and management for data redundancy in ontological reasoning service,
+we propose an extensible breadth-first-search-based graph search algorithm that
+can successfully eliminate the redundant portion of the ontology, which can
+ensure validity of context ontology reasoning. Finally, the proposed multimedia
+conferencing process management can obtain the desired results, and some
+corresponding experimental analysis are reported.},
+keywords={Web services;graph theory;inference mechanisms;multimedia
+communication;ontologies (artificial intelligence);search problems;semantic
+Web;teleconferencing;Semantic Web-based context ontological reasoning
+service;Web services;breadth-first-search-based graph search algorithm;context
+ontology;data redundancy;enterprise service bus;multimedia communication
+services;multimedia conference ontology;multimedia conferencing process
+management;ontological reasoning service;Context awareness;Multimedia
+communication;Ontologies;Semantics;Web services;Context
+ontology;intelligence;multimedia conferencing;reasoning service},
+doi={10.1109/TSMC.2016.2569442},
+ISSN={2168-2216},
+month={Dec},}
+@ARTICLE{7482725,
+author={H. Morshedlou and M. R. Meybodi},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={A New Local Rule for Convergence of ICLA to a Compatible Point},
+year={2017},
+volume={47},
+number={12},
+pages={3233-3244},
+abstract={Many problems in the modern world have a decentralized and
+distributed nature. Irregular cellular learning automata (ICLA) is a powerful
+mathematical model for decentralized problems and applications. Convergence of
+ICLA to a compatible point is very important because this convergence can
+provide efficient solutions for the problems. The local rule of ICLA can play a
+key role in this convergence. A local rule that simply rewards or punishes
+learning automata just based on the response of environment and actions of
+neighbors does not guarantee convergence of ICLA to a compatible point. In this
+paper, we present a new local rule that guarantees convergence to a compatible
+point. Formal proofs for the convergence are provided and results of the
+conducted experiments support our theoretical findings.},
+keywords={cellular automata;learning automata;ICLA convergence;compatible
+point;decentralized problems;irregular cellular learning automata;mathematical
+model;new local rule;Adaptive systems;Cybernetics;Games;Learning
+automata;Learning systems;Markov processes;Mathematical model;Adaptive
+systems;cellular automata;distributed computing;learning systems},
+doi={10.1109/TSMC.2016.2569464},
+ISSN={2168-2216},
+month={Dec},}
+@ARTICLE{7492196,
+author={K. Ramasamy and D. Ganesan},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={A Systematic Analysis of Transform Coefficients and Block Decomposition
+for Texture Enhancement With Orthogonal Polynomials Model},
+year={2017},
+volume={47},
+number={12},
+pages={3245-3255},
+abstract={Although numerous image enhancement techniques have been reported in
+the literature, enhancing a specific feature of an image is a challenging task
+and requires careful study. With that said, a novel threefold texture
+enhancement technique in the orthogonal polynomials transformed domain is
+proposed in this paper, by identifying the contribution of coefficients toward
+particular low-level characteristics. In the first fold, a systematic semantic
+analysis of orthogonal polynomials transformed coefficients is carried out in
+terms of the response of the basis operators and the directional properties of
+the coefficients are identified. A block decomposition scheme is then proposed
+with Meyer's model and blocks with different low-level characteristics are
+identified. In the second fold, an adaptive brightness adjustment scheme is
+proposed for nontextured blocks. In the case of texture blocks, besides
+brightness adjustments, a texture sharpening scheme based on the modification
+of the ac transform coefficients is proposed as the third fold. The proposed
+texture enhancement scheme is experimented on the standard benchmark University
+of Illinois at Urbana-Champaign images. The performance of the proposed texture
+enhancement scheme is measured with standard measures and compared with
+existing schemes. The results are encouraging.},
+keywords={image enhancement;image texture;polynomials;transforms;Meyer
+model;adaptive brightness adjustment scheme;block decomposition scheme;image
+feature enhancement;low-level characteristics;nontextured blocks;orthogonal
+polynomials model;systematic semantic analysis;texture blocks;texture
+sharpening scheme;threefold texture enhancement technique;transform
+coefficients;Analytical models;Image decomposition;Image edge detection;Image
+enhancement;Semantics;Systematics;Transforms;Basis operators;block
+decomposition;brightness adjustment;image enhancement;orthogonal
+polynomials;texture sharpening},
+doi={10.1109/TSMC.2016.2572305},
+ISSN={2168-2216},
+month={Dec},}
+@ARTICLE{7490393,
+author={D. Sidoti and G. V. Avvari and M. Mishra and L. Zhang and B. K. Nadella
+and J. E. Peak and J. A. Hansen and K. R. Pattipati},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={A Multiobjective Path-Planning Algorithm With Time Windows for Asset
+Routing in a Dynamic Weather-Impacted Environment},
+year={2017},
+volume={47},
+number={12},
+pages={3256-3271},
+abstract={This paper presents a mixed-initiative tool for multiobjective
+planning and asset routing (TMPLAR) in dynamic and uncertain environments.
+TMPLAR is built upon multiobjective dynamic programming algorithms to route
+assets in a timely fashion, while considering fuel efficiency, voyage time,
+distance, and adherence to real world constraints (asset vehicle limits,
+navigator-specified deadlines, etc.). TMPLAR has the potential to be applied in
+a variety of contexts, including ship, helicopter, or unmanned aerial vehicle
+routing. The tool provides recommended schedules, consisting of waypoints,
+associated arrival and departure times, asset speed and bearing, that are
+optimized with respect to several objectives. The ship navigation is
+exacerbated by the need to address multiple conflicting objectives, spatial and
+temporal uncertainty associated with the weather, multiple constraints on asset
+operation, and the added capability of waiting at a waypoint with the intent to
+avoid bad weather, conduct opportunistic training drills, or both. The key
+algorithmic contribution is a multiobjective shortest path algorithm for
+networks with stochastic nonconvex edge costs and the following problem
+features: 1) time windows on nodes; 2) ability to choose vessel speed to next
+node subject to (minimum and/or maximum) speed constraints; 3) ability to
+select the power plant configuration at each node; and 4) ability to wait at a
+node. The algorithm is demonstrated on six real world routing scenarios by
+comparing its performance against an existing operational routing algorithm.},
+keywords={autonomous aerial vehicles;concave programming;dynamic
+programming;helicopters;marine navigation;path
+planning;scheduling;ships;stochastic programming;vehicle routing;TMPLAR;asset
+operation;asset speed;bearing;departure times;dynamic environments;dynamic
+weather-impacted environment;fuel efficiency;helicopter;mixed-initiative
+tool;multiobjective dynamic programming algorithms;multiobjective path-planning
+algorithm;multiobjective planning and asset routing;multiobjective shortest
+path algorithm;navigator-specified deadlines;operational routing
+algorithm;opportunistic training drills;power plant configuration;ship;ship
+navigation;stochastic nonconvex edge costs;temporal uncertainty;time
+windows;uncertain environments;unmanned aerial vehicle routing;voyage
+time;Dynamic programming;Heuristic algorithms;Marine
+vehicles;Meteorology;Oceanography;Pareto optimization;Shortest path
+problem;Approximate dynamic programming;Pareto optimal;label
+setting;meteorology;oceanography;ship routing;shortest path problem with time
+windows;uncertainty;weather},
+doi={10.1109/TSMC.2016.2573271},
+ISSN={2168-2216},
+month={Dec},}
+@ARTICLE{7490410,
+author={L. Zhang and Y. Xu and C. H. Yeh and L. He and D. Q. Zhou},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Bi-TOPSIS: A New Multicriteria Decision Making Method for Interrelated
+Criteria With Bipolar Measurement},
+year={2017},
+volume={47},
+number={12},
+pages={3272-3283},
+abstract={This paper develops a new method called bitechnique for order
+preference by similarity to ideal solution (Bi-TOPSIS) to address the
+multicriteria decision making problems involving interrelated criteria using
+bipolar measurement with negative values. The Bi-TOPSIS method incorporates the
+capability of the bi-capacity technique into the TOPSIS to address two
+important issues: 1) how to measure the interactions between criteria and 2)
+how to aggregate values measured on a bipolar scale. In practical applications,
+this method allows the use of benchmarks to demarcate “good” from “bad”
+performance, thus enhancing the interpretability of the evaluation results. To
+examine its effectiveness, an empirical study on the evaluation of city social
+sustainability is conducted. The outcome of the study demonstrates the
+feasibility and applicability of the new Bi-TOPSIS method.},
+keywords={TOPSIS;decision making;fuzzy set theory;operations research;Bi-TOPSIS
+method;bicapacity technique;bipolar measurement;bipolar scale;bitechnique for
+order preference by similarity to ideal solution;interrelated
+criteria;multicriteria decision making method;multicriteria decision making
+problems;Benchmark testing;Context awareness;Cybernetics;Decision
+making;Economics;Sustainable development;TOPSIS;Urban areas;Bi-
+capacities;multicriteria decision making;social sustainability;technique for
+order preference by similarity to ideal solution (TOPSIS)},
+doi={10.1109/TSMC.2016.2573582},
+ISSN={2168-2216},
+month={Dec},}
+@ARTICLE{7496987,
+author={Z. Tao and X. Liu and H. Chen and L. Zhou},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Using New Version of Extended $t$ -Norms and $s$ -Norms for Aggregating
+Interval Linguistic Labels},
+year={2017},
+volume={47},
+number={12},
+pages={3284-3298},
+abstract={The aim of this paper is to develop some closed algebra operational
+laws for interval linguistic labels based on extended t-norms and s-norms. We
+discuss the properties of these operational laws, such as commutative law,
+associative law, and distribution law. Different kinds of extended t-norms and
+s-norms, such as the extended algebraic, extended Einstein, extended Hamacher,
+and extended Frank t-norms and s-norms, have been investigated to produce
+different operational laws. As an application of such operational laws, we
+propose some extended t-norms and s-norms based interval linguistic weighted
+power average operators. We also study some basic properties of such
+aggregation functions. The cross-entropy of interval linguistic information is
+proposed and applied to obtain the weights of attributes. An approach to
+multiple attributes decision making with interval linguistic information is
+proposed. Finally, two cases of practical decision issues are illustrated to
+show the application of the proposed method.},
+keywords={algebra;computational linguistics;decision making;closed algebra
+operational laws;interval linguistic labels;multiple attributes decision
+making;s-norms;t-norms;Algebra;Computational modeling;Cybernetics;Decision
+making;Numerical models;Pragmatics;Semantics;Closed algebra operational
+laws;cross-entropy;extended t-norms and s-norms;interval linguistic
+label;multiple attributes decision making (MADM);weighted power average (WPA)
+operators},
+doi={10.1109/TSMC.2016.2573919},
+ISSN={2168-2216},
+month={Dec},}
+@ARTICLE{7496861,
+author={Q. Zhang and S. Yang and G. Wang},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Measuring Uncertainty of Probabilistic Rough Set Model From Its Three
+Regions},
+year={2017},
+volume={47},
+number={12},
+pages={3299-3309},
+abstract={The probabilistic rough set model is a generalized rough set model,
+which was proposed to improve the fault tolerance ability of the classical
+Pawlak's rough set model. Compared with the classical Pawlak's rough set model,
+the probabilistic rough set model and its several special forms (such as
+variable precision rough set model, Bayesian rough set model, and decision-
+theoretic rough set model) divide a domain into three regions by two parameters
+(α, β), and the objects belong to every region with a certain uncertainty. With
+the increase of information (attributes), the boundary region of the
+probabilistic rough set model may become smaller, bigger, or remain unchanged.
+This paper aims first to study some more complex uncertainty of the
+probabilistic rough set model. Then the uncertainty of the three regions is
+defined and analyzed. Besides, the changing regularities of uncertainty of a
+target concept in the probabilistic rough set model are discovered. Finally,
+three kinds of incremental information are defined, and their judging theorems
+are proposed. These results could enrich and improve rough set theory to deal
+with uncertain information systems.},
+keywords={Bayes methods;decision theory;fault tolerance;rough set
+theory;Bayesian rough set model;classical Pawlaks rough set model;decision-
+theoretic rough set model;generalized rough set model;probabilistic rough set
+model;variable precision rough set model;Analytical models;Bayes
+methods;Decision making;Entropy;Measurement uncertainty;Probabilistic
+logic;Rough sets;Set theory;Incremental information;probabilistic rough set
+model;rough set model;three-way decision;uncertainty},
+doi={10.1109/TSMC.2016.2574538},
+ISSN={2168-2216},
+month={Dec},}
+@ARTICLE{7496940,
+author={G. Levitin and L. Xing and Y. Dai},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Optimal Distribution of Nonperiodic Full and Incremental Backups},
+year={2017},
+volume={47},
+number={12},
+pages={3310-3320},
+abstract={Data backups play an important role in effective recovery of system
+operations, especially, those in computing and Information Technology-related
+applications. By saving copies of information associated with the completed
+part of a mission task, a failed system, upon being repaired, can resume its
+operation from the latest backup point instead of having to repeat the entire
+work from scratch. This paper considers a repairable, real-time system
+performing a sequence of nonperiodic full backup (FB) and incremental backup
+(IB) procedures during its mission. The mission succeeds if a specified amount
+of work can be accomplished by the system within a deadline. New contributions
+of this paper are twofold. First, a numerical recursive method is proposed to
+model effects of the nonperiodic, mixed backup strategy in assessing mission
+success probability, and expected completion time of the considered system. The
+method is applicable to any distribution of FBs and IBs and has no limitation
+on system time-to-failure distributions. Second, the optimal backup policy
+problem is formulated and solved, which finds the distribution of FBs and IBs
+maximizing the mission success probability. Examples are provided to illustrate
+the proposed methodology as well as influence of different parameters on the
+optimal solution. Advantages of adopting nonperiodic backups over periodic ones
+are also illustrated.},
+keywords={maintenance engineering;optimisation;probability;data
+backups;effective recovery;failed system;mission success
+probability;nonperiodic backup strategy;nonperiodic backups;numerical recursive
+method;optimal backup policy problem;optimal distribution;real-time
+system;system operations;time-to-failure distributions;Cybernetics;Genetic
+algorithms;Maintenance engineering;Numerical models;Optimization;Probability
+distribution;Real-time systems;Mission completion time;mission success
+probability;mixed full and incremental backup;nonperiodic backup;real-
+time;repair},
+doi={10.1109/TSMC.2016.2576023},
+ISSN={2168-2216},
+month={Dec},}
+@ARTICLE{7502143,
+author={L. Liu},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Representing Belief Functions as Random Variables},
+year={2017},
+volume={47},
+number={12},
+pages={3321-3330},
+abstract={Random sets are the obstacle for implementing belief functions in
+knowledge-based systems. The challenges include inefficient manipulations of
+subsets and the cognitive complexity of problem representations. The back-end
+knowledge management is yet another bottleneck in practice. Here, I propose
+representing subsets as integers, set operations as integer ones, and belief
+functions as functions of random integers, to meet these challenges. Using
+random variables, Dempster's rule of combination is reduced into matrix
+multiplications and its complexity is minimized. Fast Möbius transformation
+(FMT) is also dramatically improved. For example, to compute beliefs from a
+mass function in the power set with frame size n = 32, a Möbius inversion that
+takes 1057 years to accomplish using nonoptimized set operations or 15.8 years
+via the best existing FMT algorithm will take only one second via the
+randomvariable based FMT. In addition, the new FMT forgoes the need to maintain
+and lookup any graphical structures and allows the application of FMT to any
+list of subsets, rather than the power set.},
+keywords={belief networks;inference mechanisms;knowledge based
+systems;knowledge management;matrix multiplication;random processes;Fast
+Möbius transformation;Möbius inversion;belief functions;cognitive
+complexity;knowledge management;mass function;nonoptimized set operations;power
+set;random integers;random sets;random variables;randomvariable based
+FMT;Complexity theory;Computational modeling;Cybernetics;Data
+structures;Knowledge based systems;Random variables;Belief functions;fast
+Möbius transformation (FMT);random sets;random variables},
+doi={10.1109/TSMC.2016.2577138},
+ISSN={2168-2216},
+month={Dec},}
+@ARTICLE{7497565,
+author={Z. Wang and Y. Man},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Sufficient and Necessary Conditions on Finite-Time Tracking},
+year={2017},
+volume={47},
+number={12},
+pages={3331-3339},
+abstract={This paper is concerned with the finite-time tracking for linear and
+nonlinear systems, with respect to the reference signal (to be tracked by the
+system state) obeying some uniformity. Before the control design of finite-time
+tracking, an interesting and basic problem is whether or not such control
+exists for the system concerned. This paper aims to this basic problem. First,
+the sufficient and necessary conditions on finite-time tracking are proposed
+for linear systems. Such conditions are then extended to those for affine
+nonlinear systems. It should be pointed out that the sufficient and necessary
+conditions proposed in the paper essentially reveal the relationship between
+the structure of the linear/nonlinear systems and the existence of the finite-
+time tracking control.},
+keywords={control system synthesis;linear systems;nonlinear control
+systems;signal processing;affine nonlinear systems;finite-time tracking
+control;linear systems;linear/nonlinear systems;necessary conditions;reference
+signal tracking;sufficient conditions;Control design;Cybernetics;Linear
+systems;Nonlinear systems;Tracking;Trajectory;Affine nonlinear systems;finite-
+time tracking;linear systems;sufficient and necessary conditions},
+doi={10.1109/TSMC.2016.2578359},
+ISSN={2168-2216},
+month={Dec},}
+@ARTICLE{7497561,
+author={R. Ma and F. Hu and Q. Hao},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Active Compressive Sensing via Pyroelectric Infrared Sensor for Human
+Situation Recognition},
+year={2017},
+volume={47},
+number={12},
+pages={3340-3350},
+abstract={Conventional pyroelectric infrared (PIR) motion sensors use paired
+elements for the detection of moving targets. This method makes them incapable
+of measuring thermal signals from static targets. We need an active sensor that
+can detect static thermal subjects. This paper presents our design of active
+PIR sensors. The proposed PIR sensing systems can actively detect static
+thermal targets by using three methods that are suitable to different
+applications: 1) a sensor that can be rotated by a self-controlled servo motor
+for the detection of moving or static thermal subjects nearby; 2) a sensor that
+is equipped with a mask for low-complexity posture recognition; and 3) a sensor
+that can be worn on the wrist for the recognition of surrounding subjects (this
+sensor is especially useful for blind users). Compressive sensing (CS) theory
+indicates that random down-sampling method can capture more accurate
+information of the original signal than the evenly spaced sampling. Based on CS
+theory, we have developed the random sampling structures for the active PIR
+systems, and have built a statistical feature space for human scenario
+recognition. The experimental results demonstrate that the active sensing
+system can efficiently measure the static thermal targets, and the random
+sampling scheme has a better recognition performance than the even sampling
+scheme.},
+keywords={compressed sensing;feature extraction;infrared detectors;infrared
+imaging;object detection;pyroelectric detectors;sampling methods;sensors;PIR
+sensing systems;active PIR systems;active compressive sensing;active sensing
+system;conventional pyroelectric infrared motion sensors;down-sampling
+method;human scenario recognition;human situation recognition;low-complexity
+posture recognition;moving targets detection;random sampling
+structures;recognition performance;static thermal targets;thermal
+signals;Cameras;Choppers (circuits);Magnetic sensors;Sensor systems;Thermal
+sensors;Wearable sensors;Active sensing;compressive sensing (CS);pyroelectric
+infrared (PIR) sensor;random sampling;situation recognition},
+doi={10.1109/TSMC.2016.2578465},
+ISSN={2168-2216},
+month={Dec},}
+@ARTICLE{7583665,
+author={G. Jules and M. Saadat},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Agent Cooperation Mechanism for Decentralized Manufacturing Scheduling},
+
+year={2017},
+volume={47},
+number={12},
+pages={3351-3362},
+abstract={This paper presents an agent cooperation mechanism for scheduling
+operations in a manufacturing network, while allowing manufacturers to
+absolutely control their scheduling activities. The study includes a thorough
+review of recent publications, a real-life industrial use case of a
+manufacturing network, an agent-based model of the network simulated with
+recursive porous agent simulation toolkit, the Muth and Thompson (MT10)
+scheduling data set, and the visualization of results in Microsoft Project.
+Results of a study of a four-layer cooperation mechanism showed that for the
+MT10 problem, manufacturer arrangement 0-5-7-2-3-8-1-9-6-4-0 was found to
+maximize the utilitarian social welfare of the manufacturing network. In terms
+of make-span, the network achieved a maximum of 1125 which was beyond the known
+optimal 930. Results suggest that manufacturers could express their scheduling
+goals and their preferences with whom they wanted to cooperate. These were
+measured by the time incentive and compatibility indicators. The latter could
+also be used to track the optimality loss in make-span optimization when
+implementing the decentralized scheduling approach in the context of
+manufacturing networks.},
+keywords={digital simulation;manufacturing systems;multi-agent
+systems;optimisation;production engineering computing;scheduling;MT10
+scheduling data set;Muth and Thompson scheduling data set;agent cooperation
+mechanism;decentralized manufacturing scheduling;four-layer cooperation
+mechanism;make-span optimization;manufacturer arrangement;manufacturing
+network;recursive porous agent simulation toolkit;scheduling activities
+control;Context awareness;Dynamic scheduling;Job shop
+scheduling;Manufacturing;Optimization;Agent;decentralized;distributed;optimization;scheduling;welfare},
+
+doi={10.1109/TSMC.2016.2578879},
+ISSN={2168-2216},
+month={Dec},}
+@ARTICLE{7501529,
+author={H. Shen and G. Wang},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Can Dynamic Knowledge-Sharing Activities Be Mirrored From the Static
+Online Social Network in Yahoo! Answers and How to Improve Its Quality of
+Service?},
+year={2017},
+volume={47},
+number={12},
+pages={3363-3376},
+abstract={Yahoo! Answers is an online platform where users can post questions
+and answer other users' questions. Our previous work studied the online social
+network (OSN) of Yahoo! Answers by analyzing information from the profiles
+(including fans, contacts, and interests) of top contributors and their related
+users. Rather than using the static profile information from the top-
+contributor-centered dataset, in this paper, we particularly analyze the actual
+questioning and answering (Q/A) behaviors of normal users. We build a Q/
+A network that unidirectionally connects each asker to his/her answerers. We
+analyze the structural characteristics of the Q/A network, user Q/A activities,
+and knowledge base of all users. In addition to the observations similar to our
+previous study, which indicates that the OSN of Yahoo! Answers can reflect user
+Q/A activities to a certain extent, we additionally observe that: 1) a large
+portion of users only ask questions without answering others' questions; 2)
+users are active in more knowledge categories than those indicated in their
+profiles; and 3) the knowledge categories of the top-contributor-related users
+cannot represent those of normal users. Finally, we analyze the characteristics
+of questions and answers in different knowledge categories. This paper not only
+provides an understanding of actual Q/A activities of users but also showcases
+the aspects of Q/A activities that the OSN of Yahoo! Answers can and cannot
+accurately reflect. Based on the insights gained from this paper, we propose a
+few methods to help improve the quality of service of Yahoo! Answers.},
+keywords={question answering (information retrieval);social networking
+(online);OSN;Yahoo! Answers;answering behaviors;dynamic knowledge-sharing
+activities;knowledge categories;online platform;quality of service;questioning
+behaviors;static online social network;static profile information;structural
+characteristics;top-contributor-centered dataset;top-contributor-related
+users;Cybernetics;Knowledge based systems;Quality of service;Search
+engines;Social network services;Knowledge sharing;Question and Answer (Q&A)
+systems;Yahoo! Answers},
+doi={10.1109/TSMC.2016.2580606},
+ISSN={2168-2216},
+month={Dec},}
+@ARTICLE{7517346,
+author={N. Ye},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={The Partial-Value Association Discovery Algorithm to Learn Multilayer
+Structural System Models From System Data},
+year={2017},
+volume={47},
+number={12},
+pages={3377-3385},
+abstract={Many systems exist without us knowing structural system models and
+require us to discover structural system models from system data. A major
+shortcoming of current statistical modeling and data mining techniques is their
+focus on building relations of variables that hold for all values of variables.
+This paper presents the new partial-value association discovery (PVAD)
+algorithm to discover relations of variables that may exist for only certain
+values or different value ranges of variables and to use these partial-value
+variable relations for constructing structural system models. The PVAD
+algorithm along with its performance and computational complexity is
+presented.},
+keywords={data mining;statistical analysis;PVAD algorithm;computational
+complexity;data mining techniques;multilayer structural system models
+learning;partial-value association discovery algorithm;partial-value variable
+relations;statistical modeling;system data;Computational modeling;Data
+mining;Data models;Mathematical model;Numerical models;Temperature
+distribution;Categorical and numeric data;data mining;partial-value
+associations of variable values;structural system model},
+doi={10.1109/TSMC.2016.2585656},
+ISSN={2168-2216},
+month={Dec},}

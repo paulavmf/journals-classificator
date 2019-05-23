@@ -1,0 +1,500 @@
+@ARTICLE{8024063,
+author={F. Sun and G. B. Huang and Q. M. Jonathan Wu and S. Song and D. C.
+Wunsch II},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Efficient and Rapid Machine Learning Algorithms for Big Data and Dynamic
+Varying Systems},
+year={2017},
+volume={47},
+number={10},
+pages={2625-2626},
+abstract={With the exponential growth of data and complexity of systems, fast
+machine learning/artificial intelligence and computational intelligence
+techniques are highly required. Many conventional computational intelligence
+techniques face bottlenecks in learning (e.g., intensive human intervention and
+convergence time) [item 1) in the Appendix]. However, efficient learning
+algorithms alternatively offer significant benefits including fast learning
+speed, ease of implementation, and minimal human intervention. The need for
+efficient and fast implementation of machine learning techniques in big data
+and dynamic varying systems poses many research challenges. This special issue
+highlights some latest development in the related areas.},
+keywords={Acceleration;Big Data;Cybernetics;Delays;Feature
+extraction;Kernel;Support vector machines},
+doi={10.1109/TSMC.2017.2741558},
+ISSN={2168-2216},
+month={Oct},}
+@ARTICLE{7736047,
+author={T. Bodnar and M. L. Dering and C. Tucker and K. M. Hopkinson},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Using Large-Scale Social Media Networks as a Scalable Sensing System for
+Modeling Real-Time Energy Utilization Patterns},
+year={2017},
+volume={47},
+number={10},
+pages={2627-2640},
+abstract={The hypothesis of this paper is that topics, expressed through large-
+scale social media networks, approximate electricity utilization events (e.g.,
+using high power consumption devices such as a dryer) with high accuracy.
+Traditionally, researchers have proposed the use of smart meters to model
+device-specific electricity utilization patterns. However, these techniques
+suffer from scalability and cost challenges. To mitigate these challenges, we
+propose a social media network-driven model that utilizes large-scale textual
+and geospatial data to approximate electricity utilization patterns, without
+the need for physical hardware systems (e.g., such as smart meters), hereby
+providing a readily scalable source of data. The methodology is validated by
+considering the problem of electricity use disaggregation, where energy
+consumption rates from a nine-month period in San Diego, coupled with 1.8
+million tweets from the same location and time span, are utilized to
+automatically determine activities that require large or small amounts of
+electricity to accomplish. The system determines 200 topics on which to detect
+electricity-related events and finds 38 of these to be valid descriptors of
+energy utilization. In addition, a comparison with electricity consumption
+patterns published by domain experts in the energy sector shows that our
+methodology both reproduces the topics reported by experts, while discovering
+additional topics. Finally, the generalizability of our model is compared with
+a weather-based model, provided by the U.S. Department of Energy.},
+keywords={smart meters;social networking (online);unsupervised
+learning;electricity use disaggregation;large-scale social media networks;real-
+time energy utilization patterns;scalable sensing system;to unsupervised
+learning;weather-based model;Intelligent sensors;Real-time systems;Sensor
+systems;Smart grids;Smart meters;Social network services;Event
+detection;Granger causality;predictive models;social network
+services;unsupervised learning},
+doi={10.1109/TSMC.2016.2618860},
+ISSN={2168-2216},
+month={Oct},}
+@ARTICLE{7888593,
+author={N. Passalis and A. Tefas},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Learning Neural Bag-of-Features for Large-Scale Image Retrieval},
+year={2017},
+volume={47},
+number={10},
+pages={2641-2652},
+abstract={In this paper, the well-known bag-of-features (BoFs) model is
+generalized and formulated as a neural network that is composed of three
+layers: 1) a radial basis function (RBF) layer; 2) an accumulation layer; and
+3) a fully connected layer. This formulation allows for decoupling the
+representation size from the number of used codewords, as well as for better
+modeling the feature distribution using a separate trainable scaling parameter
+for each RBF neuron. The resulting network, called retrieval-oriented neural
+BoF (RN-BoF), is trained using regular back propagation and allows for fast
+extraction of compact image representations. It is demonstrated that the RN-BoF
+model is capable of: 1) increasing the object encoding and retrieval speed; 2)
+reducing the extracted representation size; and 3) increasing the retrieval
+precision. A symmetry-aware spatial segmentation technique is also proposed to
+further reduce the encoding time and the storage requirements and allows the
+method to efficiently scale to large datasets. The proposed method is evaluated
+and compared to other state-of-the-art techniques using five different image
+datasets, including the large-scale YouTube Faces database.},
+keywords={image representation;image retrieval;image segmentation;radial basis
+function networks;YouTube Faces database;accumulation layer;compact image
+representations;fully connected layer;large-scale image retrieval;neural bag-
+of-features model;radial basis function layer;regular back
+propagation;retrieval-oriented neural BoF;symmetry-aware spatial segmentation
+technique;Dictionaries;Encoding;Feature extraction;Histograms;Image
+retrieval;Image segmentation;Bag-of-features (BoFs) representation;information
+retrieval;neural networks;retrieval-oriented optimization},
+doi={10.1109/TSMC.2017.2680404},
+ISSN={2168-2216},
+month={Oct},}
+@ARTICLE{7942005,
+author={M. Sharma and Jayadeva and S. Soman and H. Pant},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Large-Scale Minimal Complexity Machines Using Explicit Feature Maps},
+year={2017},
+volume={47},
+number={10},
+pages={2653-2662},
+abstract={Minimal complexity machines (MCMs) are a class of hyperplane
+classifiers that try to minimize a tight bound on the Vapnik-Chervonenkis
+dimension. MCMs can be used both in the input space and in a higher dimensional
+feature space via the kernel trick. MCMs tend to produce very sparse solutions
+in comparison to support vector machines, often using three to ten times fewer
+support vectors. However, large datasets present significant challenges in
+terms of storage and operations on the kernel matrix. In this paper, we present
+a stochastic subgradient descent solver for large-scale machine learning with
+the MCM. The proposed approach uses an explicit feature map-based approximation
+of the kernel, to improve the scalability of the algorithm.},
+keywords={approximation theory;gradient methods;learning (artificial
+intelligence);stochastic processes;support vector machines;MCM;Vapnik-
+Chervonenkis dimension;explicit feature maps;feature map;hyperplane
+classifiers;kernel matrix;large-scale machine learning;large-scale minimal
+complexity machines;stochastic subgradient descent solver;support vector
+machines;Complexity theory;Kernel;Optimization;Sparse matrices;Sun;Support
+vector machines;Training;Fastfood;Vapnik-Chervonenkis (VC) dimension;minimal
+complexity machines (MCMs);random Fourier features;stochastic gradient
+descent},
+doi={10.1109/TSMC.2017.2694321},
+ISSN={2168-2216},
+month={Oct},}
+@ARTICLE{7552577,
+author={X. Song and X. Xia and F. Luan},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Online Signature Verification Based on Stable Features Extracted
+Dynamically},
+year={2017},
+volume={47},
+number={10},
+pages={2663-2676},
+abstract={Effective information extraction and optimal feature subspace
+selection have great effects on the performance of online signature
+verification. One of the difficulties about online signature verification is to
+extract and select effective features, which are stable in genuine but
+discriminative to distinguish forgeries. Different from other works, stability
+of spectral information inherent in signatures is analyzed in this paper, and
+stable spectral information is selected dynamically dependent on individuals to
+reconstruct the stable spectral features. In order to extract more effective
+spectral information, features are decomposed by wavelet packet with the
+optimal mother wavelet. To enhance the security level of online signature
+verification, discriminative capabilities of stable spectral features are
+analyzed by factorial experiment design. The optimal feature subspace is
+selected according to contribution rate. Furthermore, we proposed a simple and
+effective modified dynamic time warping (DTW) with signature curves constraint
+to solve the problem of heavy computation of DTW. Several experiments are
+carried out on open access database of MCYT_DB1 and SVC2004 task2 which consist
+of 6600 signatures from 140 individuals in total. Experiment results
+demonstrate the effectiveness and robustness of our proposed method.},
+keywords={feature extraction;feature selection;handwriting recognition;wavelet
+transforms;DTW;information extraction;modified dynamic time warping;online
+signature verification;optimal feature subspace selection;wavelet packet;Data
+mining;Discrete wavelet transforms;Feature
+extraction;Forgery;Robustness;Stability analysis;Writing;Factorial experiment
+design (FED);online signature verification;optimal feature subspace;optimal
+mother wavelet;stable spectral features},
+doi={10.1109/TSMC.2016.2597240},
+ISSN={2168-2216},
+month={Oct},}
+@ARTICLE{7866831,
+author={J. Wang and D. Yang and W. Jiang and J. Zhou},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Semisupervised Incremental Support Vector Machine Learning Based on
+Neighborhood Kernel Estimation},
+year={2017},
+volume={47},
+number={10},
+pages={2677-2687},
+abstract={Semisupervised scheme has emerged as a popular strategy in the
+machine learning community due to the expensiveness of getting enough labeled
+data. In this paper, a semisupervised incremental support vector machine (SE-
+INC-SVM) algorithm based on neighborhood kernel estimation is proposed. First,
+kernel regression is constructed to estimate the unlabeled data from the
+labeled neighbors and its estimation accuracy is discussed from the analogy
+with tradition RBF neural network. The incremental scheme is derived to improve
+the learning efficiency and reduce the computing time. Simulations for manual
+data set and industrial benchmark-penicillin fermentation process demonstrate
+the effectiveness of the proposed SE-INC-SVM method.},
+keywords={estimation theory;learning (artificial intelligence);neural
+nets;regression analysis;support vector machines;Neighborhood Kernel
+Estimation;RBF neural network;SE-INC-SVM algorithm;industrial benchmark-
+penicillin fermentation process;kernel regression;labeled data;machine learning
+community;neighborhood kernel estimation;semisupervised incremental support
+vector machine learning;semisupervised scheme;Data
+models;Estimation;Interpolation;Kernel;Semisupervised learning;Support vector
+machines;Training;Incremental training;neighborhood kernel estimation
+(KE);semisupervised scheme;support vector machine (SVM)},
+doi={10.1109/TSMC.2017.2667703},
+ISSN={2168-2216},
+month={Oct},}
+@ARTICLE{7930401,
+author={A. Sharabiani and H. Darabi and A. Rezaei and S. Harford and H. Johnson
+and F. Karim},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Efficient Classification of Long Time Series by 3-D Dynamic Time
+Warping},
+year={2017},
+volume={47},
+number={10},
+pages={2688-2703},
+abstract={Throughout recent years, dynamic time warping (DTW) has remained as a
+robust similarity measure in time series classification (TSC). 1-nearest
+neighbor (1-NN) algorithm with DTW is the most widely used classification
+method on time series serving as a benchmark. With the increasing demand for
+TSC on low-resource devices and the widespread of wearable devices, the need
+for a efficient and accurate time series classifier has never been higher.
+Although 1-NN DTW attains accurate results, it highly falls back on efficiency
+due to its quadratic complexity in the length of time series. In this paper, we
+propose a new approximation method for reducing the length of the time series
+as the input of DTW. We call it control chart approximation (CCA), after a
+similar concept used in statistical quality control processing. CCA
+representation approximates raw time series by transforming them into a set of
+segments with aggregated values and durations forming a reduced 3-D vector. We
+also propose an adaptation of DTW in 3-D space as a distance measure for 1-NN
+classifier, and denote the method as 1-NN 3-D DTW. Our experiments on 85
+datasets from UCR archive-including 28 long-length (>500 points) time series
+datasets-show up to two orders of magnitude performance gain in running time
+compared to the state-of-the-art 1-NN DTW implementation. Moreover, it shows
+similar or better accuracy on the long time series in the experiment.},
+keywords={approximation theory;pattern classification;time series;1-nearest
+neighbor algorithm;3D dynamic time warping;CCA representation;DTW;control chart
+approximation;robust similarity measure;statistical quality control
+processing;time series classification;Cybernetics;Heuristic algorithms;Robot
+sensing systems;Robustness;Time measurement;Time series
+analysis;Training;Approximation methods;dynamic time warping (DTW);time series
+classification (TSC)},
+doi={10.1109/TSMC.2017.2699333},
+ISSN={2168-2216},
+month={Oct},}
+@ARTICLE{7924399,
+author={K. Huang and Q. Zhang and C. Zhou and N. Xiong and Y. Qin},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={An Efficient Intrusion Detection Approach for Visual Sensor Networks
+Based on Traffic Pattern Learning},
+year={2017},
+volume={47},
+number={10},
+pages={2704-2713},
+abstract={Visual sensor networks (VSNs) are highly vulnerable to attacks due to
+their open deployment in possibly unattended environments. To improve the
+network security of VSNs, an intrusion detection system (IDS) is an effective
+countermeasure. However, as visual sensors can produce big and dynamic video
+data, it is a tough task to rapidly and effectively detect attacks in VSNs.
+Moreover, attack samples in VSNs are generally too rare for IDSs to fully
+understand the behaviors of attacks. Facing these difficulties, in this paper,
+we propose an efficient intrusion detection approach for VSNs, which is based
+on traffic pattern learning. In the proposed approach, a traffic model is
+developed to describe the dynamic characteristics of network traffic in VSNs.
+Based on this model, the optimal feature set for traffic pattern learning can
+be extracted. Then a hierarchical self-organizing map (HSOM) is employed to
+learn traffic patterns and detect intrusions. Furthermore, an active learning
+strategy is devised to accelerate the training process of the HSOM and better
+learn the patterns of attacks. Experimental results show that the proposed
+approach has high detection accuracy and good real-time performance.},
+keywords={image sensors;learning (artificial intelligence);pattern
+classification;telecommunication security;telecommunication traffic;wireless
+sensor networks;Big data;IDS;VSN;attack samples;attacks behaviors;dynamic video
+data;efficient intrusion detection approach;intrusion detection system;network
+security;optimal feature set;traffic pattern learning;visual sensor
+networks;wireless sensor network;Computational modeling;Feature
+extraction;Intrusion detection;Self-organizing feature
+maps;Training;Visualization;Wireless sensor networks;Active learning;big
+data;intrusion detection;self-organizing map (SOM);visual sensor networks
+(VSNs)},
+doi={10.1109/TSMC.2017.2698457},
+ISSN={2168-2216},
+month={Oct},}
+@ARTICLE{7890493,
+author={L. Bu and D. Zhao and C. Alippi},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={An Incremental Change Detection Test Based on Density Difference
+Estimation},
+year={2017},
+volume={47},
+number={10},
+pages={2714-2726},
+abstract={We propose incremental least squares density difference (LSDD) change
+detection method, an incremental test to detect changes in stationarity based
+on the difference between the unknown prechange and the post-change probability
+density functions (pdfs). The method is computationally light and, hence,
+adequate to process continuous data streams, as those emerging from the
+Internet of Things and the big data framework. The incremental change detection
+test operates on two nonoverlapping data windows to estimate the LSDD between
+the two pdfs. We construct a theoretical framework that shows how the
+distribution of LSDD values follows a linear combination of χ2 distributions
+and provides thresholds to control false positive rates. The proposed test can
+operate online, with needed estimates and thresholds computed incrementally as
+fresh samples come. Comprehensive experiments validate the effectiveness of the
+test both in detecting abrupt and drift types of changes.},
+keywords={least squares approximations;probability;Big data framework;Internet
+of Things;LSDD;LSDD values;change detection method;density difference
+estimation;false positive rates;incremental change detection test;least squares
+density difference;linear combination;nonoverlapping data windows;probability
+density functions;process continuous data streams;Estimation;Feature
+extraction;Histograms;Kernel;Probability density function;Training;Change
+detection;incremental computing;incremental least squares density difference
+change detection method (LSDD-Inc);probability density function (pdf)-free},
+doi={10.1109/TSMC.2017.2682502},
+ISSN={2168-2216},
+month={Oct},}
+@ARTICLE{7993020,
+author={S. Ramírez-Gallego and B. Krawczyk and S. García and M. Woźniak and J.
+M. Benítez and F. Herrera},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Nearest Neighbor Classification for High-Speed Big Data Streams Using
+Spark},
+year={2017},
+volume={47},
+number={10},
+pages={2727-2739},
+abstract={Mining massive and high-speed data streams among the main
+contemporary challenges in machine learning. This calls for methods displaying
+a high computational efficacy, with ability to continuously update their
+structure and handle ever-arriving big number of instances. In this paper, we
+present a new incremental and distributed classifier based on the popular
+nearest neighbor algorithm, adapted to such a demanding scenario. This method,
+implemented in Apache Spark, includes a distributed metric-space ordering to
+perform faster searches. Additionally, we propose an efficient incremental
+instance selection method for massive data streams that continuously update and
+remove outdated examples from the case-base. This alleviates the high
+computational requirements of the original classifier, thus making it suitable
+for the considered problem. Experimental study conducted on a set of real-life
+massive data streams proves the usefulness of the proposed solution and shows
+that we are able to provide the first efficient nearest neighbor solution for
+high-speed big and streaming data.},
+keywords={Big Data;data mining;learning (artificial intelligence);pattern
+classification;Spark;high-speed big data streams;incremental distributed
+classifier;incremental instance selection method;machine learning;nearest
+neighbor classification;Big Data;Computer science;Data mining;Machine learning
+algorithms;Memory management;Sparks;Training;Apache Spark;big data;data
+streams;distributed computing;instance reduction;machine learning;nearest
+neighbor},
+doi={10.1109/TSMC.2017.2700889},
+ISSN={2168-2216},
+month={Oct},}
+@ARTICLE{7908958,
+author={C. Chen and K. Li and A. Ouyang and Z. Tang and K. Li},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={GPU-Accelerated Parallel Hierarchical Extreme Learning Machine on Flink
+for Big Data},
+year={2017},
+volume={47},
+number={10},
+pages={2740-2753},
+abstract={The extreme learning machine (ELM) has become one of the most
+important and popular algorithms of machine learning, because of its extremely
+fast training speed, good generalization, and universal approximation/
+classification capability. The proposal of hierarchical ELM (H-ELM) extends ELM
+from single hidden layer feedforward networks to multilayer perceptron, greatly
+strengthening the applicability of ELM. Generally speaking, during training H-
+ELM, large-scale datasets (DSTs) are needed. Therefore, how to make use of H-
+ELM framework in processing big data is worth further exploration. This paper
+proposes a parallel H-ELM algorithm based on Flink, which is one of the in-
+memory cluster computing platforms, and graphics processing units (GPUs).
+Several optimizations are adopted to improve the performance, such as cache-
+based scheme, reasonable partitioning strategy, memory mapping scheme for
+mapping specific Java virtual machine objects to buffers. Most importantly, our
+proposed framework for utilizing GPUs to accelerate Flink for big data is
+general. This framework can be utilized to accelerate many other variants of
+ELM and other machine learning algorithms. To the best of our knowledge, it is
+the first kind of library, which combines in-memory cluster computing with GPUs
+to parallelize H-ELM. The experimental results have demonstrated that our
+proposed GPU-accelerated parallel H-ELM named as GPH-ELM can efficiently
+process large-scale DSTs with good performance of speedup and scalability,
+leveraging the computing power of both CPUs and GPUs in the cluster.},
+keywords={Big Data;graphics processing units;learning (artificial
+intelligence);parallel algorithms;Big Data;Flink;GPU-accelerated parallel
+hierarchical extreme learning machine;Java virtual machine;graphics processing
+units;in-memory cluster computing platforms;multilayer perceptron;parallel H-
+ELM algorithm;single hidden layer feedforward
+networks;Acceleration;Approximation algorithms;Big Data;Clustering
+algorithms;Libraries;Machine learning algorithms;Training;Big data;GPGPU;deep
+learning (DL);flink;hierarchical extreme learning machine (H-ELM);parallel},
+doi={10.1109/TSMC.2017.2690673},
+ISSN={2168-2216},
+month={Oct},}
+@ARTICLE{7917288,
+author={L. Oneto and E. Fumeo and G. Clerico and R. Canepa and F. Papa and C.
+Dambra and N. Mazzino and D. Anguita},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Dynamic Delay Predictions for Large-Scale Railway Networks: Deep and
+Shallow Extreme Learning Machines Tuned via Thresholdout},
+year={2017},
+volume={47},
+number={10},
+pages={2754-2767},
+abstract={Current train delay (TD) prediction systems do not take advantage of
+state-of-the-art tools and techniques for handling and extracting useful and
+actionable information from the large amount of endogenous (i.e., generated by
+the railway system itself) and exogenous (i.e., related to railway operation
+but generated by external phenomena) data available. Additionally, they are not
+designed in order to deal with the intrinsic time varying nature of the problem
+(e.g., regular changes in the nominal timetable, etc.). The purpose of this
+paper is to build a dynamic data-driven TD prediction system that exploits the
+most recent tools and techniques in the field of time varying big data
+analysis. In particular, we map the TD prediction problem into a time varying
+multivariate regression problem that allows exploiting both historical data
+about the train movements and exogenous data about the weather provided by the
+national weather services. The performance of these methods have been tuned
+through the state-of-the-art thresholdout technique, a very powerful procedure
+which relies on the differential privacy theory. Finally, the performance of
+two efficient implementations of shallow and deep extreme learning machines
+that fully exploit the recent in-memory large-scale data processing
+technologies have been compared with the current state-of-the-art TD prediction
+systems. Results on real-world data coming from the Italian railway network
+show that the proposal of this paper is able to remarkably improve the state-
+of-the-art systems.},
+keywords={learning (artificial intelligence);railways;regression
+analysis;differential privacy theory;dynamic data-driven TD prediction
+system;dynamic delay predictions;extreme learning machines;large-scale railway
+networks;time varying big data analysis;time varying multivariate regression
+problem;Big Data;Data models;Delays;Meteorology;Predictive models;Rail
+transportation;Tools;Apache Spark;big data;deep extreme learning machine
+(DELM);delay prediction;dynamic varying systems;in-memory computing;intelligent
+transportation systems;model selection (MS);railway;shallow extreme learning
+machine (SELM);thresholdout},
+doi={10.1109/TSMC.2017.2693209},
+ISSN={2168-2216},
+month={Oct},}
+@ARTICLE{7862282,
+author={L. Carafoli and F. Mandreoli and R. Martoglia and W. Penzo},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Streaming Tables: Native Support to Streaming Data in DBMSs},
+year={2017},
+volume={47},
+number={10},
+pages={2768-2782},
+abstract={Data stream management systems (DSMSs) are conceived for running
+continuous queries (CQs) on the most recently streamed data. This model does
+not completely fit the needs of several modern data-intensive applications that
+require to manage recent/historical/static data and execute both CQs and OTQs
+joining such data. In order to cope with these new needs, some DSMSs have moved
+toward the integration of database management systems (DBMSs) functionalities
+to augment their capabilities. In this paper we adopt the opposite perspective
+and we lay the groundwork for extending DBMSs to natively support streaming
+facilities. To this end, we introduce a new kind of table, the streaming table,
+as a persistent structure where streaming data enters and remains stored for a
+long period, ideally forever. Streaming tables feature a novel access paradigm:
+continuous writes and one-time as well as continuous reads. We present a
+streaming table implementation and two novel types of indices that efficiently
+support both update and scan high rates. A detailed experimental evaluation
+shows the effectiveness of the proposed technology.},
+keywords={database management systems;query
+processing;CQ;DBMS;DSMS;OTQ;continuous queries;data stream management
+systems;database management systems;one-time queries;streaming
+tables;Accidents;Benchmark testing;Data models;Databases;Real-time
+systems;Roads;Standards;Continuous queries (CQs);data streams;database
+design;database management system (DBMS);modeling and management;spatial/
+temporal databases},
+doi={10.1109/TSMC.2017.2664585},
+ISSN={2168-2216},
+month={Oct},}
+@ARTICLE{7747498,
+author={Z. G. Liu and Q. Pan and J. Dezert and G. Mercier},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Hybrid Classification System for Uncertain Data},
+year={2017},
+volume={47},
+number={10},
+pages={2783-2790},
+abstract={In classification problem, several different classes may be partially
+overlapped in their borders. The objects in the border are usually quite
+difficult to classify. A hybrid classification system (HCS) is proposed to
+adaptively utilize the proper classification method for each object according
+to the K-nearest neighbors (K-NNs), which are found in the weighting vector
+space obtained by self-organizing map (SOM) in each class. If the K-close
+weighting vectors (nodes) are all from the same class, it indicates that this
+object can be correctly classified with high confidence, and the simple hard
+classification will be adopted to directly classify this object into the
+corresponding class. If the object likely lies in the border of classes, it
+implies that this object could be difficult to classify, and the credal
+classification working with belief functions is recommended. The credal
+classification allows the object to belong to both singleton classes and sets
+of classes (meta-class) with different masses of belief, and it is able to well
+capture the potential imprecision of classification thanks to the meta-class
+and also reduce the errors. Fuzzy classification is selected for the object
+close to the border and hard to clearly classify, and it associates the object
+with different classes by different membership (probability) values. HCS
+generally takes full advantage of the three classification ways and produces
+good performance. Moreover, it requires quite low computational burden compared
+with other K-NNs-based methods due to the use of SOM. The effectiveness of HCS
+is demonstrated by several experiments with synthetic and real datasets.},
+keywords={data handling;fuzzy set theory;pattern classification;self-organising
+feature maps;K-NNs;K-close weighting vectors;K-nearest neighbors;SOM;fuzzy
+classification;hybrid classification system;proper classification method;self-
+organizing map;uncertain data;weighting vector space;Complexity
+theory;Cybernetics;Measurement;Self-organizing feature maps;Training;Training
+data;Uncertainty;Belief function;Dempster–Shafer theory (DST);evidence
+theory;pattern classification;uncertain data},
+doi={10.1109/TSMC.2016.2622247},
+ISSN={2168-2216},
+month={Oct},}

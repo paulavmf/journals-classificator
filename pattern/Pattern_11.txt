@@ -1,0 +1,610 @@
+@ARTICLE{7765036,
+author={F. Rodrigues and S. S. Borysov and B. Ribeiro and F. C. Pereira},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={A Bayesian Additive Model for Understanding Public Transport Usage in
+Special Events},
+year={2017},
+volume={39},
+number={11},
+pages={2113-2126},
+abstract={Public special events, like sports games, concerts and festivals are
+well known to create disruptions in transportation systems, often catching the
+operators by surprise. Although these are usually planned well in advance,
+their impact is difficult to predict, even when organisers and transportation
+operators coordinate. The problem highly increases when several events happen
+concurrently. To solve these problems, costly processes, heavily reliant on
+manual search and personal experience, are usual practice in large cities like
+Singapore, London or Tokyo. This paper presents a Bayesian additive model with
+Gaussian process components that combines smart card records from public
+transport with context information about events that is continuously mined from
+the Web. We develop an efficient approximate inference algorithm using
+expectation propagation, which allows us to predict the total number of public
+transportation trips to the special event areas, thereby contributing to a more
+adaptive transportation system. Furthermore, for multiple concurrent event
+scenarios, the proposed algorithm is able to disaggregate gross trip counts
+into their most likely components related to specific events and routine
+behavior. Using real data from Singapore, we show that the presented model
+outperforms the best baseline model by up to 26 percent in R2 and also has
+explanatory power for its individual components.},
+keywords={Bayes methods;Gaussian processes;data mining;inference
+mechanisms;smart cards;sport;traffic engineering
+computing;transportation;Bayesian additive model;Gaussian process
+components;London;Singapore;Tokyo;Web;adaptive transportation system;efficient
+approximate inference algorithm;expectation propagation;gross trip
+counts;manual search;multiple concurrent event scenarios;personal
+experience;public special events;public transport usage;public transportation
+trips;routine behavior;smart card records;sports games;transportation
+operators;Additives;Bayes methods;Data models;Games;Gaussian
+processes;Predictive models;Transportation;Additive models;Gaussian
+processes;expectation propagation;transportation demand},
+doi={10.1109/TPAMI.2016.2635136},
+ISSN={0162-8828},
+month={Nov},}
+@ARTICLE{7776921,
+author={J. Roth and Y. Tong and X. Liu},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Adaptive 3D Face Reconstruction from Unconstrained Photo Collections},
+year={2017},
+volume={39},
+number={11},
+pages={2127-2141},
+abstract={Given a photo collection of “unconstrained” face images of one
+individual captured under a variety of unknown pose, expression, and
+illumination conditions, this paper presents a method for reconstructing a 3D
+face surface model of the individual along with albedo information. Unlike
+prior work on face reconstruction that requires large photo collections, we
+formulate an approach to adapt to photo collections with a high diversity in
+both the number of images and the image quality. To achieve this, we
+incorporate prior knowledge about face shape by fitting a 3D morphable model to
+form a personalized template, following by using a novel photometric stereo
+formulation to complete the fine details, under a coarse-to-fine scheme. Our
+scheme incorporates a structural similarity-based local selection step to help
+identify a common expression for reconstruction while discarding occluded
+portions of faces. The evaluation of reconstruction performance is through a
+novel quality measure, in the absence of ground truth 3D scans. Superior large-
+scale experimental results are reported on synthetic, Internet, and personal
+photo collections.},
+keywords={face recognition;image reconstruction;shape recognition;stereo image
+processing;3D face surface model;3D morphable model fitting;adaptive 3D face
+reconstruction;albedo information;coarse-to-fine scheme;face shape;ground truth
+3D scans;image quality;personal photo collections;photo collection;photometric
+stereo formulation;structural similarity-based local selection
+step;unconstrained face images;unconstrained photo collections;Adaptation
+models;Face;Image reconstruction;Lighting;Solid modeling;Surface
+reconstruction;Three-dimensional displays;Face reconstruction;photometric
+stereo;unconstrained},
+doi={10.1109/TPAMI.2016.2636829},
+ISSN={0162-8828},
+month={Nov},}
+@ARTICLE{7776975,
+author={A. Painsky and S. Rosset},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Cross-Validated Variable Selection in Tree-Based Methods Improves
+Predictive Performance},
+year={2017},
+volume={39},
+number={11},
+pages={2142-2153},
+abstract={Recursive partitioning methods producing tree-like models are a long
+standing staple of predictive modeling. However, a fundamental flaw in the
+partitioning (or splitting) rule of commonly used tree building methods
+precludes them from treating different types of variables equally. This most
+clearly manifests in these methods' inability to properly utilize categorical
+variables with a large number of categories, which are ubiquitous in the new
+age of big data. We propose a framework to splitting using leave-one-out (LOO)
+cross validation (CV) for selecting the splitting variable, then performing a
+regular split (in our case, following CART's approach) for the selected
+variable. The most important consequence of our approach is that categorical
+variables with many categories can be safely used in tree building and are only
+chosen if they contribute to predictive power. We demonstrate in extensive
+simulation and real data analysis that our splitting approach significantly
+improves the performance of both single tree models and ensemble methods that
+utilize trees. Importantly, we design an algorithm for LOO splitting variable
+selection which under reasonable assumptions does not substantially increase
+the overall computational complexity compared to CART for two-class
+classification.},
+keywords={computational complexity;data analysis;decision trees;pattern
+classification;CART's approach;CV;LOO splitting variable selection;big
+data;categorical variables;computational complexity;cross-validated variable
+selection;data analysis;fundamental flaw;leave-one-out cross validation;long
+standing staple;predictive modeling;predictive performance;recursive
+partitioning methods;regular split;single tree models;splitting approach;tree
+building;tree-like models;two-class classification;Analytical
+models;Buildings;Computational modeling;Input variables;Predictive
+models;Regression tree analysis;Vegetation;Classification and regression
+trees;gradient boosting;random forests},
+doi={10.1109/TPAMI.2016.2636831},
+ISSN={0162-8828},
+month={Nov},}
+@ARTICLE{7776879,
+author={H. Amirkhani and M. Rahmati and P. J. F. Lucas and A. Hommersom},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Exploiting Experts #x2019; Knowledge for Structure Learning of Bayesian
+Networks},
+year={2017},
+volume={39},
+number={11},
+pages={2154-2170},
+abstract={Learning Bayesian network structures from data is known to be hard,
+mainly because the number of candidate graphs is super-exponential in the
+number of variables. Furthermore, using observational data alone, the true
+causal graph is not discernible from other graphs that model the same set of
+conditional independencies. In this paper, it is investigated whether Bayesian
+network structure learning can be improved by exploiting the opinions of
+multiple domain experts regarding cause-effect relationships. In practice,
+experts have different individual probabilities of correctly labeling the
+inclusion or exclusion of edges in the structure. The accuracy of each expert
+is modeled by three parameters. Two new scoring functions are introduced that
+score each candidate graph based on the data and experts' opinions, taking into
+account their accuracy parameters. In the first scoring function, the experts'
+accuracies are estimated using an expectation-maximization-based algorithm and
+the estimated accuracies are explicitly used in the scoring process. The second
+function marginalizes out the accuracy parameters to obtain more robust scores
+when it is not possible to obtain a good estimate of experts' accuracies. The
+experimental results on simulated and real world datasets show that exploiting
+experts' knowledge can improve the structure learning if we take the experts'
+accuracies into account.},
+keywords={belief networks;data structures;expectation-maximisation
+algorithm;graph theory;learning (artificial intelligence);Bayesian network
+structure learning;Bayesian network structures;Bayesian networks;candidate
+graphs;causal graph;cause-effect relationships;different individual
+probabilities;estimated accuracies;exploiting experts;model the same
+set;multiple domain experts;observational data;robust scores;scoring
+function;scoring process;Bayes methods;Computational modeling;Data
+models;Knowledge engineering;Markov processes;Random
+variables;Reliability;Bayesian networks;experts’ accuracy;experts’
+knowledge;marginalization-based score;structure learning},
+doi={10.1109/TPAMI.2016.2636828},
+ISSN={0162-8828},
+month={Nov},}
+@ARTICLE{7775059,
+author={M. A. Pinheiro and J. Kybic and P. Fua},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Geometric Graph Matching Using Monte Carlo Tree Search},
+year={2017},
+volume={39},
+number={11},
+pages={2171-2185},
+abstract={We present an efficient matching method for generalized geometric
+graphs. Such graphs consist of vertices in space connected by curves and can
+represent many real world structures such as road networks in remote sensing,
+or vessel networks in medical imaging. Graph matching can be used for very fast
+and possibly multimodal registration of images of these structures. We
+formulate the matching problem as a single player game solved using Monte Carlo
+Tree Search, which automatically balances exploring new possible matches and
+extending existing matches. Our method can handle partial matches, topological
+differences, geometrical distortion, does not use appearance information and
+does not require an initial alignment. Moreover, our method is very efficient-
+it can match graphs with thousands of nodes, which is an order of magnitude
+better than the best competing method, and the matching only takes a few
+seconds.},
+keywords={Monte Carlo methods;computational geometry;computer games;graph
+theory;image matching;image registration;tree searching;Monte Carlo Tree
+Search;competing method;efficient matching method;generalized geometric
+graphs;geometric graph matching;geometrical distortion;matching problem;medical
+imaging;remote sensing;road networks;single player game;vessel
+networks;Biomedical imaging;Computational modeling;Games;Image edge
+detection;Monte Carlo methods;Roads;Three-dimensional displays;Geometric graph
+matching;Monte Carlo tree search;curve descriptor;image registration},
+doi={10.1109/TPAMI.2016.2636200},
+ISSN={0162-8828},
+month={Nov},}
+@ARTICLE{7784788,
+author={J. F. Hu and W. S. Zheng and J. Lai and J. Zhang},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Jointly Learning Heterogeneous Features for RGB-D Activity Recognition},
+
+year={2017},
+volume={39},
+number={11},
+pages={2186-2200},
+abstract={In this paper, we focus on heterogeneous features learning for RGB-
+D activity recognition. We find that features from different channels (RGB,
+depth) could share some similar hidden structures, and then propose a joint
+learning model to simultaneously explore the shared and feature-specific
+components as an instance of heterogeneous multi-task learning. The proposed
+model formed in a unified framework is capable of: 1) jointly mining a set of
+subspaces with the same dimensionality to exploit latent shared features across
+different feature channels, 2) meanwhile, quantifying the shared and feature-
+specific components of features in the subspaces, and 3) transferring feature-
+specific intermediate transforms (i-transforms) for learning fusion of
+heterogeneous features across datasets. To efficiently train the joint model, a
+three-step iterative optimization algorithm is proposed, followed by a simple
+inference model. Extensive experimental results on four activity datasets have
+demonstrated the efficacy of the proposed method. Anew RGB-D activity dataset
+focusing on human-object interaction is further contributed, which presents
+more challenges for RGB-D activity benchmarking.},
+keywords={image colour analysis;inference mechanisms;iterative methods;learning
+(artificial intelligence);optimisation;RGB-D activity benchmarking;RGB-
+D activity recognition;feature channels;feature-specific intermediate
+transforms;fusion learning;heterogeneous features;heterogeneous multitask
+learning;i-transforms;joint learning model;joint model;latent shared
+features;shared feature-specific components;simple inference model;three-step
+iterative optimization algorithm;Feature extraction;Image color
+analysis;Skeleton;Three-dimensional
+displays;Transforms;Visualization;Heterogeneous features learning;RGB-
+D activity recognition;action recognition},
+doi={10.1109/TPAMI.2016.2640292},
+ISSN={0162-8828},
+month={Nov},}
+@ARTICLE{7782406,
+author={T. Simon and J. Valmadre and I. Matthews and Y. Sheikh},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Kronecker-Markov Prior for Dynamic 3D Reconstruction},
+year={2017},
+volume={39},
+number={11},
+pages={2201-2214},
+abstract={Recovering dynamic 3D structures from 2D image observations is highly
+under-constrained because of projection and missing data, motivating the use of
+strong priors to constrain shape deformation. In this paper, we empirically
+show that the spatiotemporal covariance of natural deformations is dominated by
+a Kronecker pattern. We demonstrate that this pattern arises as the limit of a
+spatiotemporal autoregressive process, and derive a Kronecker Markov Random
+Field as a prior distribution over dynamic structures. This distribution
+unifies shape and trajectory models of prior art and has the individual models
+as its marginals. The key assumption of the Kronecker MRF is that the
+spatiotemporal covariance is separable into the product of a temporal and a
+shape covariance, and can therefore be modeled using the matrix normal
+distribution. Analysis on motion capture data validates that this distribution
+is an accurate approximation with significantly fewer free parameters. Using
+the trace-norm, we present a convex method to estimate missing data from a
+single sequence when the marginal shape distribution is unknown. The Kronecker-
+Markov distribution, fit to a single sequence, outperforms state-of-the-art
+methods at inferring missing 3D data, and additionally provides covariance
+estimates of the uncertainty.},
+keywords={Markov processes;autoregressive processes;covariance matrices;image
+motion analysis;image reconstruction;image sequences;normal distribution;stereo
+image processing;2D image observations;Kronecker MRF;Kronecker Markov Random
+Field;Kronecker pattern;Kronecker-Markov distribution;Kronecker-Markov
+prior;dynamic 3D reconstruction;dynamic 3D structures;marginal shape
+distribution;matrix normal distribution;natural deformations;shape
+deformation;spatiotemporal autoregressive process;spatiotemporal
+covariance;trajectory models;Cameras;Data models;Shape;Solid
+modeling;Spatiotemporal phenomena;Three-dimensional
+displays;Trajectory;Kronecker;Matrix normal distribution;generalized trace-
+norm;missing data;spatiotemporal;trace-norm},
+doi={10.1109/TPAMI.2016.2638904},
+ISSN={0162-8828},
+month={Nov},}
+@ARTICLE{7778202,
+author={F. Pittaluga and S. J. Koppal},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Pre-Capture Privacy for Small Vision Sensors},
+year={2017},
+volume={39},
+number={11},
+pages={2215-2226},
+abstract={The next wave of micro and nano devices will create a world with
+trillions of small networked cameras. This will lead to increased concerns
+about privacy and security. Most privacy preserving algorithms for computer
+vision are applied after image/video data has been captured. We propose to use
+privacy preserving optics that filter or block sensitive information directly
+from the incident light-field before sensor measurements are made, adding a new
+layer of privacy. In addition to balancing the privacy and utility of the
+captured data, we address trade-offs unique to miniature vision sensors, such
+as achieving high-quality field-of-view and resolution within the constraints
+of mass and volume. Our privacy preserving optics enable applications such as
+depth sensing, full-body motion tracking, people counting, blob detection and
+privacy preserving face recognition. While we demonstrate applications on
+macro-scale devices (smartphones, webcams, etc.) our theory has impact for
+smaller devices.},
+keywords={computer vision;data privacy;face recognition;image motion
+analysis;image sensors;object detection;object tracking;security of data;video
+signal processing;blob detection;computer vision;depth sensing;full-body motion
+tracking;high-quality field-of-view;image data;mass constraint;micro
+devices;miniature vision sensors;nano devices;people counting;precapture
+privacy;privacy preserving algorithms;privacy preserving face
+recognition;privacy preserving optics;small networked cameras;small vision
+sensors;video data;volume constraint;Computer vision;Optical imaging;Optical
+sensors;Privacy;Thermal sensors;Computer vision;privacy},
+doi={10.1109/TPAMI.2016.2637354},
+ISSN={0162-8828},
+month={Nov},}
+@ARTICLE{7769209,
+author={Q. Mao and L. Wang and I. W. Tsang and Y. Sun},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Principal Graph and Structure Learning Based on Reversed Graph
+Embedding},
+year={2017},
+volume={39},
+number={11},
+pages={2227-2241},
+abstract={Many scientific datasets are of high dimension, and the analysis
+usually requires retaining the most important structures of data. Principal
+curve is a widely used approach for this purpose. However, many existing
+methods work only for data with structures that are mathematically formulated
+by curves, which is quite restrictive for real applications. A few methods can
+overcome the above problem, but they either require complicated human-made
+rules for a specific task with lack of adaption flexibility to different tasks,
+or cannot obtain explicit structures of data. To address these issues, we
+develop a novel principal graph and structure learning framework that captures
+the local information of the underlying graph structure based on reversed graph
+embedding. As showcases, models that can learn a spanning tree or a weighted
+undirected `1 graph are proposed, and a new learning algorithm is developed
+that learns a set of principal points and a graph structure from data,
+simultaneously. The new algorithm is simple with guaranteed convergence. We
+then extend the proposed framework to deal with large-scale data. Experimental
+results on various synthetic and six real world datasets show that the proposed
+method compares favorably with baselines and can uncover the underlying
+structure correctly.},
+keywords={data analysis;learning (artificial intelligence);trees
+(mathematics);large-scale data;learning algorithm;principal curve;principal
+graph;reversed graph embedding;scientific datasets;spanning tree;structure
+learning framework;weighted undirected l1
+graph;Bifurcation;Cancer;Convergence;Grammar;Manifolds;Optical
+imaging;Skeleton;Principal curve;principal graph;structure learning},
+doi={10.1109/TPAMI.2016.2635657},
+ISSN={0162-8828},
+month={Nov},}
+@ARTICLE{7776926,
+author={J. Zheng and Z. Jiang and R. Chellappa},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Submodular Attribute Selection for Visual Recognition},
+year={2017},
+volume={39},
+number={11},
+pages={2242-2255},
+abstract={In real-world visual recognition problems, low-level features cannot
+adequately characterize the semantic content in images, or the spatio-temporal
+structure in videos. In this work, we encode objects or actions based on
+attributes that describe them as high-level concepts. We consider two types of
+attributes. One type of attributes is generated by humans, while the second
+type is data-driven attributes extracted from data using dictionary learning
+methods. Attribute-based representation may exhibit variations due to noisy and
+redundant attributes. We propose a discriminative and compact attribute-based
+representation by selecting a subset of discriminative attributes from a large
+attribute set. Three attribute selection criteria are proposed and formulated
+as a submodular optimization problem. A greedy optimization algorithm is
+presented and its solution is guaranteed to be at least (1-1/e)-approximation
+to the optimum. Experimental results on four public datasets demonstrate that
+the proposed attribute-based representation significantly boosts the
+performance of visual recognition and outperforms most recently proposed
+recognition approaches.},
+keywords={feature extraction;feature selection;greedy algorithms;image
+recognition;image representation;optimisation;set theory;attribute selection
+criteria;attribute set;attribute-based representation;compact attribute;data-
+driven attributes;dictionary learning methods;discriminative attribute subset
+selection;greedy optimization algorithm;high-level concepts;low-level
+features;noisy attributes;real-world visual recognition problems;redundant
+attributes;spatio-temporal structure;submodular attribute selection;submodular
+optimization problem;Dictionaries;Learning
+systems;Optimization;Semantics;Training;Videos;Visualization;Attribute
+selection;entropy rate;maximum coverage function;submodular optimization},
+doi={10.1109/TPAMI.2016.2636827},
+ISSN={0162-8828},
+month={Nov},}
+@ARTICLE{7779036,
+author={M. Sun and A. Farhadi and B. Taskar and S. Seitz},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Summarizing Unconstrained Videos Using Salient Montages},
+year={2017},
+volume={39},
+number={11},
+pages={2256-2269},
+abstract={We present a novel method to summarize unconstrained videos using
+salient montages (i.e., a “melange” of frames in the video as shown in Fig. 1),
+by finding “montageable moments” and identifying the salient people and actions
+to depict in each montage. Our method aims at addressing the increasing need
+for generating concise visualizations from the large number of videos being
+captured from portable devices. Our main contributions are (1) the process of
+finding salient people and moments to form a montage, and (2) the application
+of this method to videos taken “in the wild” where the camera moves freely. As
+such, we demonstrate results on head-mounted cameras, where the camera moves
+constantly, as well as on videos downloaded from YouTube. In our experiments,
+we show that our method can reliably detect and track humans under significant
+action and camera motion. Moreover, the predicted salient people are more
+accurate than results from state-of-the-art video salieny method [1] . Finally,
+we demonstrate that a novel “montageability” score can be used to retrieve
+results with relatively high precision which allows us to present high quality
+montages to users.},
+keywords={cameras;video signal processing;camera motion;frame melange;head-
+mounted cameras;high quality montages;montageability score;salient
+montages;salient people;unconstrained video summarization;video salieny
+method;Cameras;Detectors;Electronic mail;Feature
+extraction;Tracking;Videos;YouTube;Video summarization;video saliency
+detection},
+doi={10.1109/TPAMI.2016.2623699},
+ISSN={0162-8828},
+month={Nov},}
+@ARTICLE{7778186,
+author={L. V. Nguyen-Dinh and A. Calatroni and G. Tröster},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Supporting One-Time Point Annotations for Gesture Recognition},
+year={2017},
+volume={39},
+number={11},
+pages={2270-2283},
+abstract={This paper investigates a new annotation technique that reduces
+significantly the amount of time to annotate training data for gesture
+recognition. Conventionally, the annotations comprise the start and end times,
+and the corresponding labels of gestures in sensor recordings. In this work, we
+propose a one-time point annotation in which labelers do not have to select the
+start and end time carefully, but just mark a one-time point within the time a
+gesture is happening. The technique gives more freedom and reduces
+significantly the burden for labelers. To make the one-time point annotations
+applicable, we propose a novel BoundarySearch algorithm to find automatically
+the correct temporal boundaries of gestures by discovering data patterns around
+their given one-time point annotations. The corrected annotations are then used
+to train gesture models. We evaluate the method on three applications from
+wearable gesture recognition with various gesture classes (10-17 classes)
+recorded with different sensor modalities. The results show that training on
+the corrected annotations can achieve performances close to a fully supervised
+training on clean annotations (lower by just up to 5 percent F1-score on
+average). Furthermore, the BoundarySearch algorithm is also evaluated on the
+ChaLearn 2014 multi-modal gesture recognition challenge recorded with Kinect
+sensors from computer vision and achieves similar results.},
+keywords={computer vision;gesture recognition;learning (artificial
+intelligence);BoundarySearch algorithm;ChaLearn 2014 multimodal gesture
+recognition challenge;Kinect sensors;annotation technique;computer
+vision;gesture classes;one-time point annotation;sensor modalities;wearable
+gesture recognition;Data models;Gesture recognition;Labeling;Streaming
+media;Time series analysis;Training;Training data;One-time point
+annotation;boundary correction;gesture spotting;kinect sensors;weakly
+supervised learning;wearable sensors},
+doi={10.1109/TPAMI.2016.2637350},
+ISSN={0162-8828},
+month={Nov},}
+@ARTICLE{7765034,
+author={C. Silberer and V. Ferrari and M. Lapata},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Visually Grounded Meaning Representations},
+year={2017},
+volume={39},
+number={11},
+pages={2284-2297},
+abstract={In this paper we address the problem of grounding distributional
+representations of lexical meaning. We introduce a new model which uses stacked
+autoencoders to learn higher-level representations from textual and visual
+input. The visual modality is encoded via vectors of attributes obtained
+automatically from images. We create a new large-scale taxonomy of 600 visual
+attributes representing more than 500 concepts and 700 K images. We use this
+dataset to train attribute classifiers and integrate their predictions with
+text-based distributional models of word meaning. We evaluate our model on its
+ability to simulate word similarity judgments and concept categorization. On
+both tasks, our model yields a better fit to behavioral data compared to
+baselines and related models which either rely on a single modality or do not
+make use of attribute-based input.},
+keywords={computer vision;learning (artificial intelligence);text
+analysis;grounding distributional representations;higher-level
+representations;large-scale taxonomy;lexical meaning;stacked
+autoencoders;textual input;visual input;visual modality;visually grounded
+meaning representations;word meaning;word similarity judgments;Computational
+modeling;Data models;Feature extraction;Neural
+networks;Pragmatics;Semantics;Visualization;Cognitive simulation;computer
+vision;concept learning;connectionism and neural nets;distributed
+representations;natural language processing},
+doi={10.1109/TPAMI.2016.2635138},
+ISSN={0162-8828},
+month={Nov},}
+@ARTICLE{7801919,
+author={B. Shi and X. Bai and C. Yao},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={An End-to-End Trainable Neural Network for Image-Based Sequence
+Recognition and Its Application to Scene Text Recognition},
+year={2017},
+volume={39},
+number={11},
+pages={2298-2304},
+abstract={Image-based sequence recognition has been a long-standing research
+topic in computer vision. In this paper, we investigate the problem of scene
+text recognition, which is among the most important and challenging tasks in
+image-based sequence recognition. A novel neural network architecture, which
+integrates feature extraction, sequence modeling and transcription into a
+unified framework, is proposed. Compared with previous systems for scene text
+recognition, the proposed architecture possesses four distinctive properties:
+(1) It is end-to-end trainable, in contrast to most of the existing algorithms
+whose components are separately trained and tuned. (2) It naturally handles
+sequences in arbitrary lengths, involving no character segmentation or
+horizontal scale normalization. (3) It is not confined to any predefined
+lexicon and achieves remarkable performances in both lexicon-free and lexicon-
+based scene text recognition tasks. (4) It generates an effective yet much
+smaller model, which is more practical for realworld application scenarios. The
+experiments on standard benchmarks, including the IIIT-5K, Street View Text and
+ICDAR datasets, demonstrate the superiority of the proposed algorithm over the
+prior arts. Moreover, the proposed algorithm performs well in the task of
+image-based music score recognition, which evidently verifies the generality of
+it.},
+keywords={computer vision;feature extraction;image recognition;image
+segmentation;learning (artificial intelligence);music;neural nets;text
+detection;ICDAR datasets;IIIT-5K datasets;computer vision;end-to-end trainable
+neural network;feature extraction;image-based music score recognition;image-
+based sequence recognition;lexicon-based scene text recognition tasks;lexicon-
+free scene text recognition tasks;neural network architecture;sequence
+modeling;street view text datasets;transcription;Context;Convolutional
+codes;Feature extraction;Image recognition;Logic gates;Neural networks;Text
+recognition;Sequence recognition;convolutional neural network;long-short term
+memory;neural network;optical music recognition;scene text recognition},
+doi={10.1109/TPAMI.2016.2646371},
+ISSN={0162-8828},
+month={Nov},}
+@ARTICLE{7779086,
+author={L. Liu and C. Shen and A. v. d. Hengel},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Cross-Convolutional-Layer Pooling for Image Recognition},
+year={2017},
+volume={39},
+number={11},
+pages={2305-2313},
+abstract={Recent studies have shown that a Deep Convolutional Neural Network
+(DCNN) trained on a large image dataset can be used as a universal image
+descriptor and that doing so leads to impressive performance for a variety of
+image recognition tasks. Most of these studies adopt activations from a single
+DCNN layer, usually a fully-connected layer, as the image representation. In
+this paper, we proposed a novel way to extract image representations from two
+consecutive convolutional layers: one layer is used for local feature
+extraction and the other serves as guidance to pool the extracted features. By
+taking different viewpoints of convolutional layers, we further develop two
+schemes to realize this idea. The first directly uses convolutional layers from
+a DCNN. The second applies the pretrained CNN on densely sampled image regions
+and treats the fully-connected activations of each image region as a
+convolutional layer's feature activations. We then train another convolutional
+layer on top of that as the pooling-guidance convolutional layer. By applying
+our method to three popular visual classification tasks, we find that our first
+scheme tends to perform better on applications which demand strong
+discrimination on lower-level visual patterns while the latter excels in cases
+that require discrimination on category-level patterns. Overall, the proposed
+method achieves superior performance over existing approaches for extracting
+image representations from a DCNN. In addition, we apply cross-layer pooling to
+the problem of image retrieval and propose schemes to reduce the computational
+cost. Experimental results suggest that the proposed method achieves promising
+results for the image retrieval task.},
+keywords={feature extraction;image recognition;image representation;image
+retrieval;learning (artificial intelligence);neural nets;Deep Convolutional
+Neural Network;consecutive convolutional layers;cross-Convolutional-layer
+pooling;cross-layer pooling;densely sampled image regions;image dataset;image
+recognition tasks;image region;image representation;image retrieval task;local
+feature extraction;pooling-guidance convolutional layer;single DCNN
+layer;universal image descriptor;Computational efficiency;Feature
+extraction;Image recognition;Image representation;Image retrieval;Neural
+networks;Visualization;Convolutional networks;deep learning;fine-grained object
+recognition;pooling},
+doi={10.1109/TPAMI.2016.2637921},
+ISSN={0162-8828},
+month={Nov},}
+@ARTICLE{7775087,
+author={Y. Wei and X. Liang and Y. Chen and X. Shen and M. M. Cheng and J. Feng
+and Y. Zhao and S. Yan},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={STC: A Simple to Complex Framework for Weakly-Supervised Semantic
+Segmentation},
+year={2017},
+volume={39},
+number={11},
+pages={2314-2320},
+abstract={Recently, significant improvement has been made on semantic object
+segmentation due to the development of deep convolutional neural networks
+(DCNNs). Training such a DCNN usually relies on a large number of images with
+pixel-level segmentation masks, and annotating these images is very costly in
+terms of both finance and human effort. In this paper, we propose a simple to
+complex (STC) framework in which only image-level annotations are utilized to
+learn DCNNs for semantic segmentation. Specifically, we first train an initial
+segmentation network called Initial-DCNN with the saliency maps of simple
+images (i.e., those with a single category of major object(s) and clean
+background). These saliency maps can be automatically obtained by existing
+bottom-up salient object detection techniques, where no supervision information
+is needed. Then, a better network called Enhanced-DCNN is learned with
+supervision from the predicted segmentation masks of simple images based on the
+Initial-DCNN as well as the image-level annotations. Finally, more pixel-level
+segmentation masks of complex images (two or more categories of objects with
+cluttered background), which are inferred by using Enhanced-DCNN and image-
+level annotations, are utilized as the supervision information to learn the
+Powerful-DCNN for semantic segmentation. Our method utilizes 40K simple images
+from Flickr.com and 10K complex images from PASCAL VOC for step-wisely boosting
+the segmentation network. Extensive experimental results on PASCAL VOC 2012
+segmentation benchmark well demonstrate the superiority of the proposed STC
+framework compared with other state-of-the-arts.},
+keywords={image classification;image representation;image segmentation;learning
+(artificial intelligence);neural nets;object detection;DCNN;Enhanced-
+DCNN;PASCAL VOC 2012 segmentation benchmark;STC framework;bottom-up salient
+object detection techniques;complex images;deep convolutional neural
+networks;image-level annotations;initial segmentation network;pixel-level
+segmentation masks;predicted segmentation masks;saliency maps;semantic object
+segmentation;simple images;simple to complex framework;supervision
+information;weakly-supervised semantic segmentation;Benchmark
+testing;Electronic mail;Image segmentation;Neural networks;Object
+detection;Semantics;Training;Semantic segmentation;convolutional neural
+network;weakly-supervised learning},
+doi={10.1109/TPAMI.2016.2636150},
+ISSN={0162-8828},
+month={Nov},}

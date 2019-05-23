@@ -1,0 +1,556 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"></head><body>@ARTICLE{7439821,
+<br>
+author={Z. Wu and Y. Huang and L. Wang and X. Wang and T. Tan},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={A Comprehensive Study on Cross-View Gait Based Human Identification with Deep CNNs}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={2},
+<br>  pages={209-226},
+<br>  abstract={This paper studies an approach to gait based human 
+identification via similarity learning by deep convolutional neural 
+networks (CNNs). With a pretty small group of labeled multi-view human 
+walking videos, we can train deep networks to recognize the most 
+discriminative changes of gait patterns which suggest the change of 
+human identity. To the best of our knowledge, this is the first work 
+based on deep CNNs for gait recognition in the literature. Here, we 
+provide an extensive empirical evaluation in terms of various scenarios,
+ namely, cross-view and cross-walking-condition, with different 
+preprocessing approaches and network architectures. The method is first 
+evaluated on the challenging CASIA-B dataset in terms of cross-view gait
+ recognition. Experimental results show that it outperforms the previous
+ state-of-the-art methods by a significant margin. In particular, our 
+method shows advantages when the cross-view angle is large, i.e., no 
+less than 36 degree. And the average recognition rate can reach 94 
+percent, much better than the previous best result (less than 65 
+percent). The method is further evaluated on the OU-ISIR gait dataset to
+ test its generalization ability to larger data. OU-ISIR is currently 
+the largest dataset available in the literature for gait recognition, 
+with 4,007 subjects. On this dataset, the average accuracy of our method
+ under identical view conditions is above 98 percent, and the one for 
+cross-view scenarios is above 91 percent. Finally, the method also 
+performs the best on the USF gait dataset, whose gait sequences are 
+imaged in a real outdoor scene. These results show great potential of 
+this method for practical applications.},
+<br>  keywords={feedforward neural nets;gait analysis;image motion 
+analysis;image sequences;learning (artificial intelligence);video signal
+ processing;CASIA-B dataset;OU-ISIR gait dataset;USF gait 
+dataset;cross-view gait based human identification;cross-view gait 
+recognition;cross-view-condition;cross-walking-condition;deep CNN;deep 
+convolutional neural networks;gait patterns;gait sequences;human 
+identity;identical view conditions;labeled multiview human walking 
+videos;real outdoor scene;similarity learning;Face;Feature 
+extraction;Gait recognition;Legged locomotion;Probes;Three-dimensional 
+displays;Videos;CNN;Deep learning;cross-view;gait;human identification},
+<br>  doi={10.1109/TPAMI.2016.2545669},
+<br>  ISSN={0162-8828},
+<br>  month={Feb},}<br>@ARTICLE{7437460,
+<br>
+author={T. Liu and D. Tao and M. Song and S. J. Maybank},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Algorithm-Dependent Generalization Bounds for Multi-Task Learning}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={2},
+<br>  pages={227-241},
+<br>  abstract={Often, tasks are collected for multi-task learning (MTL)
+ because they share similar feature structures. Based on this 
+observation, in this paper, we present novel algorithm-dependent 
+generalization bounds for MTL by exploiting the notion of algorithmic 
+stability. We focus on the performance of one particular task and the 
+average performance over multiple tasks by analyzing the generalization 
+ability of a common parameter that is shared in MTL. When focusing on 
+one particular task, with the help of a mild assumption on the feature 
+structures, we interpret the function of the other tasks as a 
+regularizer that produces a specific inductive bias. The algorithm for 
+learning the common parameter, as well as the predictor, is thereby 
+uniformly stable with respect to the domain of the particular task and 
+has a generalization bound with a fast convergence rate of order O(1/n),
+ where n is the sample size of the particular task. When focusing on the
+ average performance over multiple tasks, we prove that a similar 
+inductive bias exists under certain conditions on the feature 
+structures. Thus, the corresponding algorithm for learning the common 
+parameter is also uniformly stable with respect to the domains of the 
+multiple tasks, and its generalization bound is of the order O(1/T), 
+where T is the number of tasks. These theoretical analyses naturally 
+show that the similarity of feature structures in MTL will lead to 
+specific regularizations for predicting, which enables the learning 
+algorithms to generalize fast and correctly from a few examples.},
+<br>  keywords={computational complexity;convergence;generalisation 
+(artificial intelligence);learning (artificial 
+intelligence);MTL;algorithm dependent generalization bounds;algorithmic 
+stability;fast convergence rate;feature structures;learning 
+theory;multitask learning;order O(1/T);order O(1/n);Algorithm design and
+ analysis;Complexity theory;Convergence;Electronic mail;Prediction 
+algorithms;Stability analysis;Training;Multi-task 
+learning;generalization;inductive bias;learning theory;learning to 
+learn;regularization;stability},
+<br>  doi={10.1109/TPAMI.2016.2544314},
+<br>  ISSN={0162-8828},
+<br>  month={Feb},}<br>@ARTICLE{7429786,
+<br>
+author={Y. Xiao and B. Liu and Z. Hao},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={A Sphere-Description-Based Approach for Multiple-Instance Learning}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={2},
+<br>  pages={242-257},
+<br>  abstract={Multiple-instance learning (MIL) is a generalization of 
+supervised learning which addresses the classification of bags. Similar 
+to traditional supervised learning, most of the existing MIL work is 
+proposed based on the assumption that a representative training set is 
+available for a proper learning of the classifier. That is to say, the 
+training data can appropriately describe the distribution of positive 
+and negative data in the testing set. However, this assumption may not 
+be always satisfied. In real-world MIL applications, the negative data 
+in the training set may not sufficiently represent the distribution of 
+negative data in the testing set. Hence, how to learn an appropriate MIL
+ classifier when a representative training set is not available becomes a
+ key challenge for real-world MIL applications. To deal with this 
+problem, we propose a novel Sphere-Description-Based approach for 
+Multiple-Instance Learning (SDB-MIL). SDB-MIL learns an optimal sphere 
+by determining a large margin among the instances, and meanwhile 
+ensuring that each positive bag has at least one instance inside the 
+sphere and all negative bags are outside the sphere. Enclosing at least 
+one instance from each positive bag in the sphere enables a more 
+desirable MIL classifier when the negative data in the training set 
+cannot sufficiently represent the distribution of negative data in the 
+testing set. Substantial experiments on the benchmark and real-world MIL
+ datasets show that SDB-MIL obtains statistically better classification 
+performance than the MIL methods compared.},
+<br>  keywords={learning (artificial intelligence);pattern 
+classification;SDB-MIL;classification performance;multiple-instance 
+learning;negative bags;positive bag;representative training 
+set;sphere-description-based approach;supervised learning;training 
+data;Internet;Marine vehicles;Supervised learning;Support vector 
+machines;Testing;Training;Training data;Multiple-instance 
+learning;classification},
+<br>  doi={10.1109/TPAMI.2016.2539952},
+<br>  ISSN={0162-8828},
+<br>  month={Feb},}<br>@ARTICLE{7442548,
+<br>
+author={L. Gorelick and O. Veksler and Y. Boykov and C. Nieuwenhuis},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Convexity Shape Prior for Binary Segmentation}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={2},
+<br>  pages={258-271},
+<br>  abstract={Convexity is a known important cue in human vision. We 
+propose shape convexity as a new high-order regularization constraint 
+for binary image segmentation. In the context of discrete optimization, 
+object convexity is represented as a sum of three-clique potentials 
+penalizing any 1-0-1 configuration on all straight lines. We show that 
+these non-submodular potentials can be efficiently optimized using an 
+iterative trust region approach. At each iteration the energy is 
+linearly approximated and globally optimized within a small trust region
+ around the current solution. While the quadratic number of all 
+three-cliques is prohibitively high, we design a dynamic programming 
+technique for evaluating and approximating these cliques in linear time.
+ We also derive a second order approximation model that is more accurate
+ but computationally intensive. We discuss limitations of our local 
+optimization and propose gradual non-submodularization scheme that 
+alleviates some limitations. Our experiments demonstrate general 
+usefulness of the proposed convexity shape prior on synthetic and real 
+image segmentation examples. Unlike standard second-order length 
+regularization, our convexity prior does not have shrinking bias, and is
+ robust to changes in scale and parameter selection.},
+<br>  keywords={dynamic programming;image segmentation;iterative 
+methods;shape recognition;1-0-1 configuration;binary image 
+segmentation;convexity shape prior;discrete optimization;dynamic 
+programming technique;gradual nonsubmodularization scheme;high-order 
+regularization constraint;human vision;iterative trust region 
+approach;nonsubmodular potentials;object convexity;parameter 
+selection;second order approximation model;shrinking bias;three-clique 
+potentials;Computational modeling;Context;Dynamic programming;Image 
+segmentation;Optimization;Shape;Standards;Segmentation;convexity shape 
+prior;graph cuts;high-order functionals;trust region},
+<br>  doi={10.1109/TPAMI.2016.2547399},
+<br>  ISSN={0162-8828},
+<br>  month={Feb},}<br>@ARTICLE{7437490,
+<br>
+author={A. Barbu and Y. She and L. Ding and G. Gramajo},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Feature Selection with Annealing for Computer Vision and Big Data Learning}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={2},
+<br>  pages={272-286},
+<br>  abstract={Many computer vision and medical imaging problems are 
+faced with learning from large-scale datasets, with millions of 
+observations and features. In this paper we propose a novel efficient 
+learning scheme that tightens a sparsity constraint by gradually 
+removing variables based on a criterion and a schedule. The attractive 
+fact that the problem size keeps dropping throughout the iterations 
+makes it particularly suitable for big data learning. Our approach 
+applies generically to the optimization of any differentiable loss 
+function, and finds applications in regression, classification and 
+ranking. The resultant algorithms build variable screening into 
+estimation and are extremely simple to implement. We provide theoretical
+ guarantees of convergence and selection consistency. In addition, one 
+dimensional piecewise linear response functions are used to account for 
+nonlinearity and a second order prior is imposed on these functions to 
+avoid overfitting. Experiments on real and synthetic data show that the 
+proposed method compares very well with other state of the art methods 
+in regression, classification and ranking while being computationally 
+very efficient and scalable.},
+<br>  keywords={Big Data;computer vision;feature selection;learning 
+(artificial intelligence);pattern classification;regression analysis;Big
+ Data learning;classification method;computer vision;feature 
+selection;learning scheme;loss function;medical imaging 
+problems;piecewise linear response function;ranking method;regression 
+method;second order prior;sparsity constraint;Algorithm design and 
+analysis;Annealing;Big data;Boosting;Input 
+variables;Optimization;Training;Feature 
+selection;classification;ranking;regression;supervised learning},
+<br>  doi={10.1109/TPAMI.2016.2544315},
+<br>  ISSN={0162-8828},
+<br>  month={Feb},}<br>@ARTICLE{7432007,
+<br>
+author={Y. Bok and H. G. Jeon and I. S. Kweon},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Geometric Calibration of Micro-Lens-Based Light Field Cameras Using Line Features}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={2},
+<br>  pages={287-300},
+<br>  abstract={We present a novel method for the geometric calibration 
+of micro-lens-based light field cameras. Accurate geometric calibration 
+is the basis of various applications. Instead of using sub-aperture 
+images, we directly utilize raw images for calibration. We select 
+appropriate regions in raw images and extract line features from 
+micro-lens images in those regions. For the entire process, we formulate
+ a new projection model of a micro-lens-based light field camera, which 
+contains a smaller number of parameters than previous models. The model 
+is transformed into a linear form using line features. We compute the 
+initial solution of both the intrinsic and the extrinsic parameters by a
+ linear computation and refine them via non-linear optimization. 
+Experimental results demonstrate the accuracy of the correspondences 
+between rays and pixels in raw images, as estimated by the proposed 
+method.},
+<br>  keywords={cameras;feature 
+extraction;geometry;microlenses;optimisation;geometric calibration;line 
+feature extraction;microlens-based light field cameras;nonlinear 
+optimization;sub-aperture images;Apertures;Calibration;Cameras;Feature 
+extraction;Image segmentation;Lenses;Spatial resolution;Computational 
+photography and camera;calibration;light field cameras;plenoptic},
+<br>  doi={10.1109/TPAMI.2016.2541145},
+<br>  ISSN={0162-8828},
+<br>  month={Feb},}<br>@ARTICLE{7434636,
+<br>
+author={C. Peng and X. Gao and N. Wang and J. Li},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Graphical Representation for Heterogeneous Face Recognition}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={2},
+<br>  pages={301-312},
+<br>  abstract={Heterogeneous face recognition (HFR) refers to matching 
+face images acquired from different sources (i.e., different sensors or 
+different wavelengths) for identification. HFR plays an important role 
+in both biometrics research and industry. In spite of promising 
+progresses achieved in recent years, HFR is still a challenging problem 
+due to the difficulty to represent two heterogeneous images in a 
+homogeneous manner. Existing HFR methods either represent an image 
+ignoring the spatial information, or rely on a transformation procedure 
+which complicates the recognition task. Considering these problems, we 
+propose a novel graphical representation based HFR method (G-HFR) in 
+this paper. Markov networks are employed to represent heterogeneous 
+image patches separately, which takes the spatial compatibility between 
+neighboring image patches into consideration. A coupled representation 
+similarity metric (CRSM) is designed to measure the similarity between 
+obtained graphical representations. Extensive experiments conducted on 
+multiple HFR scenarios (viewed sketch, forensic sketch, near infrared 
+image, and thermal infrared image) show that the proposed method 
+outperforms state-of-the-art methods.},
+<br>  keywords={Markov processes;face recognition;graph theory;image 
+matching;image representation;network theory (graphs);CRSM;G-HFR;Markov 
+network;coupled representation similarity metric;face image 
+matching;graphical representation based HFR method;heterogeneous face 
+recognition;similarity measurement;Databases;Face;Face 
+recognition;Feature extraction;Forensics;Markov random 
+fields;Probes;Heterogeneous face recognition;forensic sketch;graphical 
+representation;infrared image;thermal image},
+<br>  doi={10.1109/TPAMI.2016.2542816},
+<br>  ISSN={0162-8828},
+<br>  month={Feb},}<br>@ARTICLE{7439823,
+<br>
+author={P. Koniusz and F. Yan and P. H. Gosselin and K. Mikolajczyk},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Higher-Order Occurrence Pooling for Bags-of-Words: Visual Concept Detection}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={2},
+<br>  pages={313-326},
+<br>  abstract={In object recognition, the Bag-of-Words model assumes: 
+i) extraction of local descriptors from images, ii) embedding the 
+descriptors by a coder to a given visual vocabulary space which results 
+in mid-level features, iii) extracting statistics from mid-level 
+features with a pooling operator that aggregates occurrences of visual 
+words in images into signatures, which we refer to as First-order 
+Occurrence Pooling. This paper investigates higher-order pooling that 
+aggregates over co-occurrences of visual words. We derive Bag-of-Words 
+with Higher-order Occurrence Pooling based on linearisation of Minor 
+Polynomial Kernel, and extend this model to work with various pooling 
+operators. This approach is then effectively used for fusion of various 
+descriptor types. Moreover, we introduce Higher-order Occurrence Pooling
+ performed directly on local image descriptors as well as a novel 
+pooling operator that reduces the correlation in the image signatures. 
+Finally, First-, Second-, and Third-order Occurrence Pooling are 
+evaluated given various coders and pooling operators on several widely 
+used benchmarks. The proposed methods are compared to other approaches 
+such as Fisher Vector Encoding and demonstrate improved results.},
+<br>  keywords={computer vision;feature extraction;image 
+classification;image fusion;object recognition;polynomials;bags-of-words
+ model;descriptor fusion;higher-order occurrence pooling;image 
+classification;local descriptor extraction;minor polynomial kernel 
+linearization;object recognition;visual concept 
+detection;Aggregates;Encoding;Feature extraction;Kernel;Mathematical 
+model;Standards;Visualization;Bag-of-words;co-occurrence;first-order;mid-level
+ features;pooling operator;second-order;sparse coding},
+<br>  doi={10.1109/TPAMI.2016.2545667},
+<br>  ISSN={0162-8828},
+<br>  month={Feb},}<br>@ARTICLE{7439820,
+<br>
+author={O. Saurer and P. Vasseur and R. Boutteau and C. Demonceaux and M. Pollefeys and F. Fraundorfer},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Homography Based Egomotion Estimation with a Common Direction}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={2},
+<br>  pages={327-341},
+<br>  abstract={In this paper, we explore the different minimal 
+solutions for egomotion estimation of a camera based on homography 
+knowing the gravity vector between calibrated images. These solutions 
+depend on the prior knowledge about the reference plane used by the 
+homography. We then demonstrate that the number of matched points can 
+vary from two to three and that a direct closed-form solution or a 
+Grobner basis based solution can be derived according to this plane. 
+Many experimental results on synthetic and real sequences in indoor and 
+outdoor environments show the efficiency and the robustness of our 
+approach compared to standard methods.},
+<br>  keywords={calibration;cameras;image matching;motion 
+estimation;Grobner basis based solution;camera;egomotion 
+estimation;gravity vector;homography;image calibration;points 
+matching;Cameras;Closed-form 
+solutions;Estimation;Gravity;Robustness;Three-dimensional 
+displays;Transmission line matrix methods;Computer vision;egomotion 
+estimation;homography estimation;structure-from-motion},
+<br>  doi={10.1109/TPAMI.2016.2545663},
+<br>  ISSN={0162-8828},
+<br>  month={Feb},}<br>@ARTICLE{7448477,
+<br>
+author={J. Pan and Z. Hu and Z. Su and M. H. Yang},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={$L_0$ -Regularized Intensity and Gradient Prior for Deblurring Text Images and Beyond}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={2},
+<br>  pages={342-355},
+<br>  abstract={We propose a simple yet effective L<sub>0</sub>-regularized
+ prior based on intensity and gradient for text image deblurring. The 
+proposed image prior is based on distinctive properties of text images, 
+with which we develop an efficient optimization algorithm to generate 
+reliable intermediate results for kernel estimation. The proposed 
+algorithm does not require any heuristic edge selection methods, which 
+are critical to the state-of-the-art edge-based deblurring methods. We 
+discuss the relationship with other edge-based deblurring methods and 
+present how to select salient edges more principally. For the final 
+latent image restoration step, we present an effective method to remove 
+artifacts for better deblurred results. We show the proposed algorithm 
+can be extended to deblur natural images with complex scenes and low 
+illumination, as well as non-uniform deblurring. Experimental results 
+demonstrate that the proposed algorithm performs favorably against the 
+state-of-the-art image deblurring methods.},
+<br>  keywords={edge detection;image restoration;L<sub>0</sub>-regularized
+ intensity prior;gradient prior;heuristic edge selection methods;image 
+deblurring methods;kernel estimation;nonuniform deblurring;salient edge 
+detection;text image deblurring;text image property;Bayes 
+methods;Cameras;Estimation;Image edge detection;Image 
+restoration;Kernel;Optimization;<italic xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">L<sub>0</sub> </italic>-regularized prior;Image deblurring;low-illumination images;natural images;text images},
+<br>  doi={10.1109/TPAMI.2016.2551244},
+<br>  ISSN={0162-8828},
+<br>  month={Feb},}<br>@ARTICLE{7437489,
+<br>
+author={R. Zhao and W. Oyang and X. Wang},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Person Re-Identification by Saliency Learning}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={2},
+<br>  pages={356-370},
+<br>  abstract={Human eyes can recognize person identities based on 
+small salient regions, i.e., person saliency is distinctive and reliable
+ in pedestrian matching across disjoint camera views. However, such 
+valuable information is often hidden when computing similarities of 
+pedestrian images with existing approaches. Inspired by our user study 
+result of human perception on person saliency, we propose a novel 
+perspective for person re-identification based on learning person 
+saliency and matching saliency distribution. The proposed saliency 
+learning and matching framework consists of four steps: (1) To handle 
+misalignment caused by drastic viewpoint change and pose variations, we 
+apply adjacency constrained patch matching to build dense correspondence
+ between image pairs. (2) We propose two alternative methods, i.e., 
+K-Nearest Neighbors and One-class SVM, to estimate a saliency score for 
+each image patch, through which distinctive features stand out without 
+using identity labels in the training procedure. (3) saliency matching 
+is proposed based on patch matching. Matching patches with inconsistent 
+saliency brings penalty, and images of the same identity are recognized 
+by minimizing the saliency matching cost. (4) Furthermore, saliency 
+matching is tightly integrated with patch matching in a unified 
+structural RankSVM learning framework. The effectiveness of our approach
+ is validated on the four public datasets. Our approach outperforms the 
+state-of-the-art person re-identification methods on all these 
+datasets.},
+<br>  keywords={image matching;image recognition;learning (artificial 
+intelligence);support vector machines;adjacency constrained patch 
+matching;human perception;k-nearest neighbors;one-class SVM;patch 
+matching;pedestrian image similarity;person identities 
+recognition;person re-identification;person saliency;pose 
+variation;saliency distribution matching;saliency learning;structural 
+RankSVM learning framework;support vector machines;viewpoint 
+change;Cameras;Distribution functions;Graphical 
+models;Measurement;Pattern matching;Transforms;Visualization;Person 
+re-identification;patch matching;person saliency;video surveillance},
+<br>  doi={10.1109/TPAMI.2016.2544310},
+<br>  ISSN={0162-8828},
+<br>  month={Feb},}<br>@ARTICLE{7439870,
+<br>
+author={H. B. Qu and J. Q. Wang and B. Li and M. Yu},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Probabilistic Model for Robust Affine and Non-Rigid Point Set Matching}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={2},
+<br>  pages={371-384},
+<br>  abstract={In this work, we propose a combinative strategy based on
+ regression and clustering for solving point set matching problems under
+ a Bayesian framework, in which the regression estimates the 
+transformation from the model to the scene- and the clustering 
+establishes the correspondence between two point sets. The point set 
+matching model is illustrated by a hierarchical directed graph, and the 
+matching uncertainties are approximated by a coarse-to-fine variational 
+inference algorithm. Furthermore, two Gaussian mixtures are proposed for
+ the estimation of heteroscedastic noise and spurious outliers, and an 
+isotropic or anisotropic covariance can be imposed on each mixture in 
+terms of the transformed model points. The experimental results show 
+that the proposed approach achieves comparable performance to 
+state-of-the-art matching or registration algorithms in terms of both 
+robustness and accuracy.},
+<br>  keywords={Bayes methods;Gaussian processes;covariance 
+analysis;directed graphs;estimation theory;image matching;inference 
+mechanisms;pattern clustering;regression analysis;Bayesian 
+framework;Gaussian mixtures;anisotropic 
+covariance;clustering;coarse-to-fine variational inference 
+algorithm;heteroscedastic noise;hierarchical directed graph;nonrigid 
+point set matching;probabilistic model;regression estimation;robust 
+affine point set matching;Approximation algorithms;Gaussian mixture 
+model;Graphical models;Inference algorithms;Iterative closest point 
+algorithm;Probabilistic logic;Robustness;Point set matching;affine 
+transformation;gaussian mixture model;graphical model;non-rigid 
+registration;robust estimation;variational inference},
+<br>  doi={10.1109/TPAMI.2016.2545659},
+<br>  ISSN={0162-8828},
+<br>  month={Feb},}<br>@ARTICLE{7442162,
+<br>
+author={F. A. Andaló and G. Taubin and S. Goldenstein},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={PSQP: Puzzle Solving by Quadratic Programming}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={2},
+<br>  pages={385-396},
+<br>  abstract={In this article we present the first effective method 
+based on global optimization for the reconstruction of image puzzles 
+comprising rectangle pieces-Puzzle Solving by Quadratic Programming 
+(PSQP). The proposed novel mathematical formulation reduces the problem 
+to the maximization of a constrained quadratic function, which is solved
+ via a gradient ascent approach. The proposed method is deterministic 
+and can deal with arbitrary identical rectangular pieces. We provide 
+experimental results showing its effectiveness when compared to 
+state-of-the-art approaches. Although the method was developed to solve 
+image puzzles, we also show how to apply it to the reconstruction of 
+simulated strip-shredded documents, broadening its applicability.},
+<br>  keywords={constraint theory;gradient methods;image 
+reconstruction;quadratic programming;PSQP;constrained quadratic 
+function;global optimization;gradient ascent approach;image puzzles 
+reconstruction;mathematical formulation;puzzle solving by quadratic 
+programming;Electronic mail;Image color analysis;Image 
+reconstruction;Image resolution;Measurement;Quadratic 
+programming;Shape;Image puzzle;constrained optimization;quadratic 
+programming},
+<br>  doi={10.1109/TPAMI.2016.2547394},
+<br>  ISSN={0162-8828},
+<br>  month={Feb},}<br>@ARTICLE{7437462,
+<br>
+author={P. Theologou and I. Pratikakis and T. Theoharis},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={Unsupervised Spectral Mesh Segmentation Driven by Heterogeneous Graphs}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={2},
+<br>  pages={397-410},
+<br>  abstract={A fully automatic mesh segmentation scheme using 
+heterogeneous graphs is presented. We introduce a spectral framework 
+where local geometry affinities are coupled with surface patch 
+affinities. A heterogeneous graph is constructed combining two distinct 
+graphs: a weighted graph based on adjacency of patches of an initial 
+over-segmentation, and the weighted dual mesh graph. The partitioning 
+relies on processing each eigenvector of the heterogeneous graph 
+Laplacian individually, taking into account the nodal set and nodal 
+domain theory. Experiments on standard datasets show that the proposed 
+unsupervised approach outperforms the state-of-the-art unsupervised 
+methodologies and is comparable to the best supervised approaches.},
+<br>  keywords={graph theory;mesh generation;eigenvector;fully automatic
+ mesh segmentation scheme;heterogeneous graph;local geometry 
+affinities;nodal domain theory;nodal set;spectral framework;surface 
+patch affinities;unsupervised spectral mesh segmentation;weighted dual 
+mesh graph;weighted graph;Eigenvalues and eigenfunctions;Image 
+segmentation;Laplace equations;Shape;Spectral 
+analysis;Standards;Three-dimensional displays;3D mesh segmentation;Mesh 
+processing;spectral analysis},
+<br>  doi={10.1109/TPAMI.2016.2544311},
+<br>  ISSN={0162-8828},
+<br>  month={Feb},}<br>@ARTICLE{7439860,
+<br>
+author={I. Kviatkovsky and M. Gabel and E. Rivlin and I. Shimshoni},
+<br>  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence}, 
+<br> title={On the Equivalence of the LC-KSVD and the D-KSVD Algorithms}, 
+<br>  year={2017},
+<br>  volume={39},
+<br>  number={2},
+<br>  pages={411-416},
+<br>  abstract={Sparse and redundant representations, where signals are 
+modeled as a combination of a few atoms from an overcomplete dictionary,
+ is increasingly used in many image processing applications, such as 
+denoising, super resolution, and classification. One common problem is 
+learning a “good” dictionary for different tasks. In the classification 
+task the aim is to learn a dictionary that also takes training labels 
+into account, and indeed there exist several approaches to this problem.
+ One well-known technique is D-KSVD, which jointly learns a dictionary 
+and a linear classifier using the K-SVD algorithm. LC-KSVD is a recent 
+variation intended to further improve on this idea by adding an explicit
+ label consistency term to the optimization problem, so that different 
+classes are represented by different dictionary atoms. In this work we 
+prove that, under identical initialization conditions, LC-KSVD with 
+uniform atom allocation is in fact a reformulation of DKSVD: given the 
+regularization parameters of LC-KSVD, we give a closed-form expression 
+for the equivalent D-KSVD regularization parameter, assuming the 
+LCKSVD's initialization scheme is used. We confirm this by reproducing 
+several of the original LC-KSVD experiments.},
+<br>  keywords={learning (artificial intelligence);singular value 
+decomposition;D-KSVD algorithm;LC-KSVD algorithm;dictionary 
+learning;explicit label consistency term;identical initialization 
+condition;image classification;image denoising;image processing 
+applications;image super resolution;linear classifier;Algorithm design 
+and analysis;Classification algorithms;Dictionaries;Image 
+processing;Loss measurement;Optimization;Training;Discriminative 
+dictionary learning;discriminative K-SVD;equivalence proof;label 
+consistent K-SVD},
+<br>  doi={10.1109/TPAMI.2016.2545661},
+<br>  ISSN={0162-8828},
+<br>  month={Feb},}<br>
+
+</body></html>

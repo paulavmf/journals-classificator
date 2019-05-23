@@ -1,0 +1,495 @@
+@ARTICLE{7416240,
+author={W. Wang and Y. Jiang and W. Wu},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Multiagent-Based Resource Allocation for Energy Minimization in Cloud
+Computing Systems},
+year={2017},
+volume={47},
+number={2},
+pages={205-220},
+abstract={Cloud computing has emerged as a very flexible service paradigm by
+allowing users to require virtual machine (VM) resources on-demand and allowing
+cloud service providers (CSPs) to provide VM resources via a pay-as-you-go
+model. This paper addresses the CSP's problem of efficiently allocating VM
+resources to physical machines (PMs) with the aim of minimizing the energy
+consumption. Traditional energy-aware VM allocations either allocate VMs to PMs
+in a centralized manner or implement VM migrations for energy reduction without
+considering the migration cost in cloud computing systems. We address these two
+issues by introducing a decentralized multiagent (MA)-based VM allocation
+approach. The proposed MA works by first dispatching a cooperative agent to
+each PM to assist the PM in managing VM resources. Then, an auction-based VM
+allocation mechanism is designed for these agents to decide the allocations of
+VMs to PMs. Moreover, to tackle system dynamics and avoid incurring prohibitive
+VM migration overhead, a local negotiation-based VM consolidation mechanism is
+devised for the agents to exchange their assigned VMs for energy cost saving.
+We evaluate the efficiency of the MA approach by using both static and dynamic
+simulations. The static experimental results demonstrate that the MA can incur
+acceptable computation time to reduce system energy cost compared with
+traditional bin packing and genetic algorithm-based centralized approaches. In
+the dynamic setting, the energy cost of the MA is similar to that of benchmark
+global-based VM consolidation approaches, but the MA largely reduces the
+migration cost.},
+keywords={cloud computing;energy conservation;energy consumption;multi-agent
+systems;power aware computing;resource allocation;virtual machines;CSP;VM
+migration overhead;VM resources;auction-based VM allocation;cloud computing
+systems;cloud service providers;cooperative agent;decentralized multiagent
+based VM allocation;dynamic simulations;energy consumption minimization;energy
+cost saving;energy reduction;energy-aware VM allocations;local negotiation-
+based VM consolidation;multiagent-based resource allocation;pay-as-you-go
+model;physical machines;static simulations;system dynamics;virtual machine
+resources;Biological cells;Cloud computing;Computational modeling;Dynamic
+scheduling;Minimization;Quality of service;Resource management;Cloud computing
+systems;energy cost;migration cost;multiagent (MA);negotiation;resource
+allocation},
+doi={10.1109/TSMC.2016.2523910},
+ISSN={2168-2216},
+month={Feb},}
+@ARTICLE{7486141,
+author={M. Van and S. S. Ge and H. Ren},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Robust Fault-Tolerant Control for a Class of Second-Order Nonlinear
+Systems Using an Adaptive Third-Order Sliding Mode Control},
+year={2017},
+volume={47},
+number={2},
+pages={221-228},
+abstract={Due to the robustness against the uncertainties, conventional sliding
+mode control (SMC) has been extensively developed for fault-tolerant control
+(FTC) system. However, the FTCs based on conventional SMC provide several
+disadvantages such as large transient state error, less robustness, and large
+chattering, that limit its application for real application. In order to
+enhance the performance, a novel adaptive third-order SMC, which combines a
+novel third-order sliding mode surface, a continuous strategy and an adaptation
+law, is proposed. Compared with other innovation approaches, the proposed
+controller has an excellent capability to tackle several types of actuator
+faults with an enhancing on robustness, precision, chattering reduction, and
+time of convergence. The proposed method is then applied for an attitude
+control of a spacecraft and the results demonstrate the superior performance.},
+
+keywords={adaptive control;attitude control;continuous systems;fault tolerant
+control;nonlinear control systems;robust control;space vehicles;variable
+structure systems;FTC;SMC;adaptation law;adaptive third-order sliding mode
+control;continuous strategy;nonlinear system;robust fault-tolerant
+control;spacecraft attitude control;Actuators;Convergence;Fault
+tolerance;Nonlinear systems;Robustness;Sliding mode control;Uncertainty;Fault
+diagnosis;fault-tolerant control (FTC);high-order sliding mode (HOSM)
+control;nonlinear systems;observer-controller system},
+doi={10.1109/TSMC.2016.2557220},
+ISSN={2168-2216},
+month={Feb},}
+@ARTICLE{7429763,
+author={S. Gören and A. Baccouche and H. Pierreval},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={A Framework to Incorporate Decision-Maker Preferences Into Simulation
+Optimization to Support Collaborative Design},
+year={2017},
+volume={47},
+number={2},
+pages={229-237},
+abstract={In this paper, we are concerned with the use of simulation
+optimization to handle collaborative design problems where more than one
+decision-maker is involved. We assume that the designers cannot enumerate all
+their considerations in closed-form, precise mathematical expressions but they
+can examine the merits of solutions with respect to their preferences and can
+compare candidate solutions with one another. We propose a three-stage
+framework to take the decision-makers' such considerations into account. The
+first step is to obtain a diverse set of designs that can all be considered
+efficient in terms of a performance metric (i.e., the objective function values
+of the simulation optimization model). These solutions are then passed on to
+the decision-makers to be analyzed in terms of their preferences that could not
+have been previously considered. Finally, the most appropriate solution is
+chosen. We address the problem encountered in the first step as a multimodal
+optimization problem. We address the second and the third subproblems as a
+preference aggregation problem in the social choice theory. We also illustrate
+the effectiveness of the proposed approach through a supply chain design
+problem inspired from the literature. We use the crowding clustering genetic
+algorithm as an example to demonstrate the first step. We use a multiplicative
+variant of the popular analytic hierarchy process to illustrate how the second
+and the third steps can be handled.},
+keywords={analytic hierarchy process;design;genetic algorithms;supply chain
+management;analytic hierarchy process;collaborative design;decision-maker
+preference;genetic algorithm;multimodal optimization problem;simulation
+optimization;social choice theory;supply chain design;three-stage
+framework;Analytic hierarchy process;Collaboration;Linear
+programming;Mathematical model;Optimization;Stochastic processes;Supply
+chains;Analytic hierarchy process;collaborative design;decision-maker
+preferences;multimodal optimization;preference aggregation;simulation
+optimization;supply chain},
+doi={10.1109/TSMC.2016.2531643},
+ISSN={2168-2216},
+month={Feb},}
+@ARTICLE{7420692,
+author={H. Asadi and S. Mohamed and C. P. Lim and S. Nahavandi},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Robust Optimal Motion Cueing Algorithm Based on the Linear Quadratic
+Regulator Method and a Genetic Algorithm},
+year={2017},
+volume={47},
+number={2},
+pages={238-254},
+abstract={The aim of this paper is to design and develop an optimal motion
+cueing algorithm (MCA) based on the genetic algorithm (GA) that can generate
+high-fidelity motions within the motion simulator's physical limitations. Both,
+angular velocity and linear acceleration are adopted as the inputs to the MCA
+for producing the higher order optimal washout filter. The linear quadratic
+regulator (LQR) method is used to constrain the human perception error between
+the real and simulated driving tasks. To develop the optimal MCA, the latest
+mathematical models of the vestibular system and simulator motion are taken
+into account. A reference frame with the center of rotation at the driver's
+head to eliminate false motion cues caused by rotation of the simulator to the
+translational motion of the driver's head as well as to reduce the workspace
+displacement is employed. To improve the developed LQR-based optimal MCA, a new
+strategy based on optimal control theory and the GA is devised. The objective
+is to reproduce a signal that can follow closely the reference signal and avoid
+false motion cues by adjusting the parameters from the obtained LQR-based
+optimal washout filter. This is achieved by taking a series of factors into
+account, which include the vestibular sensation error between the real and
+simulated cases, the main dynamic limitations, the human threshold limiter in
+tilt coordination, the cross correlation coefficient, and the human sensation
+error fluctuation. It is worth pointing out that other related investigations
+in the literature normally do not consider the effects of these factors. The
+proposed optimized MCA based on the GA is implemented using the MATLAB/Simulink
+software. The results show the effectiveness of the proposed GA-based method in
+enhancing human sensation, maximizing the reference shape tracking, and
+reducing the workspace usage.},
+keywords={filtering theory;genetic algorithms;linear quadratic control;GA;LQR
+method;LQR-based optimal MCA;LQR-based optimal washout
+filter;MATLAB;Simulink;angular velocity;cross correlation coefficient;genetic
+algorithm;higher order optimal washout filter;human perception error;human
+sensation error fluctuation;human threshold limiter;linear acceleration;linear
+quadratic regulator method;mathematical models;motion simulator;optimal control
+theory;physical limitations;reference shape tracking;robust optimal motion
+cueing algorithm;simulator motion;tilt coordination;translational
+motion;vestibular sensation error;vestibular system;workspace
+displacement;workspace usage reduction;Acceleration;Algorithm design and
+analysis;Angular velocity;Cost function;Genetic algorithms;Optimal
+control;Vehicles;Genetic algorithm (GA);human sensation;linear
+quadratic;optimal motion cueing algorithm},
+doi={10.1109/TSMC.2016.2523906},
+ISSN={2168-2216},
+month={Feb},}
+@ARTICLE{7473858,
+author={Y. L. Hou and X. Hao and H. Chen},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={A Cognitively Motivated Method for Classification of Occluded Traffic
+Signs},
+year={2017},
+volume={47},
+number={2},
+pages={255-262},
+abstract={Classification of traffic signs with partial occlusions is important
+for traffic sign maintenance and inventory systems. It is also important to
+help drivers identify possible traffic signs in time. Motivated by human
+cognitive processes in identifying an occluded sign, a novel structure is
+designed to explicitly handle occluded samples in this paper. Occlusion maps
+are analyzed for possible occluded signs, and a new occlusion descriptor is
+proposed to distinguish occluded signs from negative samples. A series of tests
+shows that the developed method could effectively handle samples with partial
+occlusions and thus reduce the missed detections caused by occlusions. The
+developed method could also be easily used for any other object detection.},
+keywords={cognition;image classification;traffic information
+systems;cognitively motivated method;human cognitive process;object
+detection;occlusion descriptor;occlusion map analysis;partial-occluded traffic
+sign classification;traffic sign inventory system;traffic sign maintenance
+system;Feature extraction;Image color
+analysis;Lighting;Robustness;Shape;Support vector machines;Vehicles;Cascaded
+support vector machine (SVM) classifiers;partial occlusions;traffic sign
+classification},
+doi={10.1109/TSMC.2016.2560126},
+ISSN={2168-2216},
+month={Feb},}
+@ARTICLE{7416217,
+author={J. Lu and T. Zhang and F. Hu and Q. Hao},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Preprocessing Design in Pyroelectric Infrared Sensor-Based Human-
+Tracking System: On Sensor Selection and Calibration},
+year={2017},
+volume={47},
+number={2},
+pages={263-275},
+abstract={This paper presents an information-gain-based sensor selection
+approach as well as a sensor sensing probability model-based calibration
+process for multihuman tracking in distributed binary pyroelectric infrared
+sensor networks. This research includes three contributions: 1) choose the
+subset of sensors that can maximize the mutual information between sensors and
+targets; 2) find the sensor sensing probability model to represent the sensing
+space for sensor calibration; and 3) provide a factor graph-based message
+passing scheme for distributed tracking. Our approach can find the solution for
+sensor selection to optimize the performance of tracking. The sensing
+probability model is efficiently optimized through the calibration process in
+order to update the parameters of sensor positions and rotations. An
+application for mobile calibration and tracking is developed. Simulation and
+experimental results are provided to validate the proposed framework.},
+keywords={array signal processing;calibration;graph theory;infrared
+detectors;message passing;object tracking;probability;pyroelectric
+detectors;distributed binary pyroelectric infrared sensor networks;factor
+graph-based message passing scheme;human-tracking system;information-gain-based
+sensor selection;mobile calibration;multihuman tracking;preprocessing
+design;sensing space;sensor calibration;sensor positions;sensor sensing
+probability model;Calibration;Encoding;Message passing;Sensor
+systems;Silicon;Target tracking;Binary sensor networks;calibration;factor
+graph;information gain;matrix factorization;message passing;multiple human
+tracking;sensor selection},
+doi={10.1109/TSMC.2016.2523914},
+ISSN={2168-2216},
+month={Feb},}
+@ARTICLE{7747452,
+author={J. Leng and P. Jiang},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Mining and Matching Relationships From Interaction Contexts in a Social
+Manufacturing Paradigm},
+year={2017},
+volume={47},
+number={2},
+pages={276-288},
+abstract={There is an increasing use of social interaction contexts in the
+cross-enterprise manufacturing problem solving. To transform these massive and
+unstructured data into decision-support information for cross-enterprise
+manufacturing demand-capability matching, we present automated solutions to two
+phases: (1) extracting relationships based on a semi-supervised learning
+approach to derive formalized heterogeneous manufacturing network from the
+unstructured text-based context that contains high levels of noise and
+irrelevant information and (2) matching group-level relationships among the
+entities in the established manufacturing network. The extracting phase
+formulates network data using multiattributed graph that can encode various
+entities and relationships. The matching phase is based on probabilistic
+multiattributed graph matching, and implemented using distributed message
+passing algorithm. We developed a prototype system to verify the proposed
+model, which is also flexible to new domains of contexts and scale to large
+datasets. The ultimate goal of this paper is to facilitate knowledge
+transferring and sharing in the context of cross-enterprise social interaction,
+thereby supporting the integration of the resources and capabilities among
+different enterprise.},
+keywords={data mining;decision support systems;graph theory;learning
+(artificial intelligence);manufacturing systems;message passing;pattern
+matching;production engineering computing;social networking (online);text
+analysis;cross-enterprise manufacturing problem solving;decision support
+information;distributed message passing;knowledge sharing;knowledge
+transferring;matching relationship;mining relationship;probabilistic
+multiattributed graph matching;semisupervised learning;social interaction
+contexts;social manufacturing paradigm;unstructured text-based
+context;Context;Data mining;Databases;Manufacturing systems;Semantics;Social
+network services;Detecting patterns;interaction contexts;loopy belief
+propagation (LBP);mining relationships;social manufacturing network},
+doi={10.1109/TSMC.2016.2623630},
+ISSN={2168-2216},
+month={Feb},}
+@ARTICLE{7509594,
+author={L. Zhang and J. Lin and R. Karim},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Sliding Window-Based Fault Detection From High-Dimensional Data
+Streams},
+year={2017},
+volume={47},
+number={2},
+pages={289-303},
+abstract={High-dimensional data streams are becoming increasingly ubiquitous in
+industrial systems. Efficient detection of system faults from these data can
+ensure the reliability and safety of the system. The difficulties brought about
+by high dimensionality and data streams are mainly the “curse of
+dimensionality” and concept drifting, and one current challenge is to
+simultaneously address them. To this purpose, this paper presents an approach
+to fault detection from nonstationary high-dimensional data streams. An angle-
+based subspace anomaly detection approach is proposed to detect low-dimensional
+subspace faults from high-dimensional datasets. Specifically, it selects fault-
+relevant subspaces by evaluating vectorial angles and computes the local
+outlier-ness of an object in its subspace projection. Based on the sliding
+window strategy, the approach is further extended to an online mode that can
+continuously monitor system states. To validate the proposed algorithm, we
+compared it with the local outlier factor-based approaches on artificial
+datasets and found the algorithm displayed superior accuracy. The results of
+the experiment demonstrated the efficacy of the proposed algorithm. They also
+indicated that the algorithm has the ability to discriminate low-dimensional
+subspace faults from normal samples in high-dimensional spaces and can be
+adaptive to the time-varying behavior of the monitored system. The online
+subspace learning algorithm for fault detection would be the main contribution
+of this paper.},
+keywords={condition monitoring;data analysis;fault diagnosis;learning
+(artificial intelligence);angle-based subspace anomaly detection
+approach;concept drifting;efficient system fault detection;fault-relevant
+subspace selection;high-dimensional data streams;industrial
+system;nonstationary high-dimensional data stream;online subspace learning
+algorithm;sliding window-based fault detection;subspace projection;system
+reliability;system safety;system state continuous monitoring;time-varying
+system behavior;Big data;Covariance matrices;Fault
+detection;Monitoring;Principal component analysis;Reliability;Time-varying
+systems;Big data analytics;fault detection;high-dimensional data;stream data
+mining},
+doi={10.1109/TSMC.2016.2585566},
+ISSN={2168-2216},
+month={Feb},}
+@ARTICLE{7419636,
+author={J. Barreiro-Gomez and G. Obando and N. Quijano},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Distributed Population Dynamics: Optimization and Control Applications},
+
+year={2017},
+volume={47},
+number={2},
+pages={304-314},
+abstract={Population dynamics have been widely used in the design of learning
+and control systems for networked engineering applications, where the
+information dependency among elements of the network has become a relevant
+issue. Classic population dynamics (e.g., replicator, logit choice, Smith, and
+projection) require full information to evolve to the solution (Nash
+equilibrium). The main reason is that classic population dynamics are deduced
+by assuming well-mixed populations, which limits the applications where this
+theory can be implemented. In this paper, we extend the concept of population
+dynamics for nonwell-mixed populations in order to deal with distributed
+information structures that are characterized by noncomplete graphs. Although
+the distributed population dynamics proposed in this paper use partial
+information, they preserve similar characteristics and properties of their
+classic counterpart. Specifically, we prove mass conservation and convergence
+to Nash equilibrium. To illustrate the performance of the proposed dynamics, we
+show some applications in the solution of optimization problems, classic games,
+and the design of distributed controllers.},
+keywords={control system synthesis;convergence;distributed control;game
+theory;multivariable control systems;optimisation;Nash equilibrium;classic
+games;control application;control system design;convergence;distributed
+controller design;distributed information structure;distributed population
+dynamics;information dependency;learning system design;mass
+conservation;multivariable system;networked engineering application;noncomplete
+graph;optimization problem;partial information;Games;Heuristic algorithms;Nash
+equilibrium;Optimization;Protocols;Sociology;Statistics;Distributed
+control;distributed optimization;evolutionary game theory;population dynamics},
+
+doi={10.1109/TSMC.2016.2523934},
+ISSN={2168-2216},
+month={Feb},}
+@ARTICLE{7467542,
+author={C. Sun and W. He and W. Ge and C. Chang},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Adaptive Neural Network Control of Biped Robots},
+year={2017},
+volume={47},
+number={2},
+pages={315-326},
+abstract={In this paper, neural network control strategies based on radial
+basis functions are designed for biped robots, which includes balancing and
+posture control. To deal with system uncertainties, neural networks are used to
+approximate the unknown model of the robot. Both full state feedback control
+and output feedback control are considered in this paper. With the proposed
+control, the trajectories of the closed-loop system are semiglobally uniformly
+bounded which can be proved via Lyapunov stability theorem. Simulations are
+also carried out to illustrate the effectiveness of the proposed control.},
+keywords={Lyapunov methods;adaptive control;closed loop systems;control system
+synthesis;legged locomotion;neurocontrollers;radial basis function
+networks;state feedback;Lyapunov stability;adaptive neural network
+control;balancing control;biped robots;closed-loop system;output feedback
+control;posture control;radial basis functions;state feedback control;system
+uncertainties;tracking control;Adaptive systems;Force;Neural networks;Robot
+kinematics;State feedback;Trajectory;Adaptive control;balancing control;biped
+robots;neural networks;posture control;tracking control},
+doi={10.1109/TSMC.2016.2557223},
+ISSN={2168-2216},
+month={Feb},}
+@ARTICLE{7468558,
+author={H. Chen and L. Ma and M. He and X. Wang and X. Liang and L. Sun and M.
+Huang},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Artificial Bee Colony Optimizer Based on Bee Life-Cycle for Stationary
+and Dynamic Optimization},
+year={2017},
+volume={47},
+number={2},
+pages={327-346},
+abstract={This paper proposes a novel optimization scheme by hybridizing an
+artificial bee colony optimizer (HABC) with a bee life-cycle mechanism, for
+both stationary and dynamic optimization problems. The main innovation of the
+proposed HABC is to develop a cooperative and population-varying scheme, in
+which individuals can dynamically shift their states of birth, foraging, death,
+and reproduction throughout the artificial bee colony life cycle. That is, the
+bee colony size can be adjusted dynamically according to the local fitness
+landscape during algorithm execution. This new characteristic of HABC helps to
+avoid redundant search and maintain diversity of population in complex
+environments. A comprehensive experimental analysis is implemented that the
+proposed algorithm is benchmarked against several state-of-the-art bio-inspired
+algorithms on both stationary and dynamic benchmarks. Then the proposed HABC is
+applied to the real-world applications including data clustering and image
+segmentation problems. Statistical analysis of all these tests highlights the
+significant performance improvement due to the life-cycle mechanism and shows
+that the proposed HABC outperforms the reference algorithms.},
+keywords={evolutionary computation;optimisation;HABC;algorithm execution;bee
+life-cycle mechanism;dynamic optimization;hybridizing an artificial bee colony
+optimizer;local fitness landscape;stationary optimization;Adaptation
+models;Algorithm design and analysis;Heuristic
+algorithms;Optimization;Silicon;Sociology;Statistics;Biological system
+modeling;data mining;optimization methods},
+doi={10.1109/TSMC.2016.2558045},
+ISSN={2168-2216},
+month={Feb},}
+@ARTICLE{7473872,
+author={F. Hu and Q. Hao and Q. Sun and X. Cao and R. Ma and T. Zhang and Y.
+Patil and J. Lu},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Cyberphysical System With Virtual Reality for Intelligent Motion
+Recognition and Training},
+year={2017},
+volume={47},
+number={2},
+pages={347-363},
+abstract={In this paper, we propose to build a comprehensive cyberphysical
+system (CPS) with virtual reality (VR) and intelligent sensors for motion
+recognition and training. We use both wearable wireless sensors (such as
+electrocardiogram, motion sensors) and nonintrusive wireless sensors (such as
+gait sensors) to monitor the motion training status. We first provide our CPS
+architecture. Then we focus on motion training from three perspectives: 1) VR-
+first we introduce how we can use motion capture camera to trace the motions;
+2) gait recognition-we have invented low-cost small wireless pyroelectric
+sensor, which can recognize different gaits through Bayesian pattern learning.
+It can automatically measure gait training effects; and 3) gesture recognition-
+to quickly tell what motions the subject is doing, we propose a low-cost, low-
+complexity motion recognition system with 3-axis accelerometers. We will
+provide hardware and software design. Our experimental results validate the
+efficiency and accuracy of our CPS design.},
+keywords={Bayes methods;accelerometers;biosensors;cyber-physical systems;gait
+analysis;gesture recognition;image motion analysis;medical image
+processing;patient rehabilitation;virtual reality;3-axis
+accelerometers;Bayesian pattern learning;CPS architecture;CPS
+design;VR;comprehensive cyberphysical system;electrocardiogram;gait
+recognition;gait sensors;gait training effect measurement;gesture
+recognition;intelligent motion recognition;intelligent sensors;motion capture
+camera;motion recognition system;motion sensors;motion tracing;motion training
+status monitoring;nonintrusive wireless sensors;software design;virtual
+reality;wearable wireless sensors;wireless pyroelectric
+sensor;Accelerometers;Gesture recognition;Sensors;Training;Wireless
+communication;Wireless sensor networks;Cyber-physical system (CPS);motion
+training;virtual reality (VR);wireless sensors},
+doi={10.1109/TSMC.2016.2560127},
+ISSN={2168-2216},
+month={Feb},}
+@ARTICLE{7426418,
+author={Y. Chen and Z. Li and K. Barkaoui and N. Wu and M. Zhou},
+journal={IEEE Transactions on Systems, Man, and Cybernetics: Systems},
+title={Compact Supervisory Control of Discrete Event Systems by Petri Nets With
+Data Inhibitor Arcs},
+year={2017},
+volume={47},
+number={2},
+pages={364-379},
+abstract={This work proposes a novel structure in Petri nets, namely data
+inhibitor arcs, and their application to the optimal supervisory control of
+Petri nets. A data inhibitor arc is an arc from a place to a transition labeled
+with a set of integers. A transition is disabled by a data inhibitor arc if the
+number of tokens in the place is in the set of integers labeled on it. Its
+formal definitions and properties are given. Then, we propose a method to
+design an optimal Petri net supervisor with data inhibitor arcs to prevent a
+system from reaching illegal markings with respect to control specifications.
+Two techniques are developed to reduce the supervisor structure by compressing
+the number of control places. Finally, a number of examples are used to
+illustrate the proposed approaches and experimental results show that they can
+obtain optimal Petri net supervisors for the net models that cannot be
+optimally controlled by pure net supervisors. A significant result is that the
+proposed approach can always lead to an optimal supervisor with only one
+control place for bounded Petri nets on the premise that such a supervisor
+exists.},
+keywords={Petri nets;control system synthesis;discrete event systems;optimal
+control;bounded Petri nets;compact supervisory control;control
+specification;data inhibitor arc;discrete event systems;illegal
+markings;optimal Petri net supervisor design;optimal supervisory
+control;supervisor structure;Complexity theory;Design
+methodology;Inhibitors;Law;Petri nets;Supervisory control;System recovery;Data
+inhibitor arc;Petri net;deadlock;supervisory control},
+doi={10.1109/TSMC.2016.2521833},
+ISSN={2168-2216},
+month={Feb},}

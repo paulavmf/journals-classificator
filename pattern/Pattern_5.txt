@@ -1,0 +1,539 @@
+@ARTICLE{7464873,
+author={A. Chhatkuli and D. Pizarro and A. Bartoli and T. Collins},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={A Stable Analytical Framework for Isometric Shape-from-Template by
+Surface Integration},
+year={2017},
+volume={39},
+number={5},
+pages={833-850},
+abstract={Shape-from-Template (SfT) reconstructs the shape of a deforming
+surface from a single image, a 3D template and a deformation prior. For
+isometric deformations, this is a well-posed problem. However, previous methods
+which require no initialization break down when the perspective effects are
+small, which happens when the object is small or viewed from larger distances.
+That is, they do not handle all projection geometries. We propose stable SfT
+methods that accurately reconstruct the 3D shape for all projection geometries.
+We follow the existing approach of using first-order differential constraints
+and obtain local analytical solutions for depth and the first-order quantities:
+the depth-gradient or the surface normal. Previous methods use the depth
+solution directly to obtain the 3D shape. We prove that the depth solution is
+unstable when the projection geometry tends to affine, while the solution for
+the first-order quantities remain stable for all projection geometries. We
+therefore propose to solve SfT by first estimating the first-order quantities
+(either depth-gradient or surface normal) and integrating them to obtain shape.
+We validate our approach with extensive synthetic and real-world experiments
+and obtain significantly more accurate results compared to previous
+initialization-free methods. Our approach does not require any optimization,
+which makes it very fast.},
+keywords={computational geometry;image reconstruction;3D shape
+reconstruction;3D template;deformation prior;deforming surface shape
+reconstruction;depth quantities;depth-gradient;first-order differential
+constraints;first-order quantities;isometric deformation;isometric shape-from-
+template;local analytical solutions;projection geometries;projection
+geometry;stable SfT method;stable analytical framework;surface
+integration;surface normal;well-posed problem;Cameras;Geometry;Image
+reconstruction;Jacobian matrices;Shape;Surface reconstruction;Three-dimensional
+displays},
+doi={10.1109/TPAMI.2016.2562622},
+ISSN={0162-8828},
+month={May},}
+@ARTICLE{7469355,
+author={A. Adam and C. Dann and O. Yair and S. Mazor and S. Nowozin},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Bayesian Time-of-Flight for Realtime Shape, Illumination and Albedo},
+year={2017},
+volume={39},
+number={5},
+pages={851-864},
+abstract={We propose a computational model for shape, illumination and albedo
+inference in a pulsed time-of-flight (TOF) camera. In contrast to TOF cameras
+based on phase modulation, our camera enables general exposure profiles. This
+results in added flexibility and requires novel computational approaches. To
+address this challenge we propose a generative probabilistic model that
+accurately relates latent imaging conditions to observed camera responses.
+While principled, realtime inference in the model turns out to be infeasible,
+and we propose to employ efficient non-parametric regression trees to
+approximate the model outputs. As a result we are able to provide, for each
+pixel, at video frame rate, estimates and uncertainty for depth, effective
+albedo, and ambient light intensity. These results we present are state-of-the-
+art in depth imaging. The flexibility of our approach allows us to easily
+enrich our generative model. We demonstrate this by extending the original
+single-path model to a two-path model, capable of describing some multipath
+effects. The new model is seamlessly integrated in the system at no additional
+computational cost. Our work also addresses the important question of optimal
+exposure design in pulsed TOF systems. Finally, for benchmark purposes and to
+obtain realistic empirical priors of multipath and insights into this
+phenomena, we propose a physically accurate simulation of multipath
+phenomena.},
+keywords={Bayes methods;cameras;image processing;inference
+mechanisms;regression analysis;trees (mathematics);Bayesian time-of-
+flight;albedo inference;ambient light intensity;computational model;depth
+imaging;generative model;generative probabilistic model;illumination;multipath
+effects;multipath phenomena;nonparametric regression trees;optimal exposure
+design;phase modulation;pulsed TOF camera;pulsed TOF systems;pulsed time-of-
+flight camera;realtime inference;realtime shape;single-path model;two-path
+model;video frame rate;Bayes methods;Cameras;Computational
+modeling;Lighting;Probabilistic logic;Shape;Bayes;Time-of-flight;depth
+cameras;intrinsic images;multipath},
+doi={10.1109/TPAMI.2016.2567379},
+ISSN={0162-8828},
+month={May},}
+@ARTICLE{7469327,
+author={D. Zhang and D. Meng and J. Han},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Co-Saliency Detection via a Self-Paced Multiple-Instance Learning
+Framework},
+year={2017},
+volume={39},
+number={5},
+pages={865-878},
+abstract={As an interesting and emerging topic, co-saliency detection aims at
+simultaneously extracting common salient objects from a group of images. On one
+hand, traditional co-saliency detection approaches rely heavily on human
+knowledge for designing handcrafted metrics to possibly reflect the faithful
+properties of the co-salient regions. Such strategies, however, always suffer
+from poor generalization capability to flexibly adapt various scenarios in real
+applications. On the other hand, most current methods pursue cosaliency
+detection in unsupervised fashions. This, however, tends to weaken their
+performance in real complex scenarios because they are lack of robust learning
+mechanism to make full use of the weak labels of each image. To alleviate these
+two problems, this paper proposes a new SP-MIL framework for co-saliency
+detection, which integrates both multiple instance learning (MIL) and self-
+paced learning (SPL) into a unified learning framework. Specifically, for the
+first problem, we formulate the co-saliency detection problem as a MIL paradigm
+to learn the discriminative classifiers to detect the co-saliency object in the
+“instance-level”. The formulated MIL component facilitates our method capable
+of automatically producing the proper metrics to measure the intra-image
+contrast and the inter-image consistency for detecting co-saliency in a purely
+self-learning way. For the second problem, the embedded SPL paradigm is able to
+alleviate the data ambiguity under the weak supervision of co-saliency
+detection and guide a robust learning manner in complex scenarios. Experiments
+on benchmark datasets together with multiple extended computer vision
+applications demonstrate the superiority of the proposed framework beyond the
+state-of-the-arts.},
+keywords={computer vision;image classification;learning (artificial
+intelligence);object detection;SP-MIL framework;common salient objects;computer
+vision applications;cosaliency detection;discriminative
+classifiers;generalization capability;handcrafted metrics;human
+knowledge;instance-level;interimage consistency;intraimage contrast;robust
+learning manner;robust learning mechanism;self-paced multiple-instance learning
+framework;unsupervised fashions;Automation;Computational modeling;Computer
+vision;Measurement;Robustness;Training;Visualization;Co-saliency
+detection;multiple-instance learning;self-paced learning},
+doi={10.1109/TPAMI.2016.2567393},
+ISSN={0162-8828},
+month={May},}
+@ARTICLE{7466125,
+author={A. Rozantsev and V. Lepetit and P. Fua},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Detecting Flying Objects Using a Single Moving Camera},
+year={2017},
+volume={39},
+number={5},
+pages={879-892},
+abstract={We propose an approach for detecting flying objects such as Unmanned
+Aerial Vehicles (UAVs) and aircrafts when they occupy a small portion of the
+field of view, possibly moving against complex backgrounds, and are filmed by a
+camera that itself moves. We argue that solving such a difficult problem
+requires combining both appearance and motion cues. To this end we propose a
+regression-based approach for object-centric motion stabilization of image
+patches that allows us to achieve effective classification on spatio-temporal
+image cubes and outperform state-of-the-art techniques. As this problem has not
+yet been extensively studied, no test datasets are publicly available. We
+therefore built our own, both for UAVs and aircrafts, and will make them
+publicly available so they can be used to benchmark future flying object
+detection and collision avoidance algorithms.},
+keywords={aircraft;autonomous aerial vehicles;image classification;image
+sensors;motion compensation;object detection;UAV;aircrafts;appearance
+cues;benchmark future flying object detection;collision avoidance
+algorithms;image patches;motion compensation;motion cues;object-centric motion
+stabilization;regression-based approach;single moving camera;spatio-temporal
+image cubes;unmanned aerial vehicles;Aircraft;Cameras;Drones;Motion
+compensation;Object detection;Optical imaging;Three-dimensional displays;Motion
+compensation;object detection},
+doi={10.1109/TPAMI.2016.2564408},
+ISSN={0162-8828},
+month={May},}
+@ARTICLE{7469361,
+author={V. Leborán and A. García-Díaz and X. R. Fdez-Vidal and X. M. Pardo},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Dynamic Whitening Saliency},
+year={2017},
+volume={39},
+number={5},
+pages={893-907},
+abstract={General dynamic scenes involve multiple rigid and flexible objects,
+with relative and common motion, camera induced or not. The complexity of the
+motion events together with their strong spatio-temporal correlations make the
+estimation of dynamic visual saliency a big computational challenge. In this
+work, we propose a computational model of saliency based on the assumption that
+perceptual relevant information is carried by high-order statistical
+structures. Through whitening, we completely remove the second-order
+information (correlations and variances) of the data, gaining access to the
+relevant information. The proposed approach is an analytically tractable and
+computationally simple framework which we call Dynamic Adaptive Whitening
+Saliency (AWS-D). For model assessment, the provided saliency maps were used to
+predict the fixations of human observers over six public video datasets, and
+also to reproduce the human behavior under certain psychophysical experiments
+(dynamic pop-out). The results demonstrate that AWS-D beats state-of-the-art
+dynamic saliency models, and suggest that the model might contain the basis to
+understand the key mechanisms of visual saliency. Experimental evaluation was
+performed using an extension to video of the well-known methodology for static
+images, together with a bootstrap permutation test (random label hypothesis)
+which yields additional information about temporal evolution of the metrics
+statistical significance.},
+keywords={higher order statistics;image motion analysis;video signal
+processing;AWS-D;bootstrap permutation test;dynamic adaptive whitening
+saliency;dynamic visual saliency estimation;general dynamic scenes;high-order
+statistical structures;human behavior;motion event complexity;psychophysical
+experiments;public video datasets;saliency maps;second-order
+information;spatio-temporal correlations;static images;Adaptation
+models;Computational modeling;Correlation;Dynamics;Feature extraction;Image
+color analysis;Visualization;Spatio-temporal saliency;adaptive whitening;eye
+fixations;short-term adaptation;visual attention},
+doi={10.1109/TPAMI.2016.2567391},
+ISSN={0162-8828},
+month={May},}
+@ARTICLE{7466079,
+author={C. Y. Chen and K. Grauman},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Efficient Activity Detection in Untrimmed Video with Max-Subgraph
+Search},
+year={2017},
+volume={39},
+number={5},
+pages={908-921},
+abstract={We propose an efficient approach for activity detection in video that
+unifies activity categorization with space-time localization. The main idea is
+to pose activity detection as a maximum-weight connected subgraph problem.
+Offline, we learn a binary classifier for an activity category using positive
+video exemplars that are “trimmed” in time to the activity of interest. Then,
+given a novel untrimmed video sequence, we decompose it into a 3D array of
+space-time nodes, which are weighted based on the extent to which their
+component features support the learned activity model. To perform detection, we
+then directly localize instances of the activity by solving for the maximum-
+weight connected subgraph in the test video's space-time graph. We show that
+this detection strategy permits an efficient branch-and-cut solution for the
+best-scoring-and possibly non-cubically shaped-portion of the video for a given
+activity classifier. The upshot is a fast method that can search a broader
+space of space-time region candidates than was previously practical, which we
+find often leads to more accurate detection. We demonstrate the proposed
+algorithm on four datasets, and we show its speed and accuracy advantages over
+multiple existing search strategies.},
+keywords={feature extraction;image sequences;pattern classification;space-time
+adaptive processing;tree searching;video signal processing;3D array;activity
+detection;binary classifier;branch-and-cut solution;learned activity model;max-
+subgraph search;maximum-weight connected subgraph problem;space-time
+localization;untrimmed video;video sequence decomposition;Detectors;Search
+problems;Shape;Three-dimensional displays;Tracking;Training;Video
+sequences;Activity detection;action recognition;maximum weighted subgraph
+search},
+doi={10.1109/TPAMI.2016.2564404},
+ISSN={0162-8828},
+month={May},}
+@ARTICLE{7466117,
+author={R. Anirudh and P. Turaga and J. Su and A. Srivastava},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Elastic Functional Coding of Riemannian Trajectories},
+year={2017},
+volume={39},
+number={5},
+pages={922-936},
+abstract={Visual observations of dynamic phenomena, such as human actions, are
+often represented as sequences of smoothly-varying features. In cases where the
+feature spaces can be structured as Riemannian manifolds, the corresponding
+representations become trajectories on manifolds. Analysis of these
+trajectories is challenging due to non-linearity of underlying spaces and high-
+dimensionality of trajectories. In vision problems, given the nature of
+physical systems involved, these phenomena are better characterized on a low-
+dimensional manifold compared to the space of Riemannian trajectories. For
+instance, if one does not impose physical constraints of the human body, in
+data involving human action analysis, the resulting representation space will
+have highly redundant features. Learning an effective, low-dimensional
+embedding for action representations will have a huge impact in the areas of
+search and retrieval, visualization, learning, and recognition. Traditional
+manifold learning addresses this problem for static points in the euclidean
+space, but its extension to Riemannian trajectories is non-trivial and remains
+unexplored. The difficulty lies in inherent non-linearity of the domain and
+temporal variability of actions that can distort any traditional metric between
+trajectories. To overcome these issues, we use the framework based on
+transported square-root velocity fields (TSRVF); this framework has several
+desirable properties, including a rate-invariant metric and vector space
+representations. We propose to learn an embedding such that each action
+trajectory is mapped to a single point in a low-dimensional euclidean space,
+and the trajectories that differ only in temporal rates map to the same point.
+We utilize the TSRVF representation, and accompanying statistical summaries of
+Riemannian trajectories, to extend existing coding methods such as PCA, KSVD
+and Label Consistent KSVD to Riemannian trajectories or more generally to
+Riemannian functions. We - how that such coding efficiently captures
+trajectories in applications such as action recognition, stroke rehabilitation,
+visual speech recognition, clustering and diverse sequence sampling. Using this
+framework, we obtain state-of-the-art recognition results, while reducing the
+dimensionality/ complexity by a factor of 100-250x. Since these mappings and
+codes are invertible, they can also be used to interactively-visualize
+Riemannian trajectories and synthesize actions.},
+keywords={computer vision;image coding;Riemannian manifolds;Riemannian
+trajectories;TSRVF;action representations;elastic functional coding;human
+action analysis;physical constraints;rate invariant metric;smoothly-varying
+features;temporal variability;transported square-root velocity fields;vector
+space representations;visual
+observations;Encoding;Manifolds;Measurement;Principal component analysis;Speech
+recognition;Trajectory;Visualization;Riemannian geometry;activity
+recognition;dimensionality reduction;visualization},
+doi={10.1109/TPAMI.2016.2564409},
+ISSN={0162-8828},
+month={May},}
+@ARTICLE{7463040,
+author={J. Lin and Y. Liu and J. Suo and Q. Dai},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Frequency-Domain Transient Imaging},
+year={2017},
+volume={39},
+number={5},
+pages={937-950},
+abstract={A transient image is the optical impulse response of a scene, which
+also visualizes the propagation of light during an ultra-short time interval.
+In contrast to the previous transient imaging which samples in the time domain
+using an ultra-fast imaging system, this paper proposes transient imaging in
+the frequency domain using a multi-frequency time-of-flight (ToF) camera. Our
+analysis reveals the Fourier relationship between transient images and the
+measurements of a multi-frequency ToF camera, and identifies the causes of the
+systematic error-non-sinusoidal and frequency-varying waveforms and limited
+frequency range of the modulation signal. Based on the analysis we propose a
+novel framework of frequency-domain transient imaging. By removing the
+systematic error and exploiting the harmonic components inside the
+measurements, we achieves high quality reconstruction results. Moreover, our
+technique significantly reduces the computational cost of ToF camera based
+transient image reconstruction, especially reduces the memory usage, such that
+it is feasible for the reconstruction of transient images at extremely small
+time steps. The effectiveness of frequency-domain transient imaging is tested
+on synthetic data, real data from the web, and real data acquired by our
+prototype camera.},
+keywords={Fourier transforms;image reconstruction;image sensors;Fourier
+relationship;ToF;frequency-domain transient imaging;frequency-varying
+waveforms;harmonic components;high quality reconstruction results;light
+propagation;modulation signal;multifrequency time-of-flight camera;optical
+impulse scene response;systematic error-nonsinusoidal waveforms;transient image
+reconstruction;ultra-fast imaging system;ultra-short time
+interval;Cameras;Frequency modulation;Frequency-domain analysis;Image
+reconstruction;Transient analysis;3D shape;Frequency domain;multi-
+frequency;time-of-flight camera;transient imaging},
+doi={10.1109/TPAMI.2016.2560814},
+ISSN={0162-8828},
+month={May},}
+@ARTICLE{7463072,
+author={M. Diaz and M. A. Ferrer and G. S. Eskander and R. Sabourin},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Generation of Duplicated Off-Line Signature Images for Verification
+Systems},
+year={2017},
+volume={39},
+number={5},
+pages={951-964},
+abstract={Biometric researchers have historically seen signature duplication as
+a procedure relevant to improving the performance of automatic signature
+verifiers. Different approaches have been proposed to duplicate dynamic
+signatures based on the heuristic affine transformation, nonlinear distortion
+and the kinematic model of the motor system. The literature on static signature
+duplication is limited and as far as we know based on heuristic affine
+transforms and does not seem to consider the recent advances in human behavior
+modeling of neuroscience. This paper tries to fill this gap by proposing a
+cognitive inspired algorithm to duplicate off-line signatures. The algorithm is
+based on a set of nonlinear and linear transformations which simulate the human
+spatial cognitive map and motor system intra-personal variability during the
+signing process. The duplicator is evaluated by increasing artificially a
+training sequence and verifying that the performance of four state-of-the-art
+off-line signature classifiers using two publicly databases have been improved
+on average as if we had collected three more real signatures.},
+keywords={affine transforms;biometrics (access control);cognition;digital
+signatures;automatic signature verifiers;biometric researchers;cognitive
+inspired algorithm;duplicate dynamic signatures;duplicated off-line signature
+images;heuristic affine transformation;human behavior modeling;human spatial
+cognitive map;kinematic model;linear transformations;motor system intrapersonal
+variability;neuroscience;nonlinear distortion;nonlinear transformations;static
+signature duplication;verification systems;Algorithm design and analysis;Brain
+modeling;Databases;Kinematics;Neuroscience;Training;Trajectory;Biometric
+signature identification;equivalence theory;off-line signature recognition;off-
+line signature verification;performance evaluation;signature synthesis},
+doi={10.1109/TPAMI.2016.2560810},
+ISSN={0162-8828},
+month={May},}
+@ARTICLE{7469384,
+author={R. Shi and W. Zeng and Z. Su and J. Jiang and H. Damasio and Z. Lu and
+Y. Wang and S. T. Yau and X. Gu},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Hyperbolic Harmonic Mapping for Surface Registration},
+year={2017},
+volume={39},
+number={5},
+pages={965-980},
+abstract={Automatic computation of surface correspondence via harmonic map is
+an active research field in computer vision, computer graphics and
+computational geometry. It may help document and understand physical and
+biological phenomena and also has broad applications in biometrics, medical
+imaging and motion capture industries. Although numerous studies have been
+devoted to harmonic map research, limited progress has been made to compute a
+diffeomorphic harmonic map on general topology surfaces with landmark
+constraints. This work conquers this problem by changing the Riemannian metric
+on the target surface to a hyperbolic metric so that the harmonic mapping is
+guaranteed to be a diffeomorphism under landmark constraints. The computational
+algorithms are based on Ricci flow and nonlinear heat diffusion methods. The
+approach is general and robust. We employ our algorithm to study the
+constrained surface registration problem which applies to both computer vision
+and medical imaging applications. Experimental results demonstrate that, by
+changing the Riemannian metric, the registrations are always diffeomorphic and
+achieve relatively high performance when evaluated with some popular surface
+registration evaluation standards.},
+keywords={biomedical imaging;computational geometry;computer
+vision;differential geometry;image registration;Ricci flow;Riemannian
+metric;automatic surface correspondence computation;computational
+algorithms;computational geometry;computer graphics;computer vision
+applications;constrained surface registration;diffeomorphic harmonic
+map;diffeomorphism;general topology surfaces;hyperbolic harmonic
+mapping;hyperbolic metric;landmark constraints;medical imaging
+applications;nonlinear heat diffusion methods;target surface;Harmonic
+analysis;Isothermal processes;Measurement;Shape;Surface morphology;Surface
+treatment;Topology;Surface matching and registration;harmonic
+mapping;hyperbolic geometry},
+doi={10.1109/TPAMI.2016.2567398},
+ISSN={0162-8828},
+month={May},}
+@ARTICLE{7463073,
+author={S. Yi and X. Wang and C. Lu and J. Jia and H. Li},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={$L_0$ Regularized Stationary-Time Estimation for Crowd Analysis},
+year={2017},
+volume={39},
+number={5},
+pages={981-994},
+abstract={In this paper, we tackle the problem of stationary crowd analysis
+which is as important as modeling mobile groups in crowd scenes and finds many
+important applications in crowd surveillance. Our key contribution is to
+propose a robust algorithm for estimating how long a foreground pixel becomes
+stationary. It is much more challenging than only subtracting background
+because failure at a single frame due to local movement of objects, lighting
+variation, and occlusion could lead to large errors on stationary-time
+estimation. To achieve robust and accurate estimation, sparse constraints along
+spatial and temporal dimensions are jointly added by mixed partials (which are
+second-order gradients) to shape a 3D stationary-time map. It is formulated as
+an L0 optimization problem. Besides background subtraction, it distinguishes
+among different foreground objects, which are close or overlapped in the
+spatio-temporal space by using a locally shared foreground codebook. The
+proposed technologies are further demonstrated through three applications. 1)
+Based on the results of stationary-time estimation, 12 descriptors are proposed
+to detect four types of stationary crowd activities. 2) The averaged
+stationary-time map is estimated to analyze crowd scene structures. 3) The
+result of stationary-time estimation is also used to study the influence of
+stationary crowd groups to traffic patterns.},
+keywords={estimation theory;object detection;spatiotemporal phenomena;video
+surveillance;L0 regularized stationary-time estimation;crowd
+surveillance;foreground objects;foreground pixel;mobile groups;spatio-temporal
+space;stationary crowd analysis;traffic patterns;Algorithm design and
+analysis;Analytical models;Encoding;Estimation;Optimization;Robustness;Three-
+dimensional displays;Stationary-time estimation;crowd video
+surveillance;stationary crowd analysis},
+doi={10.1109/TPAMI.2016.2560807},
+ISSN={0162-8828},
+month={May},}
+@ARTICLE{7467565,
+author={M. Emambakhsh and A. Evans},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Nasal Patches and Curves for Expression-Robust 3D Face Recognition},
+year={2017},
+volume={39},
+number={5},
+pages={995-1007},
+abstract={The potential of the nasal region for expression robust 3D face
+recognition is thoroughly investigated by a novel five-step algorithm. First,
+the nose tip location is coarsely detected and the face is segmented, aligned
+and the nasal region cropped. Then, a very accurate and consistent nasal
+landmarking algorithm detects seven keypoints on the nasal region. In the third
+step, a feature extraction algorithm based on the surface normals of Gabor-
+wavelet filtered depth maps is utilised and, then, a set of spherical patches
+and curves are localised over the nasal region to provide the feature
+descriptors. The last step applies a genetic algorithm-based feature selector
+to detect the most stable patches and curves over different facial expressions.
+The algorithm provides the highest reported nasal region-based recognition
+ranks on the FRGC, Bosphorus and BU-3DFE datasets. The results are comparable
+with, and in many cases better than, many state-of-the-art 3D face recognition
+algorithms, which use the whole facial domain. The proposed method does not
+rely on sophisticated alignment or denoising steps, is very robust when only
+one sample per subject is used in the gallery, and does not require a training
+step for the landmarking algorithm.},
+keywords={Gabor filters;face recognition;feature extraction;feature
+selection;genetic algorithms;image segmentation;stereo image processing;wavelet
+transforms;BU-3DFE datasets;Bosphorus datasets;FRGC datasets;Gabor-wavelet
+filtered depth maps;expression-robust 3D face recognition;face
+segmentation;feature extraction;five-step algorithm;genetic algorithm-based
+feature selector;nasal landmarking algorithm;nasal patches;nasal region-based
+recognition;nose tip location detection;Algorithm design and analysis;Face;Face
+recognition;Feature extraction;Nose;Robustness;Three-dimensional displays;Face
+recognition;Gabor wavelets;facial landmarking;feature selection;nose
+region;surface normals},
+doi={10.1109/TPAMI.2016.2565473},
+ISSN={0162-8828},
+month={May},}
+@ARTICLE{7469344,
+author={Z. J. Xiang and Y. Wang and P. J. Ramadge},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Screening Tests for Lasso Problems},
+year={2017},
+volume={39},
+number={5},
+pages={1008-1027},
+abstract={This paper is a survey of dictionary screening for the lasso problem.
+The lasso problem seeks a sparse linear combination of the columns of a
+dictionary to best match a given target vector. This sparse representation has
+proven useful in a variety of subsequent processing and decision tasks. For a
+given target vector, dictionary screening quickly identifies a subset of
+dictionary columns that will receive zero weight in a solution of the
+corresponding lasso problem. These columns can be removed from the dictionary
+prior to solving the lasso problem without impacting the optimality of the
+solution obtained. This has two potential advantages: it reduces the size of
+the dictionary, allowing the lasso problem to be solved with less resources,
+and it may speed up obtaining a solution. Using a geometrically intuitive
+framework, we provide basic insights for understanding useful lasso screening
+tests and their limitations. We also provide illustrative numerical studies on
+several datasets.},
+keywords={dictionaries;image representation;dictionary columns;dictionary
+screening;geometrically intuitive framework;lasso problems;lasso screening
+tests;screening tests;sparse linear combination;sparse representation;target
+vector;Context;Correlation;Dictionaries;Face recognition;Image
+restoration;Random access memory;Speech recognition;Sparse
+representation;dictionary screening;dual lasso;feature selection;lasso},
+doi={10.1109/TPAMI.2016.2568185},
+ISSN={0162-8828},
+month={May},}
+@ARTICLE{7467541,
+author={X. Yang and Y. Tian},
+journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+title={Super Normal Vector for Human Activity Recognition with Depth Cameras},
+year={2017},
+volume={39},
+number={5},
+pages={1028-1039},
+abstract={The advent of cost-effectiveness and easy-operation depth cameras has
+facilitated a variety of visual recognition tasks including human activity
+recognition. This paper presents a novel framework for recognizing human
+activities from video sequences captured by depth cameras. We extend the
+surface normal to polynormal by assembling local neighboring hypersurface
+normals from a depth sequence to jointly characterize local motion and shape
+information. We then propose a general scheme of super normal vector (SNV) to
+aggregate the low-level polynormals into a discriminative representation, which
+can be viewed as a simplified version of the Fisher kernel representation. In
+order to globally capture the spatial layout and temporal order, an adaptive
+spatio-temporal pyramid is introduced to subdivide a depth video into a set of
+space-time cells. In the extensive experiments, the proposed approach achieves
+superior performance to the state-of-the-art methods on the four public
+benchmark datasets, i.e., MSRAction3D, MSRDailyActivity3D, MSRGesture3D, and
+MSRActionPairs3D.},
+keywords={cameras;image recognition;video signal processing;Fisher kernel
+representation;SNV;adaptive spatio-temporal pyramid;depth cameras;depth
+video;human activity recognition;super normal vector;video sequences
+capture;visual recognition tasks;Cameras;Encoding;Image color analysis;Pattern
+recognition;Shape;Skeleton;Visualization;Human activity recognition;depth
+camera;feature representation;spatio-temporal information},
+doi={10.1109/TPAMI.2016.2565479},
+ISSN={0162-8828},
+month={May},}
