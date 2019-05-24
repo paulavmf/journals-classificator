@@ -1,8 +1,8 @@
 # #
-#TRABAJO DE CURSO  2017/2018
-#Mintería de Texto
-#Máster Universitario Sistemas Inteligentes y Aplicaciones Numéricas de la Ingeniería
-#Universidad de Las Palmas de Gran Canaria
+#Year 2017/2018
+#Text Mining
+#Master's Degree in Intelligent Systems and Numerical Applications of Engineering
+#University of Las Palmas de Gran Canaria
 #Paula Victoria Moreno Fajardo
 
 
