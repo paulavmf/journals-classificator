@@ -37,7 +37,6 @@ def GetText_1linea(revista, cadena1):
                 texto.append(linea[inicio:-3])
 
         revista.close()
-º
     return texto
 
 #for abstract and keywords
